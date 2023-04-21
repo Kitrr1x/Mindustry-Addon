@@ -1,7 +1,0 @@
-color: d6d6d6
-research: {
-  parent: shinyAlloy
-  requirements: [
-    shinyAlloy/800
-  ]
-}
