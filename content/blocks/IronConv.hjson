@@ -1,0 +1,12 @@
+
+type: Conveyor
+health: 105
+speed: 0.15f
+displayedSpeed: 20f
+requirements: [
+copper/3
+lead/3
+IromOreIngot/1
+]
+category: distribution
+research: titanium-conveyor
