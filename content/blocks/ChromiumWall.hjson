@@ -1,1 +1,8 @@
-
+type: Wall 
+ health: 1400 
+ size: 1 
+ requirements: [ 
+   Iron/6 
+ ] 
+ category: defense 
+ research: surge-wall
