@@ -3,7 +3,7 @@ health: 8800
 size: 2
 lightningChance: 0.1
 requirements: [
-  shinyAlloy/6
+ Cobalt/24
 ]
 category: defense
-research: CobaltWall 
+research: CobaltWall
