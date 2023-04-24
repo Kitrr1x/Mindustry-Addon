@@ -1,4 +1,4 @@
-![Gold Mod](https://raw.githubusercontent.com/TheSlaylord/GoldMod/update/sprites/items/goldIngot.png)
+![Iron Mod]
 # The Gold Mod
 My first mod for Anuke's Mindustry. It adds new turrets, factories, items, zones and units to the game.
 ## Let's get started. 
