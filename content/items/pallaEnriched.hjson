@@ -1,8 +1,0 @@
-color: 3dc2ff
-radioactivity: 2
-research: {
-  parent: palladium
-  requirements: [
-    palladium/12500
-  ]
-}
