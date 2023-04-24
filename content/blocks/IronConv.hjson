@@ -6,7 +6,7 @@ displayedSpeed: 20f
 requirements: [
 copper/3
 lead/3
-IronOre/1
+Iron/1
 ]
 category: distribution
 research: titanium-conveyor
