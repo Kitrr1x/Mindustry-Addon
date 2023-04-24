@@ -1,1 +1,8 @@
-
+type: Wall 
+ health: 5200 
+ size: 2 
+ requirements: [ 
+   Iron/24  
+ ] 
+ category: defense 
+ research: ChromiumWall
