@@ -1,0 +1,9 @@
+type: Wall
+health: 2200
+size: 1
+lightningChance: 0.1
+requirements: [
+  shinyAlloy/6
+]
+category: defense
+research: goldWall
