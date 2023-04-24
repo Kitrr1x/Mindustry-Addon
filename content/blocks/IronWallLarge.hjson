@@ -2,7 +2,7 @@ type: Wall
 health: 5200
 size: 2
 requirements: [
-  IronOre/24 
+  Iron/24 
 ]
 category: defense
 research: IronWall
