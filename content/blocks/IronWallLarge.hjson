@@ -1,5 +1,5 @@
 type: Wall
-health: 5200
+health: 5500
 size: 2
 requirements: [
   Iron/24 
