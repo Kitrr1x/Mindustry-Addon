@@ -3,6 +3,7 @@ maxDamageDeflect: 50
 flashWhite: true
 deflect: true
 health: 1500
+lightningChance: 1.0
 size: 1
 requirements: [
 Chromium/6
