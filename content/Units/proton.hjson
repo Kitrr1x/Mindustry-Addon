@@ -18,8 +18,8 @@ weapons: [
   name: clear
   x: 0
   y: 0
-  reload: 120
-  shots: 2
-  bullet: standardHoming
+  reload: 30
+  alternate: true
+  bullet: standardDense
 }
 ]
