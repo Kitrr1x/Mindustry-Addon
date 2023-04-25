@@ -4,6 +4,7 @@ deflect: true
 maxDamageDeflect: 50
 health: 6000
 size: 2
+lightningChance: 1.0
 requirements: [Chromium/24]
 category: defense
 research: ChromiumWall
