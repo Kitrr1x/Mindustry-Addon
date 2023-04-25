@@ -21,11 +21,11 @@ newNode(Blocks.surgeSmelter, blocks.sa_smelter, null, Seq.with(new Objectives.Se
 newNode(Blocks.oilExtractor, blocks.drillStation, null, Seq.with(new Objectives.Research(liquids.moltenGold)));
 //endregion
 //region items & liquids
-newNode(Items.thorium, items.goldOre, ItemStack.with(Items.titanium, 500, Items.thorium, 250), null);
-newNode(items.goldOre, liquids.moltenGold, null, Seq.with(new Objectives.Research(items.goldOre)));
-newNode(liquids.moltenGold, items.goldIngot, null, Seq.with(new Objectives.Produce(items.goldIngot)));
-newNode(items.goldIngot, items.shinyAlloy, null, Seq.with(new Objectives.Produce(items.shinyAlloy)));
-newNode(items.shinyAlloy, items.palladium, null, Seq.with(new Objectives.Produce(items.palladium)));
+newNode(Items.thorium, items.Iron, ItemStack.with(Items.titanium, 500, Items.thorium, 250), null);
+newNode(items.Iron, null, Seq.with(new Objectives.Research(items.Iron)));
+newNode(liquids.moltenGold, items.Iron, null, Seq.with(new Objectives.Produce(items.Iron)));
+newNode(items.Iron, items.Cobalt, null, Seq.with(new Objectives.Produce(items.Cobalt)));
+newNode(items.Cobalt, items.Chromium, null, Seq.with(new Objectives.Produce(items.Chromium)));
 //endregion
 //region sectors
 newNode(SectorPresets.stainedMountains, ssectors.goldMountains, null, Seq.with(new Objectives.SectorComplete(SectorPresets.stainedMountains), new Objectives.Research(Blocks.laserDrill), new Objectives.Research(blocks.crucible), new Objectives.Research(blocks.forge)));
