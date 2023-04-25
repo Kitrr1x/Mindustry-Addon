@@ -1,5 +1,5 @@
 type: Wall
-health: 2200
+health: 2500
 size: 1
 lightningChance: 0.1
 requirements: [
