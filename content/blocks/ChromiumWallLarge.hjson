@@ -2,7 +2,7 @@ type: Wall
 flashWhite: true
 deflect: true
 maxDamageDeflect: 50
-health: 5500
+health: 6000
 size: 2
 requirements: [Chromium/24]
 category: defense
