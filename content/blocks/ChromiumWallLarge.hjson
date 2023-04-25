@@ -1,8 +1,9 @@
-type: Wall 
- health: 5200 
- size: 2 
- requirements: [ 
-   Chromium/24  
- ] 
- category: defense 
- research: ChromiumWall
+type: Wall
+flashWhite: true
+deflect: true
+maxDamageDeflect: 50
+health: 5500
+size: 2
+requirements: [Chromium/24]
+category: defense
+research: ChromiumWall
