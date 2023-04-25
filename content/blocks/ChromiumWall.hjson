@@ -1,8 +1,11 @@
-type: Wall 
- health: 1400 
- size: 1 
- requirements: [ 
-   Chromium/6 
- ] 
- category: defense 
- research: surge-wall
+type: Wall
+maxDamageDeflect: 50
+flashWhite: true
+deflect: true
+health: 1500
+size: 1
+requirements: [
+Chromium/6
+]
+category: defense
+research: IronWallLarge
