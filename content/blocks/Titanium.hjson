@@ -1,0 +1,19 @@
+type: GenericCrafter
+size: 2
+consumes: {
+power: 1.5
+items: {
+items: [
+titanium/1
+]}} 
+outputItem: [
+Iron/1
+Cobalt/1
+Chromium
+requirements: [
+copper/100
+titanium/100
+graphite/50
+]
+category: crafting
+research: Separator
