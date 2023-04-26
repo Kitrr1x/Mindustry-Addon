@@ -8,6 +8,22 @@ mineTier: 4
 weapons: [
 {
   name: small-mount-weapon
+  x: 8
+  y: 35
+  reload: 20
+  alternate: true
+  bullet: standardDense
+}
+{
+  name: small-mount-weapon
+  x: 60
+  y: 35
+  reload: 20
+  alternate: true
+  bullet: standardDense
+}
+{
+  name: small-mount-weapon
   x: 28
   y: 23
   reload: 20
