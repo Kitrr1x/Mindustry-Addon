@@ -16,7 +16,7 @@ shootDuration: 10
 shootSound: laser
 shootType: {
   type: LaserBulletType
-  damage: 20
+  damage: 220
   length: 220
   hitEffect: hitMeltdown
   drawSize: 420
@@ -32,11 +32,4 @@ shootType: {
 	]
 category: turret
 research: meltdown
-consumes: {
-  liquid: {
-    liquid: water
-    amount: 0.5
-    optional: true
-    booster: true
-  }
 }
