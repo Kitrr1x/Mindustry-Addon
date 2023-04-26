@@ -4,7 +4,7 @@ consumes: {
 power: 1.5
 items: {
 items: [
-titanium/1
+titanium/5
 ]}} 
 outputItem: [
 Iron/1
