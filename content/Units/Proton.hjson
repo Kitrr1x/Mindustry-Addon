@@ -1,0 +1,25 @@
+type: flying
+flying: true
+health: 800
+speed: 5
+drag: 0.1
+buildSpeed: 1.8
+mineTier: 4
+weapons: [
+{
+  name: small-mount-weapon
+  x: 28
+  y: 23
+  reload: 20
+  alternate: true
+  bullet: standardDense
+}
+{
+  name: small-mount-weapon
+  x: 43
+  y: 23
+  reload: 20
+  alternate: true
+  bullet: standardDense
+}
+]
