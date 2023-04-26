@@ -18,7 +18,7 @@ shootType: {
   type: LaserBulletType
   damage: 20
   length: 220
-  hitEffect: hitlancer
+  hitEffect: hitMeltdown
   drawSize: 420
   incendSpread: 7
   incendAmount: 1
