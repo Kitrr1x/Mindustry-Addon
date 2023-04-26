@@ -1,7 +1,7 @@
 type: LaserTurret
 targetAir: true
 targetGround: true
-powerUse: 23
+powerUse: 250
 health: 2000
 size: 2
 update: true
@@ -10,17 +10,16 @@ shootEffect: shootBigSmoke2
 shootCone: 40
 shootShake: 2
 range: 190
-reloadTime: 20
+reloadTime: 30
 firingMoveFract: 0.5
 shootDuration: 10
-shootSound: laserbig
+shootSound: laser
 shootType: {
   type: LaserBulletType
   damage: 20
   length: 220
-  hitEffect: hitMeltdown
+  hitEffect: hitlancer
   drawSize: 420
-  incendChance: 0.5
   incendSpread: 7
   incendAmount: 1
 }
