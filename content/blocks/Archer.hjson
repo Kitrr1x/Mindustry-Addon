@@ -2,7 +2,7 @@ type: LaserTurret
 targetAir: true
 targetGround: true
 powerUse: 23
-health: 6000
+health: 2000
 size: 2
 update: true
 hasPower: true
@@ -16,7 +16,7 @@ shootDuration: 10
 shootSound: laserbig
 shootType: {
   type: ContinuousLaserBulletType
-  damage: 200
+  damage: 20
   length: 220
   hitEffect: hitMeltdown
   drawSize: 420
