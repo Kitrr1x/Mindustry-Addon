@@ -1,0 +1,43 @@
+type: LaserTurret
+targetAir: true
+targetGround: true
+powerUse: 23
+health: 6000
+size: 2
+update: true
+hasPower: true
+shootEffect: shootBigSmoke2
+shootCone: 40
+shootShake: 2
+range: 190
+reloadTime: 20
+firingMoveFract: 0.5
+shootDuration: 10
+shootSound: laserbig
+shootType: {
+  type: ContinuousLaserBulletType
+  damage: 200
+  length: 220
+  hitEffect: hitMeltdown
+  drawSize: 420
+  incendChance: 0.5
+  incendSpread: 7
+  incendAmount: 1
+}
+	requirements: [
+		Iron/200
+		copper/300
+		lead/400
+		graphite/350
+		Cobalt/325
+	]
+category: turret
+research: meltdown
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.5
+    optional: false
+    booster: true
+  }
+}
