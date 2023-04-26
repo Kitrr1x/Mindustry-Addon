@@ -37,6 +37,8 @@ weapons: [
 }
 {
   name: Proton-Weapon
+  x: 60
+  y: 23
   damage: 50
   reload: 20
   alternate: true
