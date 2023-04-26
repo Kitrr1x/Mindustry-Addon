@@ -1,8 +1,8 @@
 type: CoreBlock
 health: 10000
 itemCapacity: 20000
-size: 5
-unitType: gamma
+size: 6
+unitType: Proton
 unitCapModifier: 30
 requirements: [
   copper/11000
