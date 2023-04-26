@@ -9,7 +9,8 @@ titanium/1
 outputItem: [
 Iron/1
 Cobalt/1
-Chromium
+Chromium/1
+]
 requirements: [
 copper/100
 titanium/100
