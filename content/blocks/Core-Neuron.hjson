@@ -2,7 +2,7 @@ type: CoreBlock
 health: 10000
 itemCapacity: 20000
 size: 5
-unitType: gamma
+unitType: sigma
 unitCapModifier: 28
 requirements: [
   copper/11000
