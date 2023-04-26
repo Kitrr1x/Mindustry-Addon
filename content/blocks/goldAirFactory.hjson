@@ -1,1 +1,17 @@
-
+type: UnitFactory
+size: 3
+consumes: {
+  power: 2
+}
+plans: [
+  {
+  unit: Proton
+  requirements: [
+    silicon/15
+    Iron/15
+  ]
+  time: 600
+}
+]
+category: units
+research: air-factory
