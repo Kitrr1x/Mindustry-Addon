@@ -15,7 +15,7 @@ firingMoveFract: 0.5
 shootDuration: 10
 shootSound: laserbig
 shootType: {
-  type: ContinuousFlameBulletType
+  type: LaserBulletType
   damage: 20
   length: 220
   hitEffect: hitMeltdown
