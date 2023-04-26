@@ -1,10 +1,12 @@
 type: flying
 flying: true
 health: 800
+"engineSize": 5
 speed: 5
 drag: 0.1
 buildSpeed: 1.8
 mineTier: 4
+"weaponOffsetY" : 2
 weapons: [
 {
   name: Proton-Weapon
@@ -35,12 +37,9 @@ weapons: [
 }
 {
   name: Proton-Weapon
-  x: 43
-  y: 23
   damage: 50
   reload: 20
   alternate: true
   bullet: standardDense
 }
 ]
-https://petruchio.org.ru/wiki/index.php/Модификации#.D0.9A.D0.BE.D0.B4
