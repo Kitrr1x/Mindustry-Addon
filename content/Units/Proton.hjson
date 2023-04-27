@@ -1,33 +1,43 @@
-type: flying
-flying: true
-health: 800
-engineSize: 3
-engineOffset: 10
+health: 850
+hitSize: 10
 speed: 6
-drag: 0.1
-buildSpeed: 1.8
-mineTier: 4
-hitSize: 8
-range: 70
-armor: 2
-weapons: [
-{
+drag: 0.01
+range: 100
+flying: true
+engineOffset: 12
+engineSize: 3
+rotateSpeed: 4
+baseRotateSpeed: 1.0
+weapons: [{
   name: Proton-Weapon
-  top: false
-  shootY: 2
-  reload: 35
-  x: 4.5
-  alternate: false
+  x: -10
+  y: 0
+  reload: 70
+  shots: 6
+  inaccuracy: 2
+  alternate: true
+  rotate: true
   ejectEffect: none
-  recoil: 2
-  bullet: standardDense
-type: LaserBoltBulletType
-    speed: 7.0
-    lifetime: 15
-    healPercent: 12
-    collidesTeam: true
-    backColor: 98ffa9
-    frontColor: f0e4a8
-}
-]
+  velocityRnd: 0.2
+  spacing: 1
+  shootCone: 60
+  shootSound: missile
+  bullet: {
+    type: MissileBulletType
+    width: 8
+    height: 8
+    damage: 30
+    speed: 3
+    shrinkY: 0
+    drag: -0.01
+    splashDamageRadius: 30
+    splashDamage: 60
+    ammoMultiplier: 4
+    lifetime: 50
+    hitEffect: blastExplosion
+    despawnEffect: blastExplosion
+    status: blasted
+    statusDuration: 60
+  } 
+}]
 research: nova
