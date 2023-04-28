@@ -39,6 +39,7 @@ weapons: [{
     despawnEffect: blastExplosion
     status: blasted
     statusDuration: 60
+  }
   },
   {
   name: Proton-Best-Weapon
