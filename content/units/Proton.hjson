@@ -1,5 +1,5 @@
 health: 850
-type: flyingunit
+type: flying
 hitSize: 10
 speed: 6
 drag: 0.01
