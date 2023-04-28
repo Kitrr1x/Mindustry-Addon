@@ -1,1 +1,44 @@
-
+health: 850
+type: flyingunit
+hitSize: 10
+speed: 6
+drag: 0.01
+range: 100
+flying: true
+engineOffset: 12
+engineSize: 3
+rotateSpeed: 4
+baseRotateSpeed: 1.0
+weapons: [{
+  name: Proton-Weapon
+  x: -10
+  y: 0
+  reload: 70
+  shots: 6
+  inaccuracy: 2
+  alternate: true
+  rotate: true
+  ejectEffect: none
+  velocityRnd: 0.2
+  spacing: 1
+  shootCone: 60
+  shootSound: missile
+  bullet: {
+    type: MissileBulletType
+    width: 8
+    height: 8
+    damage: 30
+    speed: 3
+    shrinkY: 0
+    drag: -0.01
+    splashDamageRadius: 30
+    splashDamage: 60
+    ammoMultiplier: 4
+    lifetime: 50
+    hitEffect: blastExplosion
+    despawnEffect: blastExplosion
+    status: blasted
+    statusDuration: 60
+  } 
+}]
+research: nova
