@@ -3,11 +3,12 @@ type: flying
 hitSize: 10
 speed: 5
 drag: 0.01
+buildSpeed: 2.0
 range: 100
 flying: true
 engineOffset: 6
 engineSize: 3
-rotateSpeed: 5
+rotateSpeed: 10
 baseRotateSpeed: 1.0
 weapons: [{
   name: Proton-Weapon
@@ -43,9 +44,9 @@ weapons: [{
   },
   {
   name: Proton-Best-Weapon
-  x: 0
+  x: 2
   y: 0
-  reload: 20
+  reload: 30
   shots: 2
   inaccuracy: 1
   alternate: true
