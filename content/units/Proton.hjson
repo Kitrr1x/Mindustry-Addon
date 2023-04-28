@@ -1,4 +1,4 @@
-health: 850
+health: 800
 type: flying
 hitSize: 10
 speed: 5
@@ -13,8 +13,8 @@ weapons: [{
   name: Proton-Weapon
   x: -0
   y: 0
-  reload: 70
-  shots: 6
+  reload: 10
+  shots: 4
   inaccuracy: 2
   alternate: true
   rotate: true
@@ -22,7 +22,37 @@ weapons: [{
   velocityRnd: 0.2
   spacing: 1
   shootCone: 60
-  shootSound: missile
+  shootSound: pew
+  bullet: {
+    type: BasicBulletType
+    width: 8
+    height: 8
+    damage: 40
+    speed: 6
+    shrinkY: 0
+    drag: -0.01
+    splashDamageRadius: 0
+    splashDamage: 0
+    ammoMultiplier: 4
+    lifetime: 50
+    hitEffect: blastExplosion
+    despawnEffect: blastExplosion
+    status: blasted
+    statusDuration: 60
+  } {
+  name: Proton-Weapon
+  x: -0
+  y: 0
+  reload: 10
+  shots: 4
+  inaccuracy: 2
+  alternate: true
+  rotate: true
+  ejectEffect: none
+  velocityRnd: 0.2
+  spacing: 1
+  shootCone: 60
+  shootSound: pew
   bullet: {
     type: BasicBulletType
     width: 8
@@ -40,5 +70,35 @@ weapons: [{
     status: blasted
     statusDuration: 60
   } 
+  {
+  name: Proton-Best-Weapon
+  x: 0
+  y: 0
+  reload: 20
+  shots: 2
+  inaccuracy: 1
+  alternate: true
+  rotate: true
+  ejectEffect: none
+  velocityRnd: 0.2
+  spacing: 1
+  shootCone: 60
+  shootSound: artillery
+  bullet: {
+    type: ArtilleryBulletType
+    width: 8
+    height: 8
+    damage: 80
+    speed: 6
+    shrinkY: 0
+    drag: -0.01
+    splashDamageRadius: 10
+    splashDamage: 30
+    ammoMultiplier: 4
+    lifetime: 60
+    hitEffect: blastExplosion
+    despawnEffect: blastExplosion
+    status: blasted
+    statusDuration: 60
+  } 
 }]
-research: nova
