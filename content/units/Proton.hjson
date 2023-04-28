@@ -11,7 +11,7 @@ rotateSpeed: 5
 baseRotateSpeed: 1.0
 weapons: [{
   name: Proton-Weapon
-  x: -0
+  x: -5
   y: 0
   reload: 10
   shots: 4
