@@ -1,7 +1,7 @@
 health: 800
 type: flying
 hitSize: 10
-speed: 5
+speed: 4
 drag: 0.01
 buildSpeed: 2.0
 range: 100
@@ -45,7 +45,7 @@ weapons: [{
   {
   name: Proton-Best-Weapon
   x: 2
-  y: 0
+  y: 2
   reload: 30
   shots: 2
   inaccuracy: 1
@@ -55,9 +55,9 @@ weapons: [{
   velocityRnd: 0.2
   spacing: 1
   shootCone: 60
-  shootSound: artillery
+  shootSound: missile
   bullet: {
-    type: ArtilleryBulletType
+    type: MissileBulletType
     width: 8
     height: 8
     damage: 80
