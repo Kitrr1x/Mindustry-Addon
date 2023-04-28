@@ -1,17 +1,17 @@
 health: 850
 type: flying
 hitSize: 10
-speed: 6
+speed: 5
 drag: 0.01
 range: 100
 flying: true
-engineOffset: 12
+engineOffset: 6
 engineSize: 3
-rotateSpeed: 4
+rotateSpeed: 5
 baseRotateSpeed: 1.0
 weapons: [{
   name: Proton-Weapon
-  x: -10
+  x: -0
   y: 0
   reload: 70
   shots: 6
@@ -24,15 +24,15 @@ weapons: [{
   shootCone: 60
   shootSound: missile
   bullet: {
-    type: MissileBulletType
+    type: BasicBulletType
     width: 8
     height: 8
-    damage: 30
-    speed: 3
+    damage: 40
+    speed: 6
     shrinkY: 0
     drag: -0.01
-    splashDamageRadius: 30
-    splashDamage: 60
+    splashDamageRadius: 0
+    splashDamage: 0
     ammoMultiplier: 4
     lifetime: 50
     hitEffect: blastExplosion
