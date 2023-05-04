@@ -1,7 +1,7 @@
 health: 800
 type: flying
 hitSize: 10
-speed: 4
+speed: 3
 drag: 0.01
 buildSpeed: 2.0
 range: 100
