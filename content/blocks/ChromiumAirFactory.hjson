@@ -1,0 +1,30 @@
+type: UnitFactory
+size: 3
+consumes: {
+  power: 2
+}
+plans: [
+  {
+  unit: nova
+  requirements: [
+    silicon/15
+    Iron/6
+  ]
+  time: 600
+  }
+  {
+  unit: Sound
+  requirements: [
+    Cobber/10
+    Iron/12
+  ]
+  time: 400
+  }
+]
+requirements: [
+  copper/70
+  lead/70
+  Chromium/70
+]
+category: units
+research: air-factory
