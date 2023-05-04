@@ -23,7 +23,7 @@ weapons: [{
   shootCone: 60
   shootSound: pew
   bullet: {
-    type: BasicBulletType
+    type: LaserBulletType
     width: 8
     height: 8
     damage: 5
