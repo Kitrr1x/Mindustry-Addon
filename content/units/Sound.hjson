@@ -1,0 +1,12 @@
+type: flying
+health: 400
+flying: true
+range: 50
+mineTier: 5
+mineSpeed: 2.0
+drag: 0.06
+accel: 0.12
+itemCapacity: 30
+speed: 2.0
+weapons: []
+research:AirFactory
