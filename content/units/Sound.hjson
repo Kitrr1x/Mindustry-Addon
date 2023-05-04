@@ -9,8 +9,8 @@ accel: 0.12
 itemCapacity: 30
 speed: 2.5
 weapons: [{
-  name: Proton-Weapon
-  x: -6
+  name: Sound-Weapon
+  x: -4
   y: 0
   reload: 10
   shots: 4
