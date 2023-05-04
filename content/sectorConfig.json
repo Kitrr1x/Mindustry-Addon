@@ -1,17 +1,51 @@
 {
-  "waves": true,
-  "room": "resource",
-  "accessibility": 0.8,
-  "ores": [
-     {"ore": "copper", "chance": 0.4},
-     {"ore": "lead", "chance": 0.4},
-     {"ore": "titanium", "chance": 0.1},
-     {"ore": "Cobalt", "chance": 0.1},
-    {"ore": "Chromium", "chance": 0.1},
-     {"ore": "Iron", "chance": 0.5}
-  ],
-  "difficulty": 1,
-  "description": "A resource-rich island with lots of natural cover.",
-  "localizedName": "resource161",
-  "id": "resource161"
+  "sectors": [
+    {
+      "waves": true,
+      "room": "base",
+      "accessibility": 0.8,
+      "ores": [
+        {"ore": "copper", "chance":0.4},
+        {"ore": "lead", "chance":0.4},
+        {"ore": "titanium", "chance":0.1},
+        {"ore": "Iron", "chance":0.1},
+        {"ore": "Chromium", "chance":0.1},
+        {"ore": "Cobalt", "chance":0.1}
+      ]
+    }
+  ]
 },
+{
+  "sectors": [
+    {
+      "waves": true,
+      "room": "base",
+      "accessibility": 0.8,
+      "ores": [
+        {"ore": "copper", "chance":0.4},
+        {"ore": "lead", "chance":0.4},
+        {"ore": "titanium", "chance":0.1},
+        {"ore": "Iron", "chance":0.1},
+        {"ore": "Chromium", "chance":0.1},
+        {"ore": "Cobalt", "chance":0.1}
+      ]
+    }
+  ]
+},
+{
+  "sectors": [
+    {
+      "waves": true,
+      "room": "base",
+      "accessibility": 0.8,
+      "ores": [
+        {"ore": "copper", "chance":0.4},
+        {"ore": "lead", "chance":0.4},
+        {"ore": "titanium", "chance":0.1},
+        {"ore": "Iron", "chance":0.1},
+        {"ore": "Chromium", "chance":0.1},
+        {"ore": "Cobalt", "chance":0.1}
+      ]
+    }
+  ]
+}
