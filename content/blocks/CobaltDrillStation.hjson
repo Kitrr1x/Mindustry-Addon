@@ -1,4 +1,5 @@
 liquidCapacity: 10
+mineTier: 8
 itemCapacity: 10
 result: water
 size: 3
