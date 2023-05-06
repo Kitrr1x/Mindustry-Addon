@@ -9,8 +9,6 @@ requirements: [
   lead/11000
   silicon/7000
   thorium/5000
-  Iron/5000
-  Cobalt/3000
 ] 
 category: effect
 research: core-nucleus
