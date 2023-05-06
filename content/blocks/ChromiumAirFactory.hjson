@@ -15,7 +15,7 @@ plans: [
   {
   unit: Sound
   requirements: [
-    Cobber/10
+    copper/10
     Iron/12
   ]
   time: 400
