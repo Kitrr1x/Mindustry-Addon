@@ -30,8 +30,6 @@ weapons: [{
     speed: 5
     shrinkY: 0
     drag: -0.01
-    splashDamageRadius: 0
-    splashDamage: 0
     ammoMultiplier: 4
     lifetime: 50
     hitEffect: blastExplosion
