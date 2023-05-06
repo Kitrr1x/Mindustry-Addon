@@ -5,7 +5,7 @@ consumes: {
 }
 plans: [
   {
-  unit: nova
+  unit: mega
   requirements: [
     silicon/15
     Iron/6
