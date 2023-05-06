@@ -1,7 +1,7 @@
 health: 800
 type: flying
 hitSize: 10
-speed: 3.0
+speed: 2.5
 drag: 0.01
 buildSpeed: 2.0
 range: 100
@@ -46,7 +46,7 @@ weapons: [{
   name: Proton-Best-Weapon
   x: 1
   y: 2
-  reload: 30
+  reload: 60
   shots: 2
   inaccuracy: 1
   alternate: true
