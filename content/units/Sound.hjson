@@ -10,7 +10,7 @@ itemCapacity: 30
 speed: 2.5
 weapons: [{
   name: Sound-Weapon
-  x: -5
+  x: -3
   y: 0
   reload: 10
   shots: 4
