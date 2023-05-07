@@ -11,8 +11,8 @@ itemCapacity: 120
 speed: 2.0
 weapons: [{
   name: gHealWeapon
-  x: -4
-  y: 0
+  x: 3
+  y: 1
   reload: 10
   shots: 4
   inaccuracy: 2
@@ -41,8 +41,8 @@ weapons: [{
   },
   {
   name: gHealWeapon
-  x: -5
-  y: -4
+  x: 5
+  y: -5
   reload: 10
   shots: 4
   inaccuracy: 2
@@ -69,4 +69,4 @@ weapons: [{
     statusDuration: 60
   }
   }]
-research:AirFactory
+research:Sound
