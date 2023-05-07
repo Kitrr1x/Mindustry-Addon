@@ -1,14 +1,14 @@
 health: 800
 type: flying
 hitSize: 10
-speed: 2.5
+speed: 2.0
 drag: 0.01
 buildSpeed: 2.0
-range: 100
+range: 60
 flying: true
 engineOffset: 6
 engineSize: 3
-rotateSpeed: 10
+rotateSpeed: 11
 baseRotateSpeed: 1.0
 weapons: [{
   name: Proton-Weapon
@@ -50,7 +50,7 @@ weapons: [{
   shots: 2
   inaccuracy: 1
   alternate: true
-  rotate: true
+  rotate: false
   ejectEffect: none
   velocityRnd: 0.2
   spacing: 1
