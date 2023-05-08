@@ -1,8 +1,9 @@
 health: 800
 type: flying
 hitSize: 10
-speed: 2.0
+speed: 3.5
 drag: 0.01
+accel: 0.06
 buildSpeed: 2.0
 range: 60
 flying: true
@@ -47,12 +48,12 @@ weapons: [{
   x: 1
   y: 2
   reload: 60
-  shots: 2
+  shots: 1
   inaccuracy: 1
   alternate: true
   rotate: false
   ejectEffect: none
-  velocityRnd: 0.2
+  velocityRnd: 0.1
   spacing: 1
   shootCone: 60
   shootSound: missile
