@@ -2,12 +2,13 @@ type: flying
 health: 800
 flying: true
 range: 50
+buildSpeed: 5
 mineTier: 4
-mineSpeed: 3.0
+mineSpeed: 8.0
 drag: 0.06
 accel: 0.06
-itemCapacity: 30
-speed: 2.5
+itemCapacity: 70
+speed: 3.5
 weapons: [{
   name: Sound-Weapon
   x: -3
