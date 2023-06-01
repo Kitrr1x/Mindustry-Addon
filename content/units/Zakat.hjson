@@ -1,5 +1,5 @@
 type: flying
-health: 400
+health: 800
 flying: true
 range: 50
 mineTier: 4
@@ -32,6 +32,7 @@ weapons: [{
     drag: -0.01
     ammoMultiplier: 4
     lifetime: 50
+    healPercent: 20
     hitEffect: blastExplosion
     despawnEffect: blastExplosion
     status: blasted
