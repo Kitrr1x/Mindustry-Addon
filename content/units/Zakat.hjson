@@ -41,8 +41,8 @@ weapons: [{
   },
 },
 {
-  name: Zakat-Weapon
-  x: -3
+  name: Zakat-weapon-cannon
+  x: -4
   y: 0
   reload: 10
   shots: 4
