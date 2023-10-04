@@ -2,7 +2,7 @@ type: CoreBlock
 health: 10000
 itemCapacity: 20000
 size: 6
-unitType: Proton
+unitType: Zakat
 unitCapModifier: 30
 requirements: [
   copper/11000
