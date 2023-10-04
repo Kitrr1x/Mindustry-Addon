@@ -67,5 +67,6 @@ weapons: [{
     despawnEffect: blastExplosion
     statusDuration: 60
   }
+  }
   }]
 research:AirFactory
