@@ -1,0 +1,20 @@
+{
+  "type": "Conveyor",
+  "health": 60,
+  "speed": 0.2,
+  "displayedSpeed": 20,
+  "requirements": [
+      "material": copper/3
+
+      "material": lead/3
+
+      "material": titanium/3
+    
+      "material": surge-alloy/3
+  ],
+  "category": "distribution",
+  "research": [
+    "titanium-conveyor"
+  ],
+  "unitType": "Item"
+}
