@@ -2,7 +2,7 @@
     "type": "Drill",
     "health": 80,
     "liquidCapacity": 10,
-    "mineTier": 8,
+    "mineTier": 6,
     "itemCapacity": 10,
     "size": 1,
     "hasPower": true,
@@ -12,20 +12,16 @@
     "updateEffect": "pulverize",
     "updateEffectChance": 0.08,
     "consumes": {
-        "power": 6
+        "power": 0.6
     },
     "requirements": [
-        {
-            "item": "copper"/30
-        },
-        {
-            "item": "lead",
-            "quantity": 50
-        },
-        {
-            "item": "titanium",
-            "quantity": 50
-        }
+            "item": copper/30
+
+            "item": lead/50
+
+            "item": titanium/50
     ],
+    rotateSpeed: 8
+    drillTime: 100
     "category": "production"
 }
