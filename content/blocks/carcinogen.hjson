@@ -1,0 +1,44 @@
+type: ItemTurret
+health: 350
+size: 1
+hasItems: true
+hasLiquids: true
+itemCapacity: 10
+liquidCapacity: 10
+range: 100
+reloadTime: 20
+inaccuracy: 2
+shots: 1
+coolantMultiplier: 40
+ammoTypes: {
+silicon:
+{
+  type: BasicBulletType 
+  width: 9
+  height: 12
+  lifetime: 60
+  speed: 4
+  damage: 15
+  ammoMultiplier: 1
+  sprite: bullet
+  frontColor: F0E4A8
+  backColor: deae66
+  fragBullet: null
+}
+titanium:
+{
+  type: BasicBulletType
+  width: 9
+  height: 12
+  lifetime: 80
+  speed: 4
+  damage: 20
+  splashDamage: 22.5
+  splashDamageRadius: 16
+  fragBullets: 6
+  ammoMultiplier: 1
+  frontColor: F0E4A8
+  backColor: deae66
+  sprite: bullet
+
+}}
