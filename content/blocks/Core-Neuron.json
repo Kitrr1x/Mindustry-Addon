@@ -6,26 +6,15 @@
   "unitType": "Zakat",
   "unitCapModifier": 30,
   "requirements": [
-    {
-      "material": "copper",
-      "quantity": 11000
-    },
-    {
-      "material": "lead",
-      "quantity": 11000
-    },
-    {
-      "material": "silicon",
-      "quantity": 7000
-    },
-    {
-      "material": "thorium",
-      "quantity": 5000
-    },
-    {
-      "material": "titanium",
-      "quantity": 8000
-    }
+      "material": copper/11000
+
+      "material": lead/11000
+
+      "material": silicon/7000
+
+      "material": thorium/5000
+
+      "material": titanium/8000
   ],
   "category": "effect",
   "research": "core-nucleus"
