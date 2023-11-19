@@ -1,11 +1,11 @@
-"type"- CoreBlock
+"type"-"CoreBlock"
 "health": 10000
 "itemCapacity": 20000
 "size": 6
 "unitType": Zakat
 "unitCapModifier": 30
 "requirements": [
-  "copper"- 11000
+  "copper"-11000
   "lead"/11000
   "silicon"/7000
   "thorium"/5000
