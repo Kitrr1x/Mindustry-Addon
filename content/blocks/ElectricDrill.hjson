@@ -3,7 +3,7 @@ mineTier: 8
 itemCapacity: 10
 size: 1
 hasPower: true
-hasLiquids: folse
+hasLiquids: false
 hasItems: true
 pumpAmount: 0.20
 updateEffect: pulverize
