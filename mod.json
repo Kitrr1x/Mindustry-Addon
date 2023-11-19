@@ -1,6 +1,7 @@
-name: "TitanMod"
+{name: "TitanMod"
 displayName: "Titan Mod"
 author: "Kitrr1x"
 description: "Этот мод добавляет новые постройки из титана."
 version: "2.0 alpha b19"
 minGameVersion: 136
+}
