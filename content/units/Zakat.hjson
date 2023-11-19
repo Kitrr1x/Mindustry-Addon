@@ -11,7 +11,7 @@ itemCapacity: 70
 speed: 3.5
 weapons: [{
   name: Zakat-Weapon
-  x: -3
+  x: 3
   y: 0
   reload: 50
   shots: 2
