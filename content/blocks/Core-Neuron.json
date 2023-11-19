@@ -1,15 +1,15 @@
 "type": CoreBlock
-health: 10000
-itemCapacity: 20000
-size: 6
-unitType: Zakat
-unitCapModifier: 30
-requirements: [
-  copper/11000
-  lead/11000
-  silicon/7000
-  thorium/5000
-titanium/8000
+"health": 10000
+"itemCapacity": 20000
+"size": 6
+"unitType": Zakat
+"unitCapModifier": 30
+"requirements": [
+  "copper"/11000
+  "lead"/11000
+  "silicon"/7000
+  "thorium"/5000
+"titanium"/8000
 ] 
-category: effect
-research: core-nucleus
+"category": effect
+"research": core-nucleus
