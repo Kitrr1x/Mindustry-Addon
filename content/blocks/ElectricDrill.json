@@ -16,8 +16,7 @@
     },
     "requirements": [
         {
-            "item": "copper",
-            "quantity": 30
+            "item": "copper"/30
         },
         {
             "item": "lead",
