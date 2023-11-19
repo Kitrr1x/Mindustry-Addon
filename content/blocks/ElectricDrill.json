@@ -1,4 +1,6 @@
 {
+    "type": "Drill",
+    "health": 80
     "liquidCapacity": 10,
     "mineTier": 8,
     "itemCapacity": 10,
