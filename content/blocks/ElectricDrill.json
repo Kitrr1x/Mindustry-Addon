@@ -1,0 +1,30 @@
+{
+    "liquidCapacity": 10,
+    "mineTier": 8,
+    "itemCapacity": 10,
+    "size": 1,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "pumpAmount": 0.2,
+    "updateEffect": "pulverize",
+    "updateEffectChance": 0.08,
+    "consumes": {
+        "power": 6
+    },
+    "requirements": [
+        {
+            "item": "copper",
+            "quantity": 30
+        },
+        {
+            "item": "lead",
+            "quantity": 50
+        },
+        {
+            "item": "titanium",
+            "quantity": 50
+        }
+    ],
+    "category": "production"
+}
