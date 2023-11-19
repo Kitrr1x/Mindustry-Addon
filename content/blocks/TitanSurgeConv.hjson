@@ -4,17 +4,16 @@
   "speed": 0.2,
   "displayedSpeed": 20,
   "requirements": [
-      "material": copper/3
+copper/3
 
-      "material": lead/3
+lead/3
 
-      "material": titanium/3
+titanium/3
     
-      "material": surge-alloy/3
+surge-alloy/3
   ],
   "category": "distribution",
   "research": [
     "titanium-conveyor"
   ],
-  "unitType": "Item"
 }
