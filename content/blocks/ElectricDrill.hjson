@@ -15,11 +15,11 @@
         "power": 0.6
     },
     "requirements": [
-            "item": copper/30
+copper/30
 
-            "item": lead/50
+lead/50
 
-            "item": titanium/50
+titanium/50
     ],
     rotateSpeed: 8
     drillTime: 100
