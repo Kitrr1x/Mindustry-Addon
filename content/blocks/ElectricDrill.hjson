@@ -21,6 +21,6 @@ lead/50
 
 titanium/50
     ],
-    rotateSpeed: 6
+    rotateSpeed: 3
     "category": "production"
 }
