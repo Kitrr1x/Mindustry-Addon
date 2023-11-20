@@ -4,7 +4,7 @@
   "itemCapacity": 20000,
   "size": 6,
   "unitType": "Proton",
-  "unitCapModifier": 30,
+  "unitCapModifier": 50,
   "requirements": [
 copper/11000
 
