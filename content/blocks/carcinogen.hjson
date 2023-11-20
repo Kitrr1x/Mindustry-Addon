@@ -9,18 +9,29 @@ shootCone: 40
 shootShake: 2
 cooldown: 0.03
 range: 320
-reloadTime: 180
-shootSound: shootbig
+reloadTime: 320
+shootSound: shootBig
 shots: 1
 ammoTypes: {
 silicon: {
 type: BasicBulletType
  lifetime: 60
-speed: 3
+speed: 4
 ammoMultiplier: 3
 shootEffect: shootSmall
 smokeEffect: shootSmallSmoke
 damage: 20
+width: 9
+height: 12
+}
+titanium: {
+type: BasicBulletType
+ lifetime: 60
+speed: 4
+ammoMultiplier: 3
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+damage: 50
 width: 9
 height: 12
 }
