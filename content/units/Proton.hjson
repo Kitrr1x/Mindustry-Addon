@@ -1,10 +1,37 @@
 type: flying
 health: 1200
 flying: true
-range: 50
-mineTier: 4
-mineSpeed: 3.0
+range: 70
+mineTier: 8
+mineSpeed: 5.0
 drag: 0.06
 accel: 0.06
-itemCapacity: 30
-speed: 2.5
+itemCapacity: 120
+speed: 5.0
+weapons: [
+{
+  name: clear
+  type: BasicBulletType
+  x: 4
+  y: 4
+  reload: 30
+  alternate: true
+  bullet: bullet
+  shootSound: missile
+}
+{
+  name: clear
+  type: MissileBulletType
+  x: 0
+  y: 0
+  reload: 120
+  damage: 40
+  shots: 2
+  lifetime: 70
+  splashDamageRadius: 30
+  splashDamage: 60
+  Mirror: false
+  bullet: missile
+  shootSound: missile
+}
+]
