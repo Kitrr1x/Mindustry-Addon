@@ -31,7 +31,7 @@ weapons: [{
     speed: 5
     shrinkY: 0
     drag: -0.01
-    ammoMultiplier: 4
+    ammoMultiplier: 1
     healPercent: 25
     lifetime: 50
     hitEffect: blastExplosion
@@ -55,7 +55,7 @@ weapons: [{
   shootCone: 60
   shootSound: pew
   bullet: {
-    type: BasicBulletType
+    type: ArtilleryBulletType
     width: 8
     height: 8
     damage: 10
@@ -66,6 +66,7 @@ weapons: [{
     lifetime: 50
     hitEffect: blastExplosion
     despawnEffect: blastExplosion
+    status: blasted
     statusDuration: 60
   },
 },
