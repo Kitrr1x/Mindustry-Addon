@@ -38,4 +38,4 @@ weapons: [{
     statusDuration: 60
   }
   }]
-research:AirFactory
+research:poly
