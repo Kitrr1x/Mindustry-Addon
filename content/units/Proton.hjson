@@ -2,6 +2,7 @@ type: flying
 health: 1200
 flying: true
 range: 70
+buildSpeed: 8
 mineTier: 8
 mineSpeed: 5.0
 drag: 0.06
