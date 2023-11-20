@@ -1,5 +1,5 @@
 type: flying
-health: 400
+health: 1200
 flying: true
 range: 50
 mineTier: 4
