@@ -11,30 +11,43 @@ speed: 5.0
 weapons: [
 {
   name: Proton-Weapon
-  type: BasicBulletType
+
   x: 4
   y: 4
+  rotate: true
   reload: 240
-  damage: 15
-  reload: 30
   shots: 2
   alternate: true
-  bullet: bullet
   shootSound: pew
-}
+  bullet: {
+    width: 4
+    height: 4
+  speed: 6
+  damage: 15
+  ammoMultiplier: 1
+  lifetime: 70
+  type: BasicBulletType 
+}}
 {
   name: Proton-Best-Weapon
-  type: MissileBulletType
+
   x: 0
   y: 0
+  Mirror: false
+  rotate: false
   reload: 120
-  damage: 40
+  shootSound: missile
   shots: 1
+  bullet: {
   lifetime: 70
   splashDamageRadius: 30
   splashDamage: 60
-  Mirror: false
-  bullet: missile
-  shootSound: missile
-}
+  damage: 40
+  type: MissileBulletType
+    status: blasted
+    statusDuration: 60
+    drag: -0.01
+    speed: 3
+    shrinkY: 0
+}}
 ]
