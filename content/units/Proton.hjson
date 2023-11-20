@@ -12,8 +12,8 @@ weapons: [
 {
   name: Proton-Weapon
 
-  x: 4
-  y: 4
+  x: -6
+  y: -4
   rotate: true
   reload: 240
   shots: 2
@@ -32,7 +32,7 @@ weapons: [
   name: Proton-Best-Weapon
 
   x: 0
-  y: 0
+  y: 4
   Mirror: false
   rotate: false
   reload: 120
