@@ -15,7 +15,7 @@ weapons: [
   x: -6
   y: -2
   rotate: true
-  reload: 30
+  reload: 15
   shots: 2
   alternate: true
   shootSound: pew
@@ -35,7 +35,7 @@ weapons: [
   y: 4
   Mirror: false
   rotate: false
-  reload: 80
+  reload: 70
   shootSound: missile
   shots: 1
   bullet: {
