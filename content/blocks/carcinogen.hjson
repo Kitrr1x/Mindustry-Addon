@@ -7,17 +7,17 @@ size: 1
 update: true
 shootCone: 40
 shootShake: 2
-range: 190
-reloadTime: 80
-firingMoveFract: 0.5
-shootDuration: 220
-shootSound: laserbig
+cooldown: 0.03
+range: 320
+reloadTime: 180
+shootSound: shootbig
+shots: 1
 ammoTypes: {
 silicon: {
 type: BasicBulletType
  lifetime: 60
 speed: 3
-ammoMultiplier: 2
+ammoMultiplier: 3
 shootEffect: shootSmall
 smokeEffect: shootSmallSmoke
 damage: 20
@@ -31,13 +31,5 @@ height: 12
 		silicon/30
 	]
 category: turret
-research: meltdown
-consumes: {
-  liquid: {
-    liquid: water
-    amount: 0.5
-    optional: false
-    booster: true
-  }
-}
+research: duo
 
