@@ -10,23 +10,26 @@ itemCapacity: 120
 speed: 5.0
 weapons: [
 {
-  name: clear
+  name: Proton-Weapon
   type: BasicBulletType
   x: 4
   y: 4
+  reload: 240
+  damage: 15
   reload: 30
+  shots: 2
   alternate: true
   bullet: bullet
-  shootSound: missile
+  shootSound: pew
 }
 {
-  name: clear
+  name: Proton-Best-Weapon
   type: MissileBulletType
   x: 0
   y: 0
   reload: 120
   damage: 40
-  shots: 2
+  shots: 1
   lifetime: 70
   splashDamageRadius: 30
   splashDamage: 60
