@@ -1,4 +1,5 @@
 type: ItemTurret
+category: turret
 health: 350
 size: 1
 hasItems: true
