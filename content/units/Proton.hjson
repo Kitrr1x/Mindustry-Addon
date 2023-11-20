@@ -13,9 +13,9 @@ weapons: [
   name: Proton-Weapon
 
   x: -6
-  y: -4
+  y: -2
   rotate: true
-  reload: 240
+  reload: 30
   shots: 2
   alternate: true
   shootSound: pew
@@ -35,7 +35,7 @@ weapons: [
   y: 4
   Mirror: false
   rotate: false
-  reload: 120
+  reload: 80
   shootSound: missile
   shots: 1
   bullet: {
