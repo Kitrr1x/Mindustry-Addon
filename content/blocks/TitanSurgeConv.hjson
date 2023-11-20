@@ -13,7 +13,4 @@ titanium/3
 surge-alloy/3
   ],
   "category": "distribution",
-  "research": [
-    "titanium-conveyor"
-  ],
-}
+  research: titanium-conveyor
