@@ -5,7 +5,7 @@ power: 2.0
 items: {
 pyrotite/2
 sporepod/2
-}} 
+}}
 outputItem: blast-compound/3
 requirements: [
 lead/100
