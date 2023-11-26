@@ -5,7 +5,7 @@ power: 2.0
 items: {
 coal/1
 sand/2
-}} 
+}}
 outputItem: pyrotite/3
 requirements: [
 lead/100
