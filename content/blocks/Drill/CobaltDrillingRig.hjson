@@ -1,0 +1,27 @@
+    "type": "Drill",
+    "health": 800,
+    "liquidCapacity": 10,
+    "tier": 8,
+    "itemCapacity": 10,
+    "drillTime": 450,
+    "size": 5,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "updateEffect": "pulverize",
+    "updateEffectChance": 0.08,
+    "consumes": {
+        "power": 1
+    },
+    "requirements": [
+copper/30
+
+lead/50
+
+titanium/50
+
+Cobalt/100
+    ],
+    rotateSpeed: 3
+    "category": "production"
+research:pneumatic-drill
