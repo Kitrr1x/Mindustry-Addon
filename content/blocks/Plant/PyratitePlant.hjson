@@ -9,7 +9,7 @@ consumes: {
     ]
   }
 }
-outputItem: pyrotite/3
+outputItem: pyratite/3
 requirements: [
 lead/75
 graphite/50
