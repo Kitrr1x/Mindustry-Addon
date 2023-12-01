@@ -5,7 +5,7 @@ consumes: {
   items: {
     items: [
 pyratite/2
-sporepod/2
+spore-pod/2
     ]
   }
 }
