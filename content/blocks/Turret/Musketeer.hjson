@@ -11,15 +11,15 @@ shootEffect: shootBigSmoke2
 shootCone: 10
 shootShake: 2
 range: 238
-reloadTime: 15
+reloadTime: 5
 firingMoveFract: 0.5
 shootDuration: 220
 shootSound: laser
 shootType: {
   type: LaserBulletType
   damage: 210
-  length: 220
-  drawSize: 420
+  length: 200
+  drawSize: 300
   incendChance: 0.5
   incendSpread: 7
   incendAmount: 1
