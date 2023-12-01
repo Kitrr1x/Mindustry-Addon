@@ -1,11 +1,14 @@
 type: GenericCrafter
 size: 3
 consumes: {
-power: 2.0
-items: {
+  power: 2
+  items: {
+    items: [
 pyrotite/2
 sporepod/2
-}}
+    ]
+  }
+}
 outputItem: blast-compound/3
 requirements: [
 lead/100
