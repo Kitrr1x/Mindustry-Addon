@@ -1,9 +1,6 @@
 type: LaserTurret
 targetAir: true
 targetGround: true
-consumes: {
-  power: 4
-}
 coolantMultiplier: 20
 health: 1000
 size: 2
@@ -40,8 +37,5 @@ liquid: water
 amount: 0.1
 optional: true
 booster: true
-liquid: cryofluid
-amount: 0.1
-optional: true
-booster: true
+  power: 4
 }}
