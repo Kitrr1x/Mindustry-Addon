@@ -1,0 +1,9 @@
+type: Wall
+health: 1500
+size: 1
+lightningChance: 0.1
+requirements: [
+  Cobalt/6
+]
+category: defense
+research: IronWallLarge
