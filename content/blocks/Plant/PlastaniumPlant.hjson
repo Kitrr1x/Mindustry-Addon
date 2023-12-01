@@ -1,6 +1,6 @@
 type: GenericCrafter
 size: 3
-consumes: {
+consumes:
 power: 2.0
 items: {
 coal/1
