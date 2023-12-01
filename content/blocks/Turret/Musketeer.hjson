@@ -34,3 +34,14 @@ shootType: {
 	]
 category: turret
 research: lancer
+consumes: {
+liquid: {
+liquid: water
+amount: 0.1
+optional: true
+booster: true
+liquid: cryofluid
+amount: 0.1
+optional: true
+booster: true
+}}
