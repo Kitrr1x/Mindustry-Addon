@@ -10,9 +10,9 @@ shootEffect: shootBigSmoke2
 shootCone: 10
 shootShake: 2
 range: 238
-reloadTime: 25
+reloadTime: 40
 firingMoveFract: 0.5
-shootDuration: 20
+shootDuration: 30
 shootSound: laser
 shootType: {
   type: LaserBulletType
