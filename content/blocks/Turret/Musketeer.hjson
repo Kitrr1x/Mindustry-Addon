@@ -10,7 +10,7 @@ hasPower: true
 shootEffect: point-laser
 shootCone: 10
 shootShake: 2
-range: 240
+range: 238
 reloadTime: 15
 firingMoveFract: 0.5
 shootDuration: 220
@@ -19,7 +19,6 @@ shootType: {
   type: LaserBulletType
   damage: 210
   length: 220
-  hitEffect: hitMeltdown
   drawSize: 420
   incendChance: 0.5
   incendSpread: 7
