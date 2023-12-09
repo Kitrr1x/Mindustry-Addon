@@ -1,0 +1,6 @@
+color: a0a0a0
+radioactivity: 2
+hardness: 6
+research: {
+ parent: Cobalt
+}
