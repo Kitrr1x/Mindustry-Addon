@@ -4,7 +4,7 @@ flying: true
 range: 50
 buildSpeed: 5
 mineTier: 4
-mineSpeed: 8.0
+mineSpeed: 4.0
 drag: 0.06
 accel: 0.06
 itemCapacity: 70
