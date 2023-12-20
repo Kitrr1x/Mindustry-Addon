@@ -3,7 +3,7 @@
   "health": 500,
   "itemCapacity": 500,
   "size": 1,
-  "unitType": "Proton",
+  "unitType": "DrillingDrone",
   "unitCapModifier": 2,
   "requirements": [
 copper/300
