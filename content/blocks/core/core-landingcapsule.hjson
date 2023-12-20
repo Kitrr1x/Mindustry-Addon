@@ -3,7 +3,7 @@
   "health": 1000,
   "itemCapacity": 1000,
   "size": 1,
-  "unitType": "Proton",
+  "unitType": "LandingDrone",
   "unitCapModifier": 5,
   "requirements": [
 copper/500
