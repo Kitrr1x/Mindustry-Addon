@@ -11,9 +11,9 @@ itemCapacity: 70
 speed: 3.5
 weapons: [{
   name: Zakat-Weapon
-  x: 3
+  x: -3
   y: 0
-  reload: 50
+  reload: 70
   shots: 2
   inaccuracy: 2
   alternate: true
@@ -28,24 +28,26 @@ weapons: [{
     width: 8
     height: 8
     damage: 25
-    speed: 5
+    speed: 15
     shrinkY: 0
     drag: -0.01
     ammoMultiplier: 1
     healPercent: 25
-    lifetime: 50
+    lifetime: 40
     hitEffect: blastExplosion
     despawnEffect: blastExplosion
     status: blasted
     statusDuration: 60
+    backColor: 5FAE6A
+    frontColor: 81ED90
   },
 },
 {
   name: Zakat-weapon-cannon
-  x: -4
+  x: 4
   y: 0
-  reload: 10
-  shots: 4
+  reload: 40
+  shots: 2
   inaccuracy: 2
   alternate: true
   rotate: false
@@ -59,15 +61,17 @@ weapons: [{
     width: 8
     height: 8
     damage: 10
-    speed: 5
+    speed: 20
     shrinkY: 0
     drag: -0.01
     ammoMultiplier: 4
-    lifetime: 50
+    lifetime: 30
     hitEffect: blastExplosion
     despawnEffect: blastExplosion
     status: blasted
     statusDuration: 60
+    backColor: 5FAE6A
+    frontColor: 81ED90
   },
 },
   ]
