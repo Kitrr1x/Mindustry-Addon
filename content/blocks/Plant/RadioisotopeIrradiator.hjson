@@ -1,0 +1,21 @@
+type: GenericCrafter
+size: 3
+consumes: {
+  power: 1
+  items: {
+    items: [
+      thorium/3
+      Cobalt/3
+    ]
+  }
+}
+outputItem: Cobalt-60/3
+requirements: [
+copper/100
+graphite/50
+silicon/100
+titanium/50
+lead/50
+thorium/50
+]
+category: crafting
