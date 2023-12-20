@@ -3,7 +3,7 @@
   "health": 10000,
   "itemCapacity": 20000,
   "size": 6,
-  "unitType": "Proton",
+  "unitType": "proton",
   "unitCapModifier": 50,
   "requirements": [
 copper/11000
