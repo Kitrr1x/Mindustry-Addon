@@ -27,7 +27,7 @@ weapons: [
   damage: 15
   ammoMultiplier: 1
   lifetime: 50
-  buildingDamageMultiplier: 99
+  buildingDamageMultiplier: -99
   type: BasicBulletType 
 }}
 {
