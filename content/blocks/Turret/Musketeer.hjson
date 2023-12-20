@@ -10,7 +10,7 @@ shootEffect: shootBigSmoke2
 shootCone: 10
 shootShake: 2
 range: 238
-reloadTime: 100
+reloadTime: 80
 firingMoveFract: 0.5
 shootDuration: 50
 shootSound: laser
@@ -32,10 +32,11 @@ shootType: {
 category: turret
 research: lancer
 consumes: {
+power: 4
 liquid: {
 liquid: water
 amount: 0.1
 optional: true
 booster: true
-  power: 4
+
 }}
