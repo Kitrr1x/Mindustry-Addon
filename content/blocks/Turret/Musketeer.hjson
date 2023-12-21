@@ -1,22 +1,20 @@
 type: PowerTurret
 targetAir: true
 targetGround: true
-coolantMultiplier: 20
-health: 1000
+health: 1500
 size: 2
 update: true
 hasPower: true
 shootEffect: shootBigSmoke2
 shootCone: 10
 shootShake: 2
-range: 238
+range: 230
 reloadTime: 80
 firingMoveFract: 0.5
-shootDuration: 50
 shootSound: laser
 shootType: {
   type: LaserBulletType
-  damage: 210
+  damage: 240
   length: 200
   drawSize: 300
   incendChance: 0.5
@@ -33,10 +31,10 @@ category: turret
 research: lancer
 consumes: {
 power: 4
-liquid: {
+}
+coolant: {
+type: ConsumeLiquid
 liquid: water
-amount: 0.1
-coolant: null
-optional: true
-booster: true
-}}
+amount: 2
+coolantMultiplier: 2
+}
