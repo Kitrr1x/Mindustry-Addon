@@ -37,7 +37,7 @@ damage: 45
 width: 9
 height: 12
 }
-Titanium: {
+titanium: {
 type: MissileBulletType
  lifetime: 60
 speed: 6
