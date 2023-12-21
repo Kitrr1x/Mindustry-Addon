@@ -1,4 +1,4 @@
-type: LaserTurret
+type: PowerTurret
 targetAir: true
 targetGround: true
 coolantMultiplier: 20
