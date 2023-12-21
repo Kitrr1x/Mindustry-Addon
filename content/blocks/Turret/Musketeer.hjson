@@ -36,7 +36,7 @@ power: 4
 liquid: {
 liquid: water
 amount: 0.1
+coolant: null
 optional: true
 booster: true
-
 }}
