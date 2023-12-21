@@ -1,0 +1,60 @@
+type: itemTurret
+targetAir: true
+targetGround: true
+coolantMultiplier: 1
+health: 700
+size: 2
+update: true
+shootCone: 40
+shootShake: 2
+cooldown: 0.03
+range: 250
+reloadTime: 180
+shootSound: shootBig
+shots: 1
+ammoTypes: {
+silicon: {
+type: MissileBulletType
+ lifetime: 60
+speed: 5
+ammoMultiplier: 4
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+damage: 25
+width: 9
+height: 12
+}
+  pyratite: {
+type: MissileBulletType
+ lifetime: 60
+speed: 5
+ammoMultiplier: 3
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+splashDamageRadius: 40
+splashDamage: 30
+damage: 35
+width: 9
+height: 12
+}
+copper: {
+type: MissileBulletType
+ lifetime: 60
+speed: 4
+ammoMultiplier: 3
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+status: blasted
+statusDuration: 20
+damage: 20
+width: 9
+height: 12
+}
+}
+	requirements: [
+		copper/50
+		lead/30
+		silicon/30
+	]
+category: turret
+research: duo
