@@ -37,8 +37,4 @@ type: ConsumeLiquid
 liquid: water
 amount: 2
 coolantMultiplier: 0.6
-type: ConsumeLiquid
-liquid: cryofluid
-amount: 2
-coolantMultiplier: 1
 }
