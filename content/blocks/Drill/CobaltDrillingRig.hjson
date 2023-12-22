@@ -1,15 +1,18 @@
     "type": "Drill",
-    "health": 800,
+    "health": 1600,
     "liquidCapacity": 10,
-    "tier": 10,
+    "tier": 5,
     "itemCapacity": 10,
-    "drillTime": 150,
+    "drillTime": 200,
+    "drillMultipliers": 1,
     "size": 5,
+    "range": 5,
     "hasPower": true,
     "hasLiquids": true,
     "hasItems": true,
     "updateEffect": "pulverize",
     "updateEffectChance": 0.08,
+    "optionalBoostIntensity" 2.5
     "consumes": {
         "power": 1
     },
