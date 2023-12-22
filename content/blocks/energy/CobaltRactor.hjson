@@ -13,11 +13,8 @@ heating: 0.01
 lightColor: AFBCD8
 coolColor: 99A5BF
 hotColor: 7A8499
+fuelItem: Cobalt-60
 consumes: {
-items: {
-items: [
-Cobalt-60/1
-]}
   liquid: {
     liquid: cryofluid
     amount: 0.5
