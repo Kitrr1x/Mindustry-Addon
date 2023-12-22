@@ -4,7 +4,6 @@
     "tier": 5,
     "itemCapacity": 10,
     "drillTime": 200,
-    "drillMultipliers": 1,
     "size": 5,
     "range": 5,
     "hasPower": true,
