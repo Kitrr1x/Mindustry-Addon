@@ -12,7 +12,7 @@
     "hasItems": true,
     "updateEffect": "pulverize",
     "updateEffectChance": 0.08,
-    "optionalBoostIntensity" 2.5
+    "optionalBoostIntensity": 2.5
     "consumes": {
         "power": 1
     },
