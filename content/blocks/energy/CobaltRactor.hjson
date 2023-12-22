@@ -18,7 +18,12 @@ items: {
 items: [
 Cobalt-60/1
 ]}
-
+  liquid: {
+    liquid: cryofluid
+    amount: 0.5
+    optional: false
+    booster: false
+  }
 } 
 requirements: [
 copper/1000
