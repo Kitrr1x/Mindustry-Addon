@@ -3,7 +3,7 @@
     "liquidCapacity": 10,
     "tier": 5,
     "itemCapacity": 10,
-    "drillTime": 200,
+    "drillTime": 300,
     "size": 5,
     "range": 5,
     "hasPower": true,
@@ -13,7 +13,13 @@
     "updateEffectChance": 0.08,
     "optionalBoostIntensity": 2.5
     "consumes": {
-        "power": 1
+        "power": 3
+    "liquid": {
+      "liquid": "water",
+      "amount": 1.0,
+      "booster": true,
+      "optional": true
+    }
     },
     "requirements": [
 copper/30
