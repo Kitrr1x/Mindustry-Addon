@@ -3,20 +3,19 @@
 "targetAir": true
 "targetGround": true
 "coolantMultiplier": 1
-"health": 1400
-"size": 2
+"health": 2000
+"size": 3
 "update": true
 "shootCone": 40
 "shootShake": 2
 "cooldown": 0.03
-"range": 200
+"range": 220
 "reload": 7
 "shootSound": "shootBig"
 "shots": 1
-"shootX": 5
 	"shoot": {
 	"type": "ShootAlternate"
-	"barrels": 4
+	"barrels": 5
 	"spread": 1
 	"shots": 1
 	"shotDelay": 1
@@ -25,46 +24,46 @@
 "silicon": {
 	"type": "MissileBulletType"
 	"lifetime": 60
-	"speed": 5
+	"speed": 7
 	"ammoMultiplier": 4
 	"shootEffect": "shootSmall"
 	"smokeEffect": "shootSmallSmoke"
-	"damage": 25
+	"damage": 30
 	"width": 9
 	"height": 12
 	   }
   "pyratite": {
 	"type": "MissileBulletType"
 	"lifetime": 60
-	"speed": 5
-	"ammoMultiplier": 3
+	"speed": 7
+	"ammoMultiplier": 4
 	"shootEffect": "shootSmall"
 	"smokeEffect": "shootSmallSmoke"
-	"splashDamageRadius": 40
-	"splashDamage": 40
-	"damage": 45
+	"splashDamageRadius": 60
+	"splashDamage": 50
+	"damage": 50
 	"width": 9
 	"height": 12
 	      }
-"titanium": {
+"plastanium": {
 	"type": "MissileBulletType"
 	"lifetime": 60
-	"speed": 6
+	"speed": 7
 	"ammoMultiplier": 4
 	"shootEffect": "shootSmall"
 	"smokeEffect": "shootSmallSmoke"
 	"status": "blasted"
 	"statusDuration": 20
-	"damage": 25
+	"damage": 40
 	"width": 9
 	"height": 12
 	  }
 	     }
 	"requirements": [
-		"copper"/200,
-		"lead"/100
-		"silicon"/60
-    		"titanium"/100
+		"copper"/200
+		"silicon"/100
+    		"titanium"/350
+		"plastanium"/200
 		      ]
 "category": "turret"
 "research": "duo"
