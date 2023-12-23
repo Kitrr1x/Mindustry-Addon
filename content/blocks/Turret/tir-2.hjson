@@ -12,6 +12,13 @@ range: 180
 reload: 10
 shootSound: shootBig
 shots: 1
+shoot: {
+	type: ShootAlternate
+	barrels: 2
+	spread: 3
+	shots: 1
+	shotDelay: 1
+}
 ammoTypes: {
 silicon: {
 type: MissileBulletType
