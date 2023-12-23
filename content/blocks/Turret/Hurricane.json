@@ -60,11 +60,26 @@
 	  }
 	     }
 	"requirements": [
-		"copper"/200
-		"silicon"/100
-    		"titanium"/350
-		"plastanium"/200
-		      ]
+		{
+		"item": "copper"
+		"amount": 200
+		}
+
+		{
+		"item": "silicon"
+		"amount": 100
+		}
+
+		{
+		"item": "titanium"
+		"amount": 350
+		}
+
+    		{
+      		"item": "plastanium"
+      		"amount": 200
+    		}
+		        ]
 "category": "turret"
 "research": "duo"
 }
