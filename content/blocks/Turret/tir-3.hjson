@@ -8,10 +8,11 @@ update: true
 shootCone: 40
 shootShake: 2
 cooldown: 0.03
-range: 250
-reload: 1
+range: 200
+reload: 5
 shootSound: shootBig
 shots: 1
+shootX: 5, 4, 3, 2, 1
 ammoTypes: {
 silicon: {
 	type: MissileBulletType
