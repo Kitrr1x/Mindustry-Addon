@@ -1,0 +1,85 @@
+{
+"type": "itemTurret"
+"targetAir": true
+"targetGround": true
+"coolantMultiplier": 1
+"health": 2000
+"size": 3
+"update": true
+"shootCone": 40
+"shootShake": 2
+"cooldown": 0.03
+"range": 220
+"reload": 7
+"shootSound": "shootBig"
+"shots": 1
+	"shoot": {
+	"type": "ShootAlternate"
+	"barrels": 5
+	"spread": 1
+	"shots": 1
+	"shotDelay": 1
+	 }
+"ammoTypes": {
+"silicon": {
+	"type": "MissileBulletType"
+	"lifetime": 60
+	"speed": 7
+	"ammoMultiplier": 4
+	"shootEffect": "shootSmall"
+	"smokeEffect": "shootSmallSmoke"
+	"damage": 30
+	"width": 9
+	"height": 12
+	   }
+  "pyratite": {
+	"type": "MissileBulletType"
+	"lifetime": 60
+	"speed": 7
+	"ammoMultiplier": 4
+	"shootEffect": "shootSmall"
+	"smokeEffect": "shootSmallSmoke"
+	"splashDamageRadius": 60
+	"splashDamage": 50
+	"damage": 50
+	"width": 9
+	"height": 12
+	      }
+"plastanium": {
+	"type": "MissileBulletType"
+	"lifetime": 60
+	"speed": 7
+	"ammoMultiplier": 4
+	"shootEffect": "shootSmall"
+	"smokeEffect": "shootSmallSmoke"
+	"status": "blasted"
+	"statusDuration": 20
+	"damage": 40
+	"width": 9
+	"height": 12
+	  }
+	     }
+	"requirements": [
+		{
+		"item": "copper"
+		"amount": 200
+		}
+
+		{
+		"item": "silicon"
+		"amount": 100
+		}
+
+		{
+		"item": "titanium"
+		"amount": 350
+		}
+
+    		{
+      		"item": "plastanium"
+      		"amount": 200
+    		}
+		        ]
+"category": "turret"
+"research": "Hyacinth"
+}
