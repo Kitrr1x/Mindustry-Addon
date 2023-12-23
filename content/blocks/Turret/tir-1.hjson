@@ -8,7 +8,7 @@ update: true
 shootCone: 40
 shootShake: 2
 range: 150
-reload: 5
+reload: 20
 shootSound: shootBig
 shots: 1
 ammoTypes: {
