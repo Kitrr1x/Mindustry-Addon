@@ -12,7 +12,7 @@ range: 200
 reload: 5
 shootSound: shootBig
 shots: 1
-shootX: 5, 4, 3, 2, 1
+shootX: 5
 ammoTypes: {
 silicon: {
 	type: MissileBulletType
