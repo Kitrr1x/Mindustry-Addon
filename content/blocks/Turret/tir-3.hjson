@@ -8,54 +8,54 @@ update: true
 shootCone: 40
 shootShake: 2
 cooldown: 0.03
-range: 350
-reloadTime: 220
+range: 250
+reload: 1
 shootSound: shootBig
 shots: 1
 ammoTypes: {
 silicon: {
-type: MissileBulletType
- lifetime: 60
-speed: 5
-ammoMultiplier: 4
-shootEffect: shootSmall
-smokeEffect: shootSmallSmoke
-damage: 25
-width: 9
-height: 12
+	type: MissileBulletType
+	lifetime: 60
+	speed: 5
+	ammoMultiplier: 4
+	shootEffect: shootSmall
+	smokeEffect: shootSmallSmoke
+	damage: 25
+	width: 9
+	height: 12
 }
   pyratite: {
-type: MissileBulletType
- lifetime: 60
-speed: 5
-ammoMultiplier: 3
-shootEffect: shootSmall
-smokeEffect: shootSmallSmoke
-splashDamageRadius: 40
-splashDamage: 40
-damage: 45
-width: 9
-height: 12
-}
+	type: MissileBulletType
+	lifetime: 60
+	speed: 5
+	ammoMultiplier: 3
+	shootEffect: shootSmall
+	smokeEffect: shootSmallSmoke
+	splashDamageRadius: 40
+	splashDamage: 40
+	damage: 45
+	width: 9
+	height: 12
+	    }
 titanium: {
-type: MissileBulletType
- lifetime: 60
-speed: 6
-ammoMultiplier: 4
-shootEffect: shootSmall
-smokeEffect: shootSmallSmoke
-status: blasted
-statusDuration: 20
-damage: 25
-width: 9
-height: 12
-}
+	type: MissileBulletType
+	lifetime: 60
+	speed: 6
+	ammoMultiplier: 4
+	shootEffect: shootSmall
+	smokeEffect: shootSmallSmoke
+	status: blasted
+	statusDuration: 20
+	damage: 25
+	width: 9
+	height: 12
+	  }
 }
 	requirements: [
 		copper/200
 		lead/100
 		silicon/60
-    titanium/100
-	]
+    		titanium/100
+		      ]
 category: turret
 research: duo
