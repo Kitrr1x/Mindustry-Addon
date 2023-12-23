@@ -8,64 +8,64 @@
 "update": true
 "shootCone": 40
 "shootShake": 2
-"shoot": {
+"cooldown": 0.03
+"range": 200
+"reload": 7
+"shootSound": "shootBig"
+"shots": 1
+"shootX": 5
+	"shoot": {
 	"type": "ShootAlternate"
 	"barrels": 4
 	"spread": 1
 	"shots": 1
 	"shotDelay": 1
-}
-cooldown: 0.03
-range: 200
-reload: 7
-shootSound: shootBig
-shots: 1
-shootX: 5
-ammoTypes: {
-silicon: {
-	type: MissileBulletType
-	lifetime: 60
-	speed: 5
-	ammoMultiplier: 4
-	shootEffect: shootSmall
-	smokeEffect: shootSmallSmoke
-	damage: 25
-	width: 9
-	height: 12
-}
-  pyratite: {
-	type: MissileBulletType
-	lifetime: 60
-	speed: 5
-	ammoMultiplier: 3
-	shootEffect: shootSmall
-	smokeEffect: shootSmallSmoke
-	splashDamageRadius: 40
-	splashDamage: 40
-	damage: 45
-	width: 9
-	height: 12
-	    }
-titanium: {
-	type: MissileBulletType
-	lifetime: 60
-	speed: 6
-	ammoMultiplier: 4
-	shootEffect: shootSmall
-	smokeEffect: shootSmallSmoke
-	status: blasted
-	statusDuration: 20
-	damage: 25
-	width: 9
-	height: 12
+	 }
+"ammoTypes": {
+"silicon": {
+	"type": "MissileBulletType"
+	"lifetime": 60
+	"speed": 5
+	"ammoMultiplier": 4
+	"shootEffect": "shootSmall"
+	"smokeEffect": "shootSmallSmoke"
+	"damage": 25
+	"width": 9
+	"height": 12
+	   }
+  "pyratite": {
+	"type": "MissileBulletType"
+	"lifetime": 60
+	"speed": 5
+	"ammoMultiplier": 3
+	"shootEffect": "shootSmall"
+	"smokeEffect": "shootSmallSmoke"
+	"splashDamageRadius": 40
+	"splashDamage": 40
+	"damage": 45
+	"width": 9
+	"height": 12
+	      }
+"titanium": {
+	"type": "MissileBulletType"
+	"lifetime": 60
+	"speed": 6
+	"ammoMultiplier": 4
+	"shootEffect": "shootSmall"
+	"smokeEffect": "shootSmallSmoke"
+	"status": "blasted"
+	"statusDuration": 20
+	"damage": 25
+	"width": 9
+	"height": 12
 	  }
-}
-	requirements: [
-		copper/200
-		lead/100
-		silicon/60
-    		titanium/100
+	     }
+	"requirements": [
+		"copper"/200
+		"lead"/100
+		"silicon"/60
+    		"titanium"/100
 		      ]
-category: turret
-research: duo
+"category": "turret"
+"research": "duo"
 }
