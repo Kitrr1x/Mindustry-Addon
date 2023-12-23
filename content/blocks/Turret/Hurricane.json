@@ -61,7 +61,7 @@
 	  }
 	     }
 	"requirements": [
-		"copper"/200
+		"copper"/200,
 		"lead"/100
 		"silicon"/60
     		"titanium"/100
