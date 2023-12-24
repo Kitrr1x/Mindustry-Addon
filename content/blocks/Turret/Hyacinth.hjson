@@ -67,8 +67,8 @@ titanium: {
 coolant: {
 type: ConsumeLiquid
 liquid: water
-amount: 2
-coolantMultiplier: 0.6
+amount: 0.1
+coolantMultiplier: 0.1
 }
 category: turret
 research: Acacia
