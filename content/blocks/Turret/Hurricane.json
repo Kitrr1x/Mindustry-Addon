@@ -8,7 +8,7 @@
 "shootCone": 40
 "shootShake": 2
 "cooldown": 0.03
-"range": 220
+"range": 200
 "reload": 7
 "shootSound": "shootBig"
 "shots": 1
@@ -22,8 +22,8 @@
 "ammoTypes": {
 "silicon": {
 	"type": "MissileBulletType"
-	"lifetime": 60
-	"speed": 7
+	"lifetime": 45
+	"speed": 8
 	"ammoMultiplier": 4
 	"shootEffect": "shootSmall"
 	"smokeEffect": "shootSmallSmoke"
@@ -33,7 +33,7 @@
 	   }
   "pyratite": {
 	"type": "MissileBulletType"
-	"lifetime": 60
+	"lifetime": 45
 	"speed": 7
 	"ammoMultiplier": 4
 	"shootEffect": "shootSmall"
