@@ -63,22 +63,22 @@
 	"requirements": [
 		{
 		"item": "copper"
-		"amount": 200
+		"amount": 300
 		}
 
 		{
-		"item": "silicon"
+		"item": "surge-alloy"
 		"amount": 100
 		}
 
 		{
 		"item": "titanium"
-		"amount": 350
+		"amount": 400
 		}
 
     		{
       		"item": "plastanium"
-      		"amount": 200
+      		"amount": 400
     		}
 		        ]
 "coolant": {
