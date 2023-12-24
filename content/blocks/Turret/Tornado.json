@@ -2,9 +2,8 @@
 "type": "itemTurret"
 "targetAir": true
 "targetGround": true
-"coolantMultiplier": 1
-"health": 2000
-"size": 3
+"health": 3000
+"size": 4
 "update": true
 "shootCone": 40
 "shootShake": 2
@@ -15,8 +14,8 @@
 "shots": 1
 	"shoot": {
 	"type": "ShootAlternate"
-	"barrels": 5
-	"spread": 1
+	"barrels": 6
+	"spread": 3
 	"shots": 1
 	"shotDelay": 1
 	 }
