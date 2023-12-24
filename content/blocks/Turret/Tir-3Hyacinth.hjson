@@ -14,7 +14,7 @@ shoot: {
 	shotDelay: 1
 }
 cooldown: 0.03
-range: 200
+range: 180
 reload: 10
 shootSound: shootBig
 shots: 1
