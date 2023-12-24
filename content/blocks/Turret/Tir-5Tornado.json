@@ -15,7 +15,7 @@
 	"shoot": {
 	"type": "ShootAlternate"
 	"barrels": 6
-	"spread": 3
+	"spread": 4
 	"shots": 1
 	"shotDelay": 1
 	 }
