@@ -1,7 +1,6 @@
 type: itemTurret
 targetAir: true
 targetGround: true
-coolantMultiplier: 1
 health: 1400
 size: 2
 update: true
@@ -65,5 +64,11 @@ titanium: {
 		silicon/60
     		titanium/100
 		      ]
+coolant: {
+type: ConsumeLiquid
+liquid: water
+amount: 2
+coolantMultiplier: 0.6
+}
 category: turret
 research: Acacia
