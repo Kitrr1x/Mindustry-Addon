@@ -1,7 +1,6 @@
 type: itemTurret
 targetAir: true
 targetGround: true
-coolantMultiplier: 1
 health: 700
 size: 2
 update: true
