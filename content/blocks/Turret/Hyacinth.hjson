@@ -23,7 +23,7 @@ shootX: 5
 ammoTypes: {
 silicon: {
 	type: MissileBulletType
-	lifetime: 60
+	lifetime: 50
 	speed: 5
 	ammoMultiplier: 4
 	shootEffect: shootSmall
@@ -34,7 +34,7 @@ silicon: {
 }
   pyratite: {
 	type: MissileBulletType
-	lifetime: 60
+	lifetime: 50
 	speed: 5
 	ammoMultiplier: 3
 	shootEffect: shootSmall
@@ -47,8 +47,8 @@ silicon: {
 	    }
 titanium: {
 	type: MissileBulletType
-	lifetime: 60
-	speed: 6
+	lifetime: 50
+	speed: 5
 	ammoMultiplier: 4
 	shootEffect: shootSmall
 	smokeEffect: shootSmallSmoke
