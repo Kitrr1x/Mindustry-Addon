@@ -35,7 +35,7 @@
 	   }
   "pyratite": {
 	"type": "MissileBulletType"
-	"lifetime": 60
+	"lifetime": 50
 	"speed": 7
 	"ammoMultiplier": 4
 	"shootEffect": "shootSmall"
@@ -83,8 +83,8 @@
 "type": "ConsumeLiquid"
 "liquid": "water"
 "amount": 0.1
-"coolantMultiplier": 0.1
+"coolantMultiplier": 0.2
 }
 "category": "turret"
-"research": "Hurricane"
+"research": "Tir-4Hurricane"
 }
