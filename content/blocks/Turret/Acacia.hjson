@@ -7,7 +7,7 @@ update: true
 shootCone: 40
 shootShake: 2
 cooldown: 0.03
-range: 180
+range: 170
 reload: 15
 shootSound: shootBig
 shots: 1
