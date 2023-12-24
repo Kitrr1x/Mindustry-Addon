@@ -50,7 +50,6 @@ speed: 4
 ammoMultiplier: 3
 shootEffect: shootSmall
 smokeEffect: shootSmallSmoke
-statusDuration: 20
 damage: 15
 width: 9
 height: 12
