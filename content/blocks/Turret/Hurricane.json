@@ -2,7 +2,6 @@
 "type": "itemTurret"
 "targetAir": true
 "targetGround": true
-"coolantMultiplier": 1
 "health": 2000
 "size": 3
 "update": true
@@ -16,7 +15,7 @@
 	"shoot": {
 	"type": "ShootAlternate"
 	"barrels": 5
-	"spread": 1
+	"spread": 3
 	"shots": 1
 	"shotDelay": 1
 	 }
@@ -80,6 +79,12 @@
       		"amount": 200
     		}
 		        ]
+"coolant": {
+"type": "ConsumeLiquid"
+"liquid": "water"
+"amount": 2
+"coolantMultiplier": 0.6
+}
 "category": "turret"
 "research": "Hyacinth"
 }
