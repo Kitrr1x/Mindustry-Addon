@@ -7,14 +7,14 @@ size: 1
 update: true
 shootCone: 40
 shootShake: 2
-range: 150
+range: 140
 reload: 20
 shootSound: shootBig
 shots: 1
 ammoTypes: {
 silicon: {
 type: MissileBulletType
- lifetime: 60
+ lifetime: 40
 speed: 5
 ammoMultiplier: 4
 shootEffect: shootSmall
@@ -25,7 +25,7 @@ height: 12
 }
 copper: {
 type: MissileBulletType
- lifetime: 60
+ lifetime: 40
 speed: 4
 ammoMultiplier: 3
 shootEffect: shootSmall
