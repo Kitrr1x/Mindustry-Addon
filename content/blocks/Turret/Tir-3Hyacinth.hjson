@@ -15,14 +15,14 @@ shoot: {
 }
 cooldown: 0.03
 range: 200
-reload: 7
+reload: 10
 shootSound: shootBig
 shots: 1
 shootX: 5
 ammoTypes: {
 silicon: {
 	type: MissileBulletType
-	lifetime: 50
+	lifetime: 45
 	speed: 5
 	ammoMultiplier: 4
 	shootEffect: shootSmall
@@ -33,7 +33,7 @@ silicon: {
 }
   pyratite: {
 	type: MissileBulletType
-	lifetime: 50
+	lifetime: 45
 	speed: 5
 	ammoMultiplier: 3
 	shootEffect: shootSmall
@@ -46,7 +46,7 @@ silicon: {
 	    }
 titanium: {
 	type: MissileBulletType
-	lifetime: 50
+	lifetime: 45
 	speed: 5
 	ammoMultiplier: 4
 	shootEffect: shootSmall
