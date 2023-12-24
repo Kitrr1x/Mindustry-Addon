@@ -9,20 +9,20 @@ shootCone: 40
 shootShake: 2
 cooldown: 0.03
 range: 180
-reload: 10
+reload: 15
 shootSound: shootBig
 shots: 1
 shoot: {
 	type: ShootAlternate
 	barrels: 2
-	spread: 3
+	spread: 4
 	shots: 1
 	shotDelay: 1
 }
 ammoTypes: {
 silicon: {
 type: MissileBulletType
- lifetime: 60
+ lifetime: 40
 speed: 5
 ammoMultiplier: 4
 shootEffect: shootSmall
@@ -33,7 +33,7 @@ height: 12
 }
   pyratite: {
 type: MissileBulletType
- lifetime: 60
+ lifetime: 40
 speed: 5
 ammoMultiplier: 3
 shootEffect: shootSmall
@@ -46,7 +46,7 @@ height: 12
 }
 copper: {
 type: MissileBulletType
- lifetime: 60
+ lifetime: 40
 speed: 4
 ammoMultiplier: 3
 shootEffect: shootSmall
@@ -63,5 +63,11 @@ height: 12
 		graphite/30
 		silicon/60
 	]
+coolant: {
+type: ConsumeLiquid
+liquid: water
+amount: 2
+coolantMultiplier: 0.6
+}
 category: turret
 research: Carnation
