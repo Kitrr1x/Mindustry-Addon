@@ -51,8 +51,6 @@ titanium: {
 	ammoMultiplier: 4
 	shootEffect: shootSmall
 	smokeEffect: shootSmallSmoke
-	status: blasted
-	statusDuration: 20
 	damage: 25
 	width: 9
 	height: 12
