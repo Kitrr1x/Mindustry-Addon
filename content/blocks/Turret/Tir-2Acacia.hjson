@@ -65,7 +65,7 @@ coolant: {
 type: ConsumeLiquid
 liquid: water
 amount: 2
-coolantMultiplier: 0.
+coolantMultiplier: 0.1
 }
 category: turret
 research: Carnation
