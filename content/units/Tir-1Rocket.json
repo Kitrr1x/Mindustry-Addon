@@ -1,0 +1,11 @@
+{
+"type": "flying"
+"health": 400
+"flying": true
+"range": 30
+"drag": 0.06
+"accel": 0.06
+"speed":4
+"splashDamageRadius": 30
+"splashDamage": 60
+}
