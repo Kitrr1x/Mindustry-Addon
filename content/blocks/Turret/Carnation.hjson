@@ -40,5 +40,11 @@ height: 12
 		lead/30
 		silicon/30
 	]
+coolant: {
+type: ConsumeLiquid
+liquid: water
+amount: 0.1
+coolantMultiplier: 0.1
+}
 category: turret
 research: duo
