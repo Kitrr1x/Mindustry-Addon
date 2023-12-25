@@ -1,5 +1,5 @@
 {
-"type": "TankUnitType"
+"type": "tank"
 "speed": 2.0
 "hitSize": 8
 "health": 150
