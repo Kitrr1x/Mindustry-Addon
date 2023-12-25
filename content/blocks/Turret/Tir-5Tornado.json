@@ -10,7 +10,7 @@
 "cooldown": 0.03
 "range": 220
 "reload": 5
-"shootSound": "shootBig"
+"shootSound": "missile"
 "shots": 1
 	"shoot": {
 	"type": "ShootAlternate"
