@@ -11,7 +11,6 @@
 "range": 220
 "reload": 5
 "shootSound": "missile"
-"shots": 1
 	"shoot": {
 	"type": "ShootAlternate"
 	"barrels": 6
