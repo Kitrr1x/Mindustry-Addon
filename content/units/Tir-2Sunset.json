@@ -14,6 +14,7 @@
 "weapons": [
 {
   "name": "Sunset-RocketLauncher"
+  "mirror": false
   "shootY": -1
   "reload": 24
   "recoil": 1
