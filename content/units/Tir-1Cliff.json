@@ -3,7 +3,7 @@
 "speed": 2.0
 "hitSize": 8
 "health": 150
-"range: 50
+"range": 50
 "weapons": [
 {
   "name": "Cliff-RocketLauncher"
