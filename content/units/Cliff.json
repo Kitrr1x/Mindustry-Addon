@@ -1,0 +1,27 @@
+{
+"type": "TankUnitType"
+"speed": 2.0
+"hitSize": 8
+"health": 150
+range: 50
+"weapons": [
+{
+  "name": "RocketLauncher"
+  "shootY": -1
+  "reload": 24
+  "recoil": 1
+  "bullet": {
+    "type": "MissileBulletType"
+    "splashDamageRadius": 30
+    "splashDamage": 60
+    "damage": 40
+    "speed": 6.0
+    "lifetime": 30
+    "backColor": "98ffa9"
+    "frontColor": "f0e4a8"
+  }
+  "shootSound": "missile"
+}
+]
+"research": "duo"
+}
