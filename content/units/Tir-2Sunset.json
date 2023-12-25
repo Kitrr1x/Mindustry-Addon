@@ -1,14 +1,14 @@
 {
 "type": "tank"
-"speed": 2.0
+"speed": 3.0
 "hitSize": 8
-"health": 150
-"range": 100
+"health": 250
+"range": 150
   "shoot": {
 	"type": "ShootAlternate"
 	"barrels": 2
 	"spread": 4
-	"shots": 1
+	"shots": 2
 	"shotDelay": 1
 	 }
 "weapons": [
