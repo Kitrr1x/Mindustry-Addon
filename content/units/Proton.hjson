@@ -1,7 +1,7 @@
 type: flying
 health: 1200
 flying: true
-range: 70
+range: 60
 buildSpeed: 8
 mineTier: 8
 mineSpeed: 5.0
@@ -31,25 +31,24 @@ top: false
   type: BasicBulletType 
 }}
 {
-  name: Proton-Best-Weapon
-
+  "name": "Proton-Best-Weapon"
   x: -2
   y: 5
-  mirror: false
-  rotate: false
-  reload: 45
-  shootSound: missile
-  shots: 1
-  bullet: {
-  lifetime: 70
-  splashDamageRadius: 30
-  splashDamage: 60
-  damage: 40
-  type: MissileBulletType
-    status: blasted
-    statusDuration: 60
-    drag: -0.01
-    speed: 3
-    shrinkY: 0
-}}
+  "mirror": false
+  "rotate": false
+  "reload": 45
+  "shootSound": missile
+  "shots": 1
+  "bullet": {
+  "lifetime": 60
+  "splashDamageRadius": 20
+  "splashDamage": 20
+  "damage": 40
+  "type": "MissileBulletType"
+    "status": "blasted"
+    "statusDuration": 60
+    "drag": -0.01
+    "speed": 3
+}
+}
 ]
