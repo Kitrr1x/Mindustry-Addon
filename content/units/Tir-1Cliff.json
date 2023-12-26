@@ -3,7 +3,7 @@
 "speed": 1.0
 "hitSize": 8
 "health": 150
-"range": 100
+"range": 50
 "targetAir": false
 "weapons": [
 {
@@ -19,17 +19,12 @@
   "bullet": {
   "type": "BasicBulletType"
   "spawnUnit": "Cliff-Missile"
-    "health": 45
-    "maxRange": 6
-    "targetAir": false
     "splashDamageRadius": 10
     "splashDamage": 20
     "damage": 10
-    "speed": 3.0
-    "lifetime": 60
+    "lifetime": 50
     "backColor": "98ffa9"
     "frontColor": "f0e4a8"
-    "loopSoundVolume": 0.1
   }
   "shootSound": "missile"
 }
