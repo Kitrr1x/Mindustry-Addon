@@ -1,0 +1,38 @@
+{
+"type": "tank"
+"speed": 3.0
+"hitSize": 8
+"health": 250
+"range": 150
+  "shoot": {
+	"type": "ShootAlternate"
+	"barrels": 4
+	"spread": 4
+	"shots": 4
+	"shotDelay": 1
+	 }
+"weapons": [
+{
+  "name": "Sunset-RocketLauncher"
+  "x": 0
+  "y": -4
+  "mirror": false
+  "rotate": true
+  "shootY": 1
+  "reload": 24
+  "recoil": 1
+  "bullet": {
+    "type": "MissileBulletType"
+    "splashDamageRadius": 40
+    "splashDamage": 60
+    "damage": 60
+    "speed": 6.0
+    "lifetime": 150
+    "backColor": "98ffa9"
+    "frontColor": "f0e4a8"
+  }
+  "shootSound": "missile"
+}
+]
+"research": "duo"
+}
