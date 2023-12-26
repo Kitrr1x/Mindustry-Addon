@@ -11,7 +11,7 @@
   "y": -4
   "mirror": false
   "rotate": true
-  "shootY": -1
+  "shootY": 1
   "reload": 24
   "recoil": 1
   "bullet": {
