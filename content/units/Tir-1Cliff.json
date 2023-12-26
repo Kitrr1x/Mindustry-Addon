@@ -17,7 +17,7 @@
   "reload": 50
   "recoil": 2
   "bullet": {
-  "type": "BasicBulletType"
+  "type": "MissileBulletType"
   "spawnUnit": "Cliff-Missile"
   }
   "shootSound": "missile"
