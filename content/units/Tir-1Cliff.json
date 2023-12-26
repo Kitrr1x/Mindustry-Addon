@@ -3,11 +3,14 @@
 "speed": 2.0
 "hitSize": 8
 "health": 150
-"range": 50
+"range": 100
 "weapons": [
 {
   "name": "Cliff-RocketLauncher"
+  "x": 0
+  "y": -6
   "mirror": false
+  "rotate": true
   "shootY": -1
   "reload": 24
   "recoil": 1
