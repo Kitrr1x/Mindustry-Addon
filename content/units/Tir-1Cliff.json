@@ -19,12 +19,6 @@
   "bullet": {
   "type": "BasicBulletType"
   "spawnUnit": "Cliff-Missile"
-    "splashDamageRadius": 10
-    "splashDamage": 20
-    "damage": 10
-    "lifetime": 50
-    "backColor": "98ffa9"
-    "frontColor": "f0e4a8"
   }
   "shootSound": "missile"
 }
