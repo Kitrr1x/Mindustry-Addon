@@ -20,7 +20,7 @@
     "splashDamage": 60
     "damage": 40
     "speed": 6.0
-    "lifetime": 30
+    "lifetime": 100
     "backColor": "98ffa9"
     "frontColor": "f0e4a8"
   }
