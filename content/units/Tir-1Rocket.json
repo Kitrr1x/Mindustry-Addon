@@ -1,5 +1,5 @@
 {
-"type": "MissileUnitType"
+"type": "missile"
 "health": 400
 "flying": true
 "range": 30
