@@ -14,7 +14,7 @@
 "maxRange": 1
 "lifetime": 100
  
-    "trailLength": 5
+    "trailLength": 10
     "engineLayer": 10
  
 "weapons": [
