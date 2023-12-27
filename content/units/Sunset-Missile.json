@@ -25,13 +25,12 @@
   "rotate": true
   "shootCone": 360
   "shootOnDeath": true
-  "alternate": true
   "hitSound": "largeExplosion"
   "bullet": {
   "splashDamageRadius": 30
   "splashDamage": 60
   "type": "ExplosionBulletType"
-   "killShooter": true
+  "killShooter": true
   "instantDisappear": true
 }
 }
