@@ -1,5 +1,10 @@
 {
 "type": "missile"
+"controller": "MissileAI"
+"template": "MissileUnitType"
+"loopSoundVolume": 0.1
+"lowAltitude": true
+"physics": false
 "health": 500
 "flying": true
 "range": 0
@@ -8,7 +13,10 @@
 "speed": 5.5
 "maxRange": 1
 "lifetime": 200
-"loopSoundVolume": 0.1
+  
+    "trailLength": 44
+    "engineLayer": 10
+ 
 "weapons": [
 {
   "name": "die"
