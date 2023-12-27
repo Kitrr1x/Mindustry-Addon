@@ -16,6 +16,7 @@
   "mirror":false
   "rotate": true
   "shootOnDeath": true
+  "shootCone": 360
   "reload": 1
   "shots": 1
   "alternate": true
