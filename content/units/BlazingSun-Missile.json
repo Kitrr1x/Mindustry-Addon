@@ -1,13 +1,14 @@
 {
 "type": "missile"
-"health": 100
+"health": 300
 "flying": true
-"range": 1
+"range": 0
 "drag": 0.06
 "accel": 0.06
 "speed": 3.5
-"maxRange": 6
-"lifetime": 50
+"maxRange": 1
+"lifetime": 100
+"engineLayer": "Layer.effect"
 "loopSoundVolume": 0.1
 "weapons": [
 {
@@ -23,9 +24,9 @@
   "bullet": {
     "width": 6
     "height": 6
-  "damage": 10
-  "splashDamageRadius": 20
-  "splashDamage": 20
+  "damage": 150
+  "splashDamageRadius": 50
+  "splashDamage": 70
   "type": "ExplosionBulletType"
     
 }
