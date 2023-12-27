@@ -12,6 +12,7 @@
 "weapons": [
 {
   "name": "die"
+  "shootCone": 360
   "top": false 
   "mirror":false
   "rotate": true
