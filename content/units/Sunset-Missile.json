@@ -5,7 +5,7 @@
 "range": 0
 "drag": 0.06
 "accel": 0.06
-"speed": 4.0
+"speed": 3.5
 "maxRange": 1
 "lifetime": 50
 "engineLayer": "Layer.effect"
