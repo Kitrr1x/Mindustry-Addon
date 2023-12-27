@@ -9,7 +9,6 @@
 "maxRange": 1
 "lifetime": 80
 "loopSoundVolume": 0.1
-"engineLayer": "Layer.effect"
 "weapons": [
 {
   "name": "die"
