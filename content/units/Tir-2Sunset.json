@@ -17,7 +17,7 @@
   "reload": 60
   "recoil": 2
   "bullet": {
-  "type": "MissileBulletType"
+  "type": "BulletType"
   "spawnUnit": "Sunset-Missile"
   }
   "shootSound": "missile"
