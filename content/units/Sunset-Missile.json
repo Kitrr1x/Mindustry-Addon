@@ -7,7 +7,7 @@
 "accel": 0.06
 "speed": 3.5
 "maxRange": 1
-"lifetime": 50
+"lifetime": 70
 "engineLayer": "Layer.effect"
 "loopSoundVolume": 0.1
 "weapons": [
