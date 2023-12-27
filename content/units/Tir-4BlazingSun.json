@@ -3,7 +3,7 @@
 "speed": 2.0
 "hitSize": 8
 "health": 600
-"armor": 4
+"armor": 8
 "range": 140
 "targetAir": false
 "weapons": [
@@ -15,10 +15,10 @@
   "rotate": true
   "rotateSpeed": 2
   "shootY": 1
-  "reload": 50
+  "reload": 75
   "recoil": 2
   "bullet": {
-  "type": "MissileBulletType"
+  "type": "BulletType"
   "spawnUnit": "BlazingSun-Missile"
   }
   "shootSound": "missile"
