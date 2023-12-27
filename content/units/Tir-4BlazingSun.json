@@ -1,0 +1,27 @@
+{
+"type": "tank"
+"speed": 2.0
+"hitSize": 8
+"health": 600
+"range": 80
+"targetAir": false
+"weapons": [
+{
+  "name": "Twilight-RocketLauncher"
+  "x": 0
+  "y": -4
+  "mirror": false
+  "rotate": true
+  "rotateSpeed": 2
+  "shootY": 1
+  "reload": 50
+  "recoil": 2
+  "bullet": {
+  "type": "MissileBulletType"
+  "spawnUnit": "Twilight-Missile"
+  }
+  "shootSound": "missile"
+}
+]
+"research": "duo"
+}
