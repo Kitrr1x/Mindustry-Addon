@@ -4,6 +4,7 @@
 "hitSize": 8
 "health": 2000
 "range": 80
+"armor": 8
 "targetAir": false
 "weapons": [
 {
