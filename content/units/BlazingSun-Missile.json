@@ -7,11 +7,11 @@
 "physics": false,
 "health": 300
 "flying": true
-"range": 6
+"range": 5
 "drag": 0.06
 "accel": 0.06
 "speed": 4.5
-"maxRange": 5
+"maxRange": 6
 "lifetime": 160
     
     "trailLength": 5
