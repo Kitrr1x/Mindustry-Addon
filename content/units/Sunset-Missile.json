@@ -1,6 +1,10 @@
 {
 "type": "missile"
 "controller": "MissileAI"
+"template": "MissileUnitType"
+"loopSoundVolume": 0.1
+"lowAltitude": true
+"physics": false,
 "health": 150
 "flying": true
 "range": 0
@@ -8,13 +12,11 @@
 "accel": 0.06
 "speed": 3.5
 "maxRange": 1
- "physics": false,
 "lifetime": 100
-"template": "MissileUnitType"
-"loopSoundVolume": 0.1
-"lowAltitude": true
- "trailLength": 22
- "engineLayer": 10
+ 
+    "trailLength": 5
+    "engineLayer": 10
+ 
 "weapons": [
 {
   "name": "die"
@@ -23,8 +25,6 @@
   "rotate": true
   "shootCone": 360
   "shootOnDeath": true
-  "reload": 1
-  "shots": 1
   "alternate": true
   "hitSound": "largeExplosion"
   "bullet": {
