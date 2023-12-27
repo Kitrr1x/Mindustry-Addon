@@ -1,5 +1,6 @@
 {
 "type": "missile"
+"controller": "MissileAI"
 "health": 150
 "flying": true
 "range": 0
@@ -7,10 +8,13 @@
 "accel": 0.06
 "speed": 3.5
 "maxRange": 1
+ "physics": false,
 "lifetime": 100
+"template": "MissileUnitType"
 "loopSoundVolume": 0.1
 "lowAltitude": true
- "controller": "MissileAI"
+ "trailLength": 22
+ "engineLayer": 10
 "weapons": [
 {
   "name": "die"
@@ -22,14 +26,14 @@
   "reload": 1
   "shots": 1
   "alternate": true
-  "shootSound": "pew"
+  "hitSound": "largeExplosion"
   "bullet": {
-    "width": 6
-    "height": 6
   "splashDamageRadius": 30
   "splashDamage": 60
   "type": "ExplosionBulletType"
-    
+   "killShooter": true
+  "instantDisappear": true
 }
-}]
+}
+]
   }
