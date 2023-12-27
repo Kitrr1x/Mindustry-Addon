@@ -6,8 +6,8 @@
 "drag": 0.06
 "accel": 0.06
 "speed": 3.5
-"maxRange": 6
-"lifetime": 50
+"maxRange": 1
+"lifetime": 60
 "loopSoundVolume": 0.1
 "engineLayer": "Layer.effect"
 "weapons": [
@@ -24,7 +24,7 @@
   "bullet": {
     "width": 6
     "height": 6
-  "damage": 10
+  "damage": 20
   "splashDamageRadius": 20
   "splashDamage": 20
   "type": "ExplosionBulletType"
