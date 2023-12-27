@@ -2,13 +2,14 @@
 "type": "missile"
 "health": 100
 "flying": true
-"range": 1
+"range": 0
 "drag": 0.06
 "accel": 0.06
 "speed": 3.5
 "maxRange": 6
 "lifetime": 50
 "loopSoundVolume": 0.1
+"engineLayer": "Layer.effect"
 "weapons": [
 {
   "name": "die"
