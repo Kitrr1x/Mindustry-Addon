@@ -7,11 +7,11 @@
 "physics": false,
 "health": 200
 "flying": true
-"range": 0
+"range": 5
 "drag": 0.06
 "accel": 0.06
 "speed": 4.0
-"maxRange": 1
+"maxRange": 6
 "lifetime": 110
 "loopSoundVolume": 0.1
      
