@@ -2,7 +2,7 @@
 "type": "tank"
 "speed": 2.0
 "hitSize": 8
-"health": 150
+"health": 500
 "range": 70
 "targetAir": false
 "weapons": [
