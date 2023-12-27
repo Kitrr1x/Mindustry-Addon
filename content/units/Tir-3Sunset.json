@@ -1,0 +1,27 @@
+{
+"type": "tank"
+"speed": 1.0
+"hitSize": 8
+"health": 90
+"range": 50
+"targetAir": false
+"weapons": [
+{
+  "name": "Cliff-RocketLauncher"
+  "x": 0
+  "y": -4
+  "mirror": false
+  "rotate": true
+  "rotateSpeed": 2
+  "shootY": 1
+  "reload": 50
+  "recoil": 2
+  "bullet": {
+  "type": "MissileBulletType"
+  "spawnUnit": "Cliff-Missile"
+  }
+  "shootSound": "missile"
+}
+]
+"research": "duo"
+}
