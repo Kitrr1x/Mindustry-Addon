@@ -13,6 +13,10 @@
 "speed": 4.5
 "maxRange": 1
 "lifetime": 160
+    
+    "trailLength": 5
+    "engineLayer": 30
+ 
 "weapons": [
 {
   "name": "die"
