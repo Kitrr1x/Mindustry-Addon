@@ -1,0 +1,27 @@
+{
+"type": "tank"
+"speed": 1.5
+"hitSize": 8
+"health": 2000
+"range": 80
+"targetAir": false
+"weapons": [
+{
+  "name": "Sunrise-RocketLauncher"
+  "x": 0
+  "y": -4
+  "mirror": false
+  "rotate": true
+  "rotateSpeed": 2
+  "shootY": 1
+  "reload": 50
+  "recoil": 2
+  "bullet": {
+  "type": "MissileBulletType"
+  "spawnUnit": "Sunrise-Missile"
+  }
+  "shootSound": "missile"
+}
+]
+"research": "duo"
+}
