@@ -9,6 +9,8 @@
 "maxRange": 1
 "lifetime": 100
 "loopSoundVolume": 0.1
+"lowAltitude": true
+ "controller": "MissileAI"
 "weapons": [
 {
   "name": "die"
