@@ -14,10 +14,10 @@
   "rotate": true
   "rotateSpeed": 2
   "shootY": 1
-  "reload": 50
+  "reload": 60
   "recoil": 2
   "bullet": {
-  "type": "MissileBulletType"
+  "type": "BulletType"
   "spawnUnit": "Cliff-Missile"
   }
   "shootSound": "missile"
