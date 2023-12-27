@@ -15,6 +15,7 @@
   "top": false 
   "mirror":false
   "rotate": true
+  "shootCone": 360
   "shootOnDeath": true
   "reload": 1
   "shots": 1
@@ -23,9 +24,8 @@
   "bullet": {
     "width": 6
     "height": 6
-  "damage": 20
   "splashDamageRadius": 30
-  "splashDamage": 40
+  "splashDamage": 60
   "type": "ExplosionBulletType"
     
 }
