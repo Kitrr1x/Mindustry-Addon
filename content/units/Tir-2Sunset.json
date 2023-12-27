@@ -1,13 +1,13 @@
 {
 "type": "tank"
-"speed": 1.0
+"speed": 1.5
 "hitSize": 8
-"health": 90
+"health": 120
 "range": 60
 "targetAir": false
 "weapons": [
 {
-  "name": "Cliff-RocketLauncher"
+  "name": "Sunset-RocketLauncher"
   "x": 0
   "y": -4
   "mirror": false
