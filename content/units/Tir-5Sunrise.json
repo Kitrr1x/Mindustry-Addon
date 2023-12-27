@@ -1,10 +1,11 @@
 {
 "type": "tank"
+"template": "TankUnitType"
 "speed": 1.0
 "hitSize": 8
 "health": 2000
 "range": 180
-"armor": 8
+"armor": 16
 "targetAir": false
 "weapons": [
 {
