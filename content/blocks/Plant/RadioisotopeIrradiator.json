@@ -1,5 +1,9 @@
 {
 "type": "GenericCrafter"
+  "hasPower": true
+  "hasItems": true
+  "itemCapacity": 20
+  "craftTime": 120
 "size": 3
 "consumes": {
   "power": 1
