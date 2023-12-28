@@ -1,0 +1,34 @@
+  "name": "Custom Planet",
+  "displayName": "My Awesome Planet",
+  "description": "A unique planet with diverse biomes.",
+  "generator": {
+    "type": "planetGenerator",
+    "data": {
+      "radius": 100,
+      "mesh": "planet_mesh",
+      "baseColor": "#8f7a6c",
+      "atmosphereColor": "#303f9f",
+      "atmosphereRadIn": 0.02,
+      "atmosphereRadOut": 0.3,
+      "startSector": 10
+    }
+  },
+  "loader": {
+    "type": "planetLoader",
+    "data": {
+      "sectors": [
+        {
+          "id": 1,
+          "name": "Landing Site",
+          "description": "The initial landing area. Rich in resources."
+        },
+        {
+          "id": 2,
+          "name": "Challenging Area",
+          "description": "A resource-poor region that poses a significant challenge."
+        }
+        // ... add more sectors as needed ...
+      ]
+    }
+  }
+}
