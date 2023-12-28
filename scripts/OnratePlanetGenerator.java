@@ -1,47 +1,42 @@
 import mindustry.ctype.ContentList;
 import mindustry.game.Planet;
 import mindustry.maps.generators.PlanetGenerator;
-import mindustry.type.SectorPreset;
 import mindustry.graphics.Pal;
-import mindustry.content.Blocks;
+import mindustry.type.Planet;
 import arc.graphics.Color;
-import mindustry.Vars;
+import mindustry.content.Blocks;
 import mindustry.content.Planets;
-import mindustry.graphics.g3d.HexMesh;
+import mindustry.graphics.g3d.PlanetMesh;
+import mindustry.world.meta.BuildVisibility;
 
-public class OnratePlanetGenerator extends PlanetGenerator implements ContentList {
-
-    public static Planet onrate;
+public class OnratePlanet implements ContentList {
 
     @override
-    public void load() {
-        onrate = new Planet("onrate", Planets.sun, 1); // Onrate будет первой планетой вокруг солнца
-        onrate.generator = this;
-        onrate.startSector = 15;
-        onrate.alwaysUnlocked = true;
+    public void load(){
+        Planets.onrate = new Planet("onrate", Planets.sun, 3, 1);
+        Planets.onrate.meshLoader = () -> new PlanetMesh(Planets.onrate, 6, 5, (in, out) -> {
+            // customize your noise function here for the landscape
+        }, () -> new Color[]{Blocks.grass.mapColor, Blocks.sand.mapColor, Blocks.water.mapColor});
+        Planets.onrate.generator = new PlanetGenerator() {
+            // override methods to customize landscape and sector generation
+            @override
+            public void generateSector(Sector sec){
+                // your sector generation code here
+            }
+        };
+        Planets.onrate.orbitRadius = 10;
+        Planets.onrate.orbitTime = 1.5f;
+        Planets.onrate.rotateTime = 30;
+        Planets.onrate.bloom = true;
+        Planets.onrate.accessible = true;
+        Planets.onrate.hasAtmosphere = true;
+        Planets.onrate.atmosphereColor = Color.valueOf("6a6a6a");
+        Planets.onrate.atmosphereRadIn = 0.02f;
+        Planets.onrate.atmosphereRadOut = 0.3f;
+        Planets.onrate.startSector = 15;
+        Planets.onrate.alwaysUnlocked = true;
+        Planets.onrate.buildVisibility = BuildVisibility.shown;
 
-        // Настройки внешнего вида планеты
-        onrate.meshLoader = () -> new HexMesh(onrate, 6);
-        onrate.atmosphereColor = Color.valueOf("6a7a89");
-        onrate.atmosphereRadIn = 0.02f;
-        onrate.atmosphereRadOut = 0.3f;
-        onrate.hasAtmosphere = true;
-        onrate.atmosphereColor = Pal.lancerLaser;
-
-        // Добавляем планету в список игровых планет
-        Planets.all.add(onrate);
-    }
-
-    // Генерация поверхности планеты
-    @override
-    public void generate(SectorPreset sector) {
-        // Логика генерации местности и ресурсов твоей планеты здесь
-    }
-
-    // Дополнительные настройки для секторов после генерации
-    @override
-    public void postGenerate(SectorPreset sector) {
-        sector.difficulty = 3;
-        // Такие параметры, как уровень сложности
+        Planets.all.add(Planets.onrate);
     }
 }
