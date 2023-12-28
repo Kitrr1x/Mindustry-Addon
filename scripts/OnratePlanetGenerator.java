@@ -1,42 +1,75 @@
-import mindustry.ctype.ContentList;
-import mindustry.game.Planet;
-import mindustry.maps.generators.PlanetGenerator;
-import mindustry.graphics.Pal;
-import mindustry.type.Planet;
 import arc.graphics.Color;
+import arc.math.Mathf;
+import arc.util.noise.Simplex;
+import mindustry.ctype.ContentList;
+import mindustry.graphics.Pal;
+import mindustry.maps.generators.PlanetGenerator;
 import mindustry.content.Blocks;
-import mindustry.content.Planets;
-import mindustry.graphics.g3d.PlanetMesh;
-import mindustry.world.meta.BuildVisibility;
+import mindustry.game.Sector;
+import mindustry.type.Planet;
+import mindustry.world.Block;
+import mindustry.world.Pos;
+import mindustry.world.Tiles;
+import mindustry.world.blocks.environment.Floor;
 
-public class OnratePlanet implements ContentList {
+public class OnratePlanetGenerator extends PlanetGenerator implements ContentList {
+
+    Simplex sim;
+    Block water = Blocks.water, stone = Blocks.stone, ice = Blocks.iceSnow;
+
+    public OnratePlanetGenerator(){
+        sim = new Simplex(Mathf.random(100000));
+    }
 
     @override
-    public void load(){
-        Planets.onrate = new Planet("onrate", Planets.sun, 3, 1);
-        Planets.onrate.meshLoader = () -> new PlanetMesh(Planets.onrate, 6, 5, (in, out) -> {
-            // customize your noise function here for the landscape
-        }, () -> new Color[]{Blocks.grass.mapColor, Blocks.sand.mapColor, Blocks.water.mapColor});
-        Planets.onrate.generator = new PlanetGenerator() {
-            // override methods to customize landscape and sector generation
-            @override
-            public void generateSector(Sector sec){
-                // your sector generation code here
-            }
-        };
-        Planets.onrate.orbitRadius = 10;
-        Planets.onrate.orbitTime = 1.5f;
-        Planets.onrate.rotateTime = 30;
-        Planets.onrate.bloom = true;
-        Planets.onrate.accessible = true;
-        Planets.onrate.hasAtmosphere = true;
-        Planets.onrate.atmosphereColor = Color.valueOf("6a6a6a");
-        Planets.onrate.atmosphereRadIn = 0.02f;
-        Planets.onrate.atmosphereRadOut = 0.3f;
-        Planets.onrate.startSector = 15;
-        Planets.onrate.alwaysUnlocked = true;
-        Planets.onrate.buildVisibility = BuildVisibility.shown;
+    public void generate(TileGen tiles){
+        int width = tiles.width;
+        int height = tiles.height;
+        
+        for (int x = 0; x < width; x++) {
+            for (int y = 0; y < height; y++) {
+                float noise = sim.octaveNoise2D(7,0.5, 1/60.0, x, y);
+                float defaultThreshold = 0.5f;
 
-        Planets.all.add(Planets.onrate);
+                if(noise > defaultThreshold){
+                    tiles.setFloor(stone);
+                    if(noise > defaultThreshold + 0.1f){
+                        tiles.setBlock(Blocks.air);
+                    } else {
+                        tiles.setBlock(ice);
+                    }
+                } else {
+                    tiles.setFloor(water);
+                    tiles.setBlock(Blocks.air);
+                }
+            }
+        }
+    }
+    
+    public static class OnratePlanet extends Planet {
+
+        public OnratePlanet() {
+            super("onrate", Planets.sun, 1, 1);
+            generator = new OnratePlanetGenerator();
+            meshLoader = () -> generatePlanetMesh();
+            atmosphereColor = Color.valueOf("6a6a6a");
+            startSector = 15;
+            accessible = true;
+            bloom = true;
+            hasAtmosphere = true;
+            atmosphereRadIn = 0.02f;
+                        atmosphereRadOut = 0.3f;
+
+            // Параметры орбиты и вращения
+            orbitRadius = 10f;
+            orbitTime = 1.5f;
+            rotateTime = 30f;
+        }
+    }
+    
+    // Регистрация планеты в системе контента игры
+    @override
+    public void loadContent() {
+        new OnratePlanet().load();
     }
 }
