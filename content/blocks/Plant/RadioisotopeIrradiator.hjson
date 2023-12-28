@@ -8,14 +8,32 @@ consumes: {
       Cobalt/3
     ]
   }
+"liquid": {
+      "liquid": "water"
+      "amount": 1.0
+    }
 }
 outputItem: Cobalt-60/3
-requirements: [
-copper/100
-graphite/50
-silicon/100
-titanium/50
-lead/50
-thorium/50
-]
+	"requirements": [
+		{
+		"item": "copper"
+		"amount": 200
+		}
+
+		{
+		"item": "Cobalt"
+		"amount": 200
+		}
+
+		{
+		"item": "titanium"
+		"amount": 200
+		}
+
+    		{
+      		"item": "thorium"
+      		"amount": 400
+    		}
+		        ]
+
 category: crafting
