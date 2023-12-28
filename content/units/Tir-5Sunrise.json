@@ -3,7 +3,7 @@
 "template": "TankUnitType"
 "speed": 1.0
 "hitSize": 8
-"health": 2000
+"health": 4000
 "range": 160
 "armor": 16
 "targetAir": false
