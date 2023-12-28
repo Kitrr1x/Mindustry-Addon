@@ -1,19 +1,46 @@
-type: GenericCrafter
-size: 3
-consumes: {
-  power: 2
-  items: {
-    items: [
-pyratite/2
-spore-pod/2
+{
+"type": "GenericCrafter"
+  "hasPower": true
+  "hasItems": true
+  "itemCapacity": 20
+  "craftTime": 120
+"size": 3
+"consumes": {
+  "power": 2
+  "items": {
+    "items": [
+      "pyratite/2",
+      "spore-pod/2"
     ]
-  }
 }
-outputItem: blast-compound/3
-requirements: [
-lead/100
-silicon/50
-copper/100
-titanium/50
-]
-category: crafting
+"liquid": {
+      "liquid": "water"
+      "amount": 1.0
+    }
+}
+"outputItem": "blast-compound/3"
+	"requirements": [
+		{
+		"item": "copper"
+		"amount": 150
+		}
+
+    {
+     	"item": "silicon"
+    	"amount": 50
+  	}
+
+   	{
+      "item": "titanium"
+     	"amount": 200
+   	}
+
+  	{
+      "item": "lead"
+     	"amount": 150
+   	}
+		        ]
+
+"category": "crafting"
+"research": "​surge-smelter"
+}
