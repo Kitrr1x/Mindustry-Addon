@@ -1,0 +1,31 @@
+{
+    "type": "Drill"
+    "health": 100
+    "liquidCapacity": 10
+    "tier": 2
+    "itemCapacity": 10
+    "drillTime": 200
+    "size": 2
+    "hasPower": false
+    "hasLiquids": true
+    "hasItems": true
+    "updateEffect": "pulverize"
+    "updateEffectChance": 1.08
+    "optionalBoostIntensity": 1.5
+    "consumes": {
+          "liquid": {
+      "liquid": "water"
+      "amount": 0.1,
+      "booster": true,
+      "optional": true
+    }
+    },
+    "requirements": [
+copper/30
+
+lead/50
+}
+titanium/50
+    ],
+    "rotateSpeed": 10
+    "category": "production"
