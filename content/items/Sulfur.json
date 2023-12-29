@@ -1,5 +1,6 @@
 {
 "hardness": 1
+"flammability": 1
 "color": "ffffad"
 "research": {
  "parent": "Tin"
