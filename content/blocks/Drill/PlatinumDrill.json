@@ -1,6 +1,6 @@
 {
     "type": "Drill"
-    "health": 200
+    "health": 400
     "liquidCapacity": 10
     "tier": 4
     "itemCapacity": 10
