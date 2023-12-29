@@ -21,11 +21,10 @@
     }
     },
     "requirements": [
-copper/30
-
-lead/50
-}
-titanium/50
-    ],
+		{
+		"item": "Tin"
+		"amount": 15
+		}
+		        ]
     "rotateSpeed": 10
     "category": "production"
