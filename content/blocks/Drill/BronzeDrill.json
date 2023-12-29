@@ -1,0 +1,30 @@
+{
+    "type": "Drill"
+    "health": 200
+    "liquidCapacity": 10
+    "tier": 3
+    "itemCapacity": 10
+    "drillTime": 220
+    "size": 2
+    "hasPower": false
+    "hasLiquids": true
+    "hasItems": true
+    "updateEffect": "pulverize"
+    "updateEffectChance": 0.90
+    "optionalBoostIntensity": 1.5
+    "consumes": {
+          "liquid": {
+      "liquid": "water"
+      "amount": 0.1,
+      "booster": true,
+      "optional": true
+    }
+    },
+    "requirements": [
+		{
+		"item": "Tin"
+		"amount": 15
+		}
+		        ]
+    "rotateSpeed": 9
+    "category": "production"
