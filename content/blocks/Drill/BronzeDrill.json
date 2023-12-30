@@ -11,7 +11,6 @@
     "hasItems": true
     "updateEffect": "pulverize"
     "updateEffectChance": 0.90
-    "drillMultipliers": 2
     "optionalBoostIntensity": 0.5
     "consumes": {
           "liquid": {
