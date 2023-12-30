@@ -4,14 +4,15 @@
     "liquidCapacity": 10
     "tier": 4
     "itemCapacity": 10
-    "drillTime": 90
+    "drillTime": 180
     "size": 3
     "hasPower": false
     "hasLiquids": true
     "hasItems": true
     "updateEffect": "pulverize"
     "updateEffectChance": 0.45
-    "optionalBoostIntensity": 1.5
+    "drillMultipliers": 2
+    "optionalBoostIntensity": 0.5
     "consumes": {
       "power": 3.0
           "liquid": {
