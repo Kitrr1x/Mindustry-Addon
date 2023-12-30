@@ -26,14 +26,15 @@
 		"item": "Tin"
 		"amount": 30
 		}
-	  {
+	  	{
 		"item": "Platinum"
 		"amount": 40
 		}
-    {
+		{
 		"item": "Cadmium"
 		"amount": 20
 		}
 		        ]
     "rotateSpeed": 5
     "category": "production"
+}
