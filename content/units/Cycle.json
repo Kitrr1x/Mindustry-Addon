@@ -1,0 +1,30 @@
+{
+"type": "tank"
+"template": "TankUnitType"
+"speed": 1.0
+"hitSize": 4
+"health": 180
+"range": 40
+"targetAir": false
+"weapons": [
+{
+  "name": "Cycle-Weapon"
+  "x": 0
+  "y": 0
+  "mirror": false  
+  "shootSound": "pew"
+  "rotate": true
+  "rotateSpeed": 2
+  "shootY": 1
+  "reload": 25
+  "recoil": 1
+  "bullet": {
+  "type": "BasicBulletType"
+  "speed": 6
+  "damage": 35
+  }
+
+}
+]
+"research": "duo"
+}
