@@ -11,7 +11,7 @@
     "hasItems": true
     "updateEffect": "pulverize"
     "updateEffectChance": 0.008
-    "optionalBoostIntensity": 0.5
+    "optionalBoostIntensity": 0.2
     "consumes": {
           "liquid": {
       "liquid": "water"
@@ -30,6 +30,6 @@
 		"amount": 10
 		}
 		        ]
-    "rotateSpeed": 9
+    "rotateSpeed": 3
     "category": "production"
 }
