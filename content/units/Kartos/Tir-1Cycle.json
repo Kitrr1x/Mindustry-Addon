@@ -1,7 +1,7 @@
 {
 "type": "tank"
 "template": "TankUnitType"
-"speed": 0.5
+"speed": 0.8
 "hitSize": 4
 "health": 180
 "range": 15
@@ -23,6 +23,8 @@
   "lifetime": 15
   "speed": 6
   "damage": 35
+  "width": 12
+  "height": 12
   }
 
 }
