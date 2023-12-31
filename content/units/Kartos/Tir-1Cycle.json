@@ -1,10 +1,10 @@
 {
 "type": "tank"
 "template": "TankUnitType"
-"speed": 1.0
+"speed": 0.5
 "hitSize": 4
 "health": 180
-"range": 40
+"range": 15
 "targetAir": false
 "weapons": [
 {
@@ -20,6 +20,7 @@
   "recoil": 1
   "bullet": {
   "type": "BasicBulletType"
+  "lifetime": 15
   "speed": 6
   "damage": 35
   }
