@@ -1,0 +1,43 @@
+{
+"type": "itemTurret"
+"category": "turret"
+"research": "duo"
+"targetAir": true
+"targetGround": true
+"coolantMultiplier": 1
+"health": 300
+"size": 1
+"update": true
+"shootCone": 40
+"shootShake": 2
+"range": 100
+"reload": 10
+"shootSound": "pew"
+"shots": 1
+"ammoTypes": {
+"Tin": {
+"type": "BasicBulletType"
+"lifetime": 40
+"speed": 5
+"ammoMultiplier": 2
+"shootEffect": "shootSmall"
+"smokeEffect": "shootSmallSmoke"
+"damage": 20
+"width": 9
+"height": 12
+}
+}
+	"requirements": [
+		{
+		"item": "Tin"
+		"amount": 30
+		}
+		        ]
+"coolant": {
+"type": "ConsumeLiquid"
+"liquid": "water"
+"amount": 0.1
+"coolantMultiplier": 0.2
+}
+
+}
