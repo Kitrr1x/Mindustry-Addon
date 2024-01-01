@@ -9,7 +9,7 @@ shootShake: 2
 cooldown: 0.03
 range: 170
 reload: 15
-shootSound: shootBig
+shootSound: missile
 shots: 1
 shoot: {
 	type: ShootAlternate
