@@ -21,7 +21,7 @@
 "ammoTypes": {
 "blast-compound": {
 	"type": "MissileBulletType"
-	"lifetime": 50
+	"lifetime": 30
 	"speed": 7
 	"ammoMultiplier": 4
 	"shootEffect": "shootSmall"
@@ -34,7 +34,7 @@
 	   }
   "pyratite": {
 	"type": "MissileBulletType"
-	"lifetime": 50
+	"lifetime": 30
 	"speed": 7
 	"ammoMultiplier": 4
 	"shootEffect": "shootSmall"
@@ -47,7 +47,7 @@
 	      }
 "plastanium": {
 	"type": "MissileBulletType"
-	"lifetime": 50
+	"lifetime": 30
 	"speed": 7
 	"ammoMultiplier": 4
 	"shootEffect": "shootSmall"
