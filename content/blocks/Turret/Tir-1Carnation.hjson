@@ -9,7 +9,7 @@ shootCone: 40
 shootShake: 2
 range: 140
 reload: 20
-shootSound: shootBig
+shootSound: missile
 shots: 1
 ammoTypes: {
 silicon: {
