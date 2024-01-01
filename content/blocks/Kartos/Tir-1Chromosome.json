@@ -15,9 +15,9 @@
 "shootSound": "pew"
 "shots": 1
 "ammoTypes": {
-"Tin": {
+	"Tin": {
 "type": "BasicBulletType"
-"lifetime": 40
+"lifetime": 100
 "speed": 5
 "ammoMultiplier": 2
 "shootEffect": "shootSmall"
@@ -26,10 +26,25 @@
 "width": 9
 "height": 12
 }
+	"Platinum": {
+"type": "BasicBulletType"
+"lifetime": 100
+"speed": 5
+"ammoMultiplier": 2
+"shootEffect": "shootSmall"
+"smokeEffect": "shootSmallSmoke"
+"damage": 40
+"width": 9
+"height": 12
+}
 }
 	"requirements": [
 		{
 		"item": "Tin"
+		"amount": 30
+		}
+		{
+		"item": "Platinum"
 		"amount": 30
 		}
 		        ]
