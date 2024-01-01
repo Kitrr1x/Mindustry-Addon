@@ -1,0 +1,33 @@
+{
+"type": "legs"
+"template": "TankUnitType"
+"speed": 0.8
+"hitSize": 4
+"health": 180
+"range": 15
+"rotateSpeed": 2
+"targetAir": true
+"weapons": [
+{
+  "name": "Cycle-Weapon"
+  "x": 0
+  "y": 0
+  "mirror": false  
+  "shootSound": "pew"
+  "rotate": false
+  "shootY": 1
+  "reload": 25
+  "recoil": 1
+  "bullet": {
+  "type": "BasicBulletType"
+  "lifetime": 15
+  "speed": 6
+  "damage": 35
+  "width": 12
+  "height": 12
+  }
+
+}
+]
+"research": "duo"
+}
