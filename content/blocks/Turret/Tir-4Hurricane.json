@@ -46,7 +46,7 @@
 	      }
 "plastanium": {
 	"type": "MissileBulletType"
-	"lifetime": 60
+	"lifetime": 20
 	"speed": 7
 	"ammoMultiplier": 4
 	"shootEffect": "shootSmall"
