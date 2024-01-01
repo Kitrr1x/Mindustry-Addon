@@ -16,7 +16,7 @@ shoot: {
 cooldown: 0.03
 range: 190
 reload: 10
-shootSound: shootBig
+shootSound: missile
 shots: 1
 ammoTypes: {
 silicon: {
