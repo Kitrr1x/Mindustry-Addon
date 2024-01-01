@@ -10,7 +10,7 @@
     "hasLiquids": true
     "hasItems": true
     "updateEffect": "pulverize"
-    "updateEffectChance": 0.008
+    "updateEffectChance": 0.009
     "optionalBoostIntensity": 0.2
     "consumes": {
           "liquid": {
