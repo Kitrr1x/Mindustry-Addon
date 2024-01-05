@@ -6,12 +6,12 @@
 "targetGround": true
 "coolantMultiplier": 1
 "health": 600
-"size": 1
+"size": 2
 "update": true
 "shootCone": 40
 "shootShake": 2
 "range": 200
-"reload": 10
+"reload": 13
 "shootSound": "pew"
 "shots": 1
 "ammoTypes": {
