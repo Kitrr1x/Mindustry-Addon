@@ -39,6 +39,14 @@
 	"requirements": [
 		{
 		"item": "Tin"
+		"amount": 100
+		},
+		{
+		"item": "Cadmium"
+		"amount": 50
+		},
+		{
+		"item": "Bronze"
 		"amount": 30
 		}
 		        ]
