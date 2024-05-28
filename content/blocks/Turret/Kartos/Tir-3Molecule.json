@@ -9,15 +9,25 @@
 "update": true
 "shootCone": 40
 "shootShake": 2
-"range": 250
+"range": 125
 "reload": 30
 "shootSound": "pew"
 "shots": 1
 "ammoTypes": {
 	"Bronze": {
 "type": "BasicBulletType"
-"lifetime": 270
-"speed": 15
+"lifetime": 145
+"speed": 25
+"shootEffect": "shootSmall"
+"smokeEffect": "shootSmallSmoke"
+"damage": 65
+"width": 9
+"height": 15
+},
+	"Platinum": {
+"type": "BasicBulletType"
+"lifetime": 125
+"speed": 20
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
 "damage": 55
