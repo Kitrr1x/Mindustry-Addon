@@ -1,0 +1,53 @@
+{
+"type": "itemTurret"
+"category": "turret"
+"research": "Tir-2Cage"
+"targetAir": true
+"targetGround": true
+"health": 700
+"size": 2
+"update": true
+"shootCone": 40
+"shootShake": 2
+"range": 250
+"reload": 30
+"shootSound": "pew"
+"shots": 1
+"ammoTypes": {
+	"Bronze": {
+"type": "BasicBulletType"
+"lifetime": 270
+"speed": 15
+"shootEffect": "shootSmall"
+"smokeEffect": "shootSmallSmoke"
+"damage": 55
+"width": 9
+"height": 15
+}
+}
+	"requirements": [
+		{
+		"item": "Tin"
+		"amount": 150
+		},
+		{
+		"item": "Cadmium"
+		"amount": 60
+		},
+		{
+		"item": "Bronze"
+		"amount": 60
+		},
+    {
+		"item": "Platinum"
+		"amount": 30
+		}
+		        ]
+"coolant": {
+"type": "ConsumeLiquid"
+"liquid": "water"
+"amount": 0.2
+"coolantMultiplier": 0.5
+}
+
+}
