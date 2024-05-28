@@ -20,7 +20,7 @@
 "speed": 25
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
-"damage": 65
+"damage": 55
 "width": 9
 "height": 15
 },
@@ -30,7 +30,7 @@
 "speed": 20
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
-"damage": 55
+"damage": 65
 "width": 9
 "height": 15
 }
