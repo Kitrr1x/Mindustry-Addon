@@ -1,37 +1,36 @@
 {
 "type": "itemTurret"
 "category": "turret"
-"research": "duo"
+"research": "Tir-1Chromosome"
 "targetAir": true
 "targetGround": true
-"coolantMultiplier": 1
-"health": 600
+"health": 500
 "size": 2
 "update": true
 "shootCone": 40
 "shootShake": 2
-"range": 200
+"range": 150
 "reload": 13
 "shootSound": "pew"
 "shots": 1
 "ammoTypes": {
-	"Bronze": {
+	"Tin": {
 "type": "BasicBulletType"
-"lifetime": 200
+"lifetime": 150
 "speed": 6
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
 "damage": 40
 "width": 9
 "height": 15
-}
-	"Platinum": {
+},
+	"Bronze": {
 "type": "BasicBulletType"
-"lifetime": 5
-"speed": 5
+"lifetime": 170
+"speed": 10
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
-"damage": 55
+"damage": 50
 "width": 9
 "height": 15
 }
