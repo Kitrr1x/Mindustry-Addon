@@ -9,14 +9,14 @@
 "update": true
 "shootCone": 40
 "shootShake": 2
-"range": 100
-"reload": 10
+"range": 75
+"reload": 20
 "shootSound": "pew"
 "shots": 1
 "ammoTypes": {
 	"Tin": {
 "type": "BasicBulletType"
-"lifetime": 5
+"lifetime": 75
 "speed": 5
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
@@ -26,11 +26,11 @@
 }
 	"Platinum": {
 "type": "BasicBulletType"
-"lifetime": 5
-"speed": 5
+"lifetime": 75
+"speed": 10
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
-"damage": 40
+"damage": 50
 "width": 9
 "height": 12
 }
