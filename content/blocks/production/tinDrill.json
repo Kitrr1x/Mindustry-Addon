@@ -1,5 +1,6 @@
 {
     "type": "Drill"
+    "category": "production"
     "health": 100
     "liquidCapacity": 10
     "tier": 2
@@ -27,5 +28,4 @@
 		}
 		        ]
     "rotateSpeed": 2
-    "category": "production"
 }
