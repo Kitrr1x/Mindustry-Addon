@@ -2,7 +2,7 @@
 "type": "Conveyor"
 "health": 40
 "speed": 0.07
-"displayedSpeed": 0.07
+"displayedSpeed": 0.7
 	"requirements": [
 		{
 		"item": "Tin"
