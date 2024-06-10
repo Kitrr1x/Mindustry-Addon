@@ -16,17 +16,17 @@
 "ammoTypes": {
 	"Tin": {
 "type": "BasicBulletType"
-"lifetime": 5
+"lifetime": 8
 "speed": 5
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
 "damage": 15
 "width": 6
 "height": 9
-}
+},
 	"Platinum": {
 "type": "BasicBulletType"
-"lifetime": 5
+"lifetime": 8
 "speed": 5
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
