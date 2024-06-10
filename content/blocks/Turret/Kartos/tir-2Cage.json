@@ -1,7 +1,7 @@
 {
 "type": "itemTurret"
 "category": "turret"
-"research": "Tir-1Chromosome"
+"research": "tir-1Chromosome"
 "targetAir": true
 "targetGround": true
 "health": 600
@@ -16,7 +16,7 @@
 "ammoTypes": {
 	"Tin": {
 "type": "BasicBulletType"
-"lifetime": 50
+"lifetime": 8
 "speed": 7
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
@@ -26,7 +26,7 @@
 },
 	"Bronze": {
 "type": "BasicBulletType"
-"lifetime": 70
+"lifetime": 10
 "speed": 10
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
