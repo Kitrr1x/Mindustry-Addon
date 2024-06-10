@@ -4,56 +4,55 @@
 "research": "Tir-1Chromosome"
 "targetAir": true
 "targetGround": true
-"health": 500
+"health": 600
 "size": 2
 "update": true
 "shootCone": 40
 "shootShake": 2
 "range": 100
-"reload": 17
+"reload": 25
 "shootSound": "pew"
 "shots": 1
 "ammoTypes": {
 	"Tin": {
 "type": "BasicBulletType"
-"lifetime": 100
-"speed": 10
+"lifetime": 50
+"speed": 7
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
-"damage": 40
-"width": 9
-"height": 15
+"damage": 25
+"width": 6
+"height": 9
 },
 	"Bronze": {
 "type": "BasicBulletType"
-"lifetime": 120
-"speed": 15
+"lifetime": 70
+"speed": 10
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
-"damage": 50
-"width": 9
-"height": 15
+"damage": 35
+"width": 6
+"height": 9
 }
 }
 	"requirements": [
 		{
 		"item": "Tin"
-		"amount": 100
+		"amount": 80
 		},
 		{
 		"item": "Cadmium"
-		"amount": 50
+		"amount": 40
 		},
 		{
 		"item": "Bronze"
-		"amount": 30
+		"amount": 20
 		}
 		        ]
 "coolant": {
 "type": "ConsumeLiquid"
 "liquid": "water"
-"amount": 0.1
-"coolantMultiplier": 0.2
+"amount": 0.3
+"coolantMultiplier": 0.6
 }
-
 }
