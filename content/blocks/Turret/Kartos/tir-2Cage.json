@@ -16,7 +16,7 @@
 "ammoTypes": {
 	"Tin": {
 "type": "BasicBulletType"
-"lifetime": 8
+"lifetime": 10
 "speed": 7
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
@@ -26,7 +26,7 @@
 },
 	"Bronze": {
 "type": "BasicBulletType"
-"lifetime": 10
+"lifetime": 12
 "speed": 10
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
