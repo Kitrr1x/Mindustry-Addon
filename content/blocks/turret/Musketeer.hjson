@@ -1,0 +1,40 @@
+type: PowerTurret
+targetAir: true
+targetGround: true
+health: 1500
+size: 2
+update: true
+hasPower: true
+shootEffect: shootBigSmoke2
+shootCone: 10
+shootShake: 2
+range: 230
+reload: 80
+firingMoveFract: 0.5
+shootSound: laser
+shootType: {
+  type: LaserBulletType
+  damage: 240
+  length: 200
+  drawSize: 300
+  incendChance: 0.5
+  incendSpread: 7
+  incendAmount: 1
+}
+	requirements: [
+		copper/100
+		lead/100
+		graphite/20
+		silicon/60
+	]
+category: turret
+research: lancer
+consumes: {
+power: 4
+}
+coolant: {
+type: ConsumeLiquid
+liquid: water
+amount: 2
+coolantMultiplier: 0.3
+}

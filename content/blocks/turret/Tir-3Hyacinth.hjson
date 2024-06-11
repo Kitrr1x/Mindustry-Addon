@@ -1,0 +1,71 @@
+type: itemTurret
+targetAir: true
+targetGround: true
+health: 1400
+size: 2
+update: true
+shootCone: 40
+shootShake: 2
+shoot: {
+	type: ShootAlternate
+	barrels: 4
+	spread: 3
+	shots: 1
+	shotDelay: 1
+}
+cooldown: 0.03
+range: 190
+reload: 10
+shootSound: missile
+shots: 1
+ammoTypes: {
+silicon: {
+	type: MissileBulletType
+	lifetime: 15
+	speed: 5
+	ammoMultiplier: 4
+	shootEffect: shootSmall
+	smokeEffect: shootSmallSmoke
+	damage: 25
+	width: 9
+	height: 12
+}
+  pyratite: {
+	type: MissileBulletType
+	lifetime: 15
+	speed: 5
+	ammoMultiplier: 3
+	shootEffect: shootSmall
+	smokeEffect: shootSmallSmoke
+	splashDamageRadius: 40
+	splashDamage: 40
+	damage: 45
+	width: 9
+	height: 12
+	    }
+titanium: {
+	type: MissileBulletType
+	lifetime: 15
+	speed: 5
+	ammoMultiplier: 4
+	shootEffect: shootSmall
+	smokeEffect: shootSmallSmoke
+	damage: 25
+	width: 9
+	height: 12
+	  }
+}
+	requirements: [
+		copper/200
+		lead/100
+		silicon/60
+    		titanium/100
+		      ]
+coolant: {
+type: ConsumeLiquid
+liquid: water
+amount: 0.1
+coolantMultiplier: 0.2
+}
+category: turret
+research: Tir-2Acacia

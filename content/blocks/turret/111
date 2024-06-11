@@ -1,0 +1,9 @@
+shoot: {
+type: ShootBarrel
+bartrels: [
+0, 0, 0,
+0, 0, 0,
+0, 0, 0
+]
+"type": "BasicBulletType"
+"spawnUnit": "имя юнита"
