@@ -16,7 +16,7 @@
 "ammoTypes": {
 	"Bronze": {
 "type": "BasicBulletType"
-"lifetime": 20
+"lifetime": 17
 "speed": 13
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
@@ -26,7 +26,7 @@
 },
 	"Platinum": {
 "type": "BasicBulletType"
-"lifetime": 17
+"lifetime": 15
 "speed": 10
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
