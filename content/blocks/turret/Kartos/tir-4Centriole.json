@@ -1,23 +1,23 @@
 {
 "type": "itemTurret"
 "category": "turret"
-"research": "Tir-2Cage"
+"research": "tir-3Molecule"
 "targetAir": true
 "targetGround": true
-"health": 1000
+"health": 2400
 "size": 3
 "update": true
 "shootCone": 40
 "shootShake": 2
 "range": 150
-"reload": 30
+"reload": 15
 "shootSound": "pew"
 "shots": 1
 "ammoTypes": {
 	"Bronze": {
 "type": "BasicBulletType"
-"lifetime": 50
-"speed": 25
+"lifetime": 17
+"speed": 18
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
 "damage": 55
@@ -26,8 +26,8 @@
 },
 	"Platinum": {
 "type": "BasicBulletType"
-"lifetime": 125
-"speed": 20
+"lifetime": 15
+"speed": 15
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
 "damage": 65
