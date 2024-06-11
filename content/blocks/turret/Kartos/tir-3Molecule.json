@@ -12,7 +12,7 @@
 "range": 125
 "reload": 20
 "shootSound": "pew"
-"shots": 1
+"shots": 2
 "ammoTypes": {
 	"Bronze": {
 "type": "BasicBulletType"
