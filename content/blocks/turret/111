@@ -7,3 +7,6 @@ bartrels: [
 ]
 "type": "BasicBulletType"
 "spawnUnit": "имя юнита"
+"reloadMultiplier":
+"homingPower":
+"ammoMultiplier":
