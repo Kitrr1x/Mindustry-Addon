@@ -16,7 +16,7 @@
 "ammoTypes": {
 	"Bronze": {
 "type": "BasicBulletType"
-"lifetime": 17
+"lifetime": 15
 "speed": 18
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
@@ -26,7 +26,7 @@
 },
 	"Platinum": {
 "type": "BasicBulletType"
-"lifetime": 15
+"lifetime": 12
 "speed": 15
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
@@ -48,7 +48,11 @@
 		"item": "Bronze"
 		"amount": 60
 		},
-    {
+		{
+		"item": "Bronze"
+		"amount": 60
+		},
+    		{
 		"item": "Platinum"
 		"amount": 30
 		}
@@ -57,6 +61,6 @@
 "type": "ConsumeLiquid"
 "liquid": "water"
 "amount": 0.2
-"coolantMultiplier": 0.5
+"coolantMultiplier": 0.8
 }
 }
