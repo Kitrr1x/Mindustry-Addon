@@ -4,7 +4,7 @@
     "health": 200
     "liquidCapacity": 10
     "itemCapacity": 10
-    "hardnessDrillMultiplier": 75
+    "hardnessDrillMultiplier": 40
     "drillTime": 300
     "tier": 3	
     "size": 2
@@ -24,7 +24,7 @@
 		{
 		"item": "Tin"
 		"amount": 10
-		}
+		},
 	    	{
 		"item": "Bronze"
 		"amount": 10
