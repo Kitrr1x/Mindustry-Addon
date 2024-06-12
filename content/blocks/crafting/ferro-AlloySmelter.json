@@ -1,0 +1,34 @@
+{
+"type": "GenericCrafter"
+"category": "crafting"
+  "hasItems": true
+  "itemCapacity": 10
+  "craftTime": 60
+  "size": 4
+"consumes": {
+  "power": 2
+  "items": {
+    "items": [
+      "Cobalt/3",
+      "Chromium/2",
+      "Platinum/2",
+      "Cadmium/1"
+             ]
+           }
+            }
+"outputItem": "Ferro-Alloy/1"
+	"requirements": [
+		{
+		"item": "Tin"
+		"amount": 100
+		},
+		{
+		"item": "Cadmium"
+		"amount": 50
+		},
+		{
+		"item": "Platinum"
+		"amount": 25
+		},
+		        ]
+}
