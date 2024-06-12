@@ -26,11 +26,15 @@
     "requirements": [
 		{
 		"item": "Tin"
-		"amount": 10
+		"amount": 100
 		},
-	  {
+	    	{
+		"item": "Platinum"
+		"amount": 50
+		},
+	  	{
 		"item": "Bronze"
-		"amount": 10
+		"amount": 50
 		}
 		        ]
     "rotateSpeed": 4
