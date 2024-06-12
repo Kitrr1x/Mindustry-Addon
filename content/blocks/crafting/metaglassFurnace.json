@@ -3,8 +3,8 @@
 "category": "crafting"
   "hasItems": true
   "itemCapacity": 10
-  "craftTime": 45
-  "size": 3
+  "craftTime": 30
+  "size": 2
 "consumes": {
   "power": 1
   "items": {
