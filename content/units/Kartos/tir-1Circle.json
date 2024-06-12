@@ -21,6 +21,7 @@
   "recoil": 1
   "bullet": {
   "type": "LaserBoltBulletType"
+  "pierceCap": 2
   "lifetime": 15
   "healPercent": 10
   "collidesTeam": true
