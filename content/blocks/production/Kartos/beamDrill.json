@@ -5,7 +5,7 @@
     "liquidCapacity": 10
     "tier": 4
     "itemCapacity": 10
-    "consumePower":
+    "consumePower": 3
     "drillTime": 200
     "size": 3
     "hasPower": true
