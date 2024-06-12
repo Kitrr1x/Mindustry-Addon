@@ -52,19 +52,27 @@
 	"requirements": [
 		{
 		"item": "Tin"
-		"amount": 150
+		"amount": 500
 		},
 		{
 		"item": "Cadmium"
-		"amount": 60
+		"amount": 250
+		},
+		{
+		"item": "Ferro-Alloy"
+		"amount": 150
+		},
+		{
+		"item": "Cobalt"
+		"amount": 150
 		},
 		{
 		"item": "Bronze"
-		"amount": 60
+		"amount": 150
 		},
-    {
+    		{
 		"item": "Platinum"
-		"amount": 30
+		"amount": 100
 		}
 		        ]
 "coolant": {
