@@ -9,19 +9,19 @@
   "requirements": [
 		{
 		"item": "Tin"
-		"amount": 7000
+		"amount": 4000
     },
 		{
 		"item": "Cadmium"
-		"amount": 6500
+		"amount": 3500
     },
 		{
 		"item": "Bronze"
-		"amount": 6000
+		"amount": 3000
     },
 		{
 		"item": "Platinum"
-		"amount": 6000
+		"amount": 3000
     }
   ]
 }
