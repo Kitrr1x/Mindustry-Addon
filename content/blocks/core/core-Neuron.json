@@ -1,8 +1,8 @@
 {
   "type": "CoreBlock",
   "category": "effect",
-  "health": 320000,
-  "itemCapacity": 320000,
+  "health": 32000,
+  "itemCapacity": 32000,
   "unitType": "Proton",
   "unitCapModifier": 50,
   "size": 6,
