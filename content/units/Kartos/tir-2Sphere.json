@@ -6,7 +6,7 @@
 "speed": 1.5
 "buildSpeed": 1.0
 "hitSize": 20
-"range": 50
+"range": 40
 "targetAir": false
 "weapons": [
 {
@@ -14,7 +14,7 @@
   "x": 0
   "y": 0
   "mirror": false  
-  "shootSound": "Sounds.laser"
+  "shootSound": "lasershoot"
   "shootEffect": "lancerLaserShoot"
   "rotate": true
   "rotateSpeed": 10
@@ -24,7 +24,7 @@
   "bullet": {
   "type": "LaserBulletType"
   "pierceCap": 5
-  "lifetime": 10
+  "lifetime": 15
   "healPercent": 5
   "collidesTeam": true
   "damage": 200
