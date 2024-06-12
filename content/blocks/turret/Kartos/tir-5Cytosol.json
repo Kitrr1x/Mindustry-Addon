@@ -21,23 +21,23 @@
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
 "damage": 70
-"width": 9
-"height": 15
+"width": 12
+"height": 18
 },
 	"Cobalt": {
 "type": "BasicBulletType"
-"lifetime": 10
+"lifetime": 9
 "speed": 23
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
 "pierceCap": 5
 "damage": 100
-"width": 9
-"height": 15
+"width": 12
+"height": 18
 },
 	"Chromium": {
 "type": "BasicBulletType"
-"lifetime": 7
+"lifetime": 8
 "speed": 20
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
@@ -45,8 +45,8 @@
 "reloadMultiplier": 1.5
 "ammoMultiplier": 3
 "damage": 80
-"width": 9
-"height": 15
+"width": 12
+"height": 18
 }
 }
 	"requirements": [
