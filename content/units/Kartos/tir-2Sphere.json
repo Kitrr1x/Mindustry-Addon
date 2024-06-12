@@ -14,17 +14,18 @@
   "x": 0
   "y": 0
   "mirror": false  
-  "shootSound": "pew"
+  "shootSound": "Sounds.laser"
+  "shootEffect": "lancerLaserShoot"
   "rotate": true
   "rotateSpeed": 10
-  "shootY": 1
-  "reload": 60
+  "shootY": 5
+  "reload": 80
   "recoil": 2
   "bullet": {
   "type": "LaserBulletType"
   "pierceCap": 5
-  "lifetime": 15
-  "healPercent": 15
+  "lifetime": 10
+  "healPercent": 5
   "collidesTeam": true
   "damage": 200
   }
