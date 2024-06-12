@@ -1,0 +1,36 @@
+{
+"type": "flying"
+"health": 800
+"flying": true
+"range": 45
+"buildSpeed": 6
+"mineTier": 2
+"mineSpeed": 3.0
+"drag": 0.06
+"accel": 0.06
+"itemCapacity": 60
+"speed": 4.0
+"weapons": [
+{
+  "name": "tundra-Weapon"
+"top": false 
+  "x": -6
+  "y": -2
+  "rotate": true
+  "reload": 8
+  "shots": 2
+  "alternate": true
+  "shootSound": "pew"
+  "bullet": {
+    "width": 6
+    "height": 9
+  "speed": 5
+  "damage": 10
+  "ammoMultiplier": 1
+  "lifetime": 20
+  "buildingDamageMultiplier": -0.2
+  "type": "BasicBulletType" 
+}
+}
+]
+}
