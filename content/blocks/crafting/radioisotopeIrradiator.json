@@ -21,20 +21,20 @@
 "outputItem": "Cobalt-60/3"
 	"requirements": [
 		{
-		"item": "copper"
+		"item": "Tin"
+		"amount": 300
+		},
+		{
+		"item": "Cadmium"
 		"amount": 200
 		},
 		{
-		"item": "Cobalt"
-		"amount": 200
-		},
-		{
-		"item": "titanium"
+		"item": "Platinum"
 		"amount": 200
 		},
     		{
-      		"item": "thorium"
-      		"amount": 400
+      		"item": "Cobalt"
+      		"amount": 300
     		}
 		        ]
 
