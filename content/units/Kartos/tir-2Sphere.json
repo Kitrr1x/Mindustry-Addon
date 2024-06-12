@@ -16,6 +16,7 @@
   "mirror": false  
   "shootSound": "laser"
   "shootEffect": "lancerLaserShoot"
+  "firstShotDelay": 30
   "rotate": true
   "rotateSpeed": 10
   "shootY": 5
