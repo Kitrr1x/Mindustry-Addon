@@ -1,0 +1,37 @@
+{
+"type": "flying"
+"health": 1000
+"armor": 5
+"flying": true
+"range": 50
+"buildSpeed": 6
+"mineTier": 2
+"mineSpeed": 4.0
+"drag": 0.06
+"accel": 0.06
+"itemCapacity": 80
+"speed": 4.5
+"weapons": [
+{
+  "name": "moon-Weapon"
+"top": false 
+  "x": -6
+  "y": -2
+  "rotate": true
+  "reload": 7
+  "shots": 2
+  "alternate": true
+  "shootSound": "pew"
+  "bullet": {
+    "width": 6
+    "height": 9
+  "speed": 10
+  "damage": 15
+  "ammoMultiplier": 1
+  "lifetime": 15
+  "buildingDamageMultiplier": -0.2
+  "type": "BasicBulletType" 
+}
+}
+]
+}
