@@ -14,7 +14,7 @@
   "x": 0
   "y": 0
   "mirror": false  
-  "shootSound": "bolt"
+  "shootSound": "lasershoot"
   "rotate": true
   "rotateSpeed": 4
   "shootY": 1
