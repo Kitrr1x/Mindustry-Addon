@@ -2,7 +2,7 @@
 "type": "flying"
 "health": 800
 "flying": true
-"range": 45
+"range": 40
 "buildSpeed": 6
 "mineTier": 2
 "mineSpeed": 3.0
