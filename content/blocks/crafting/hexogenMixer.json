@@ -1,6 +1,7 @@
 {
 "type": "GenericCrafter"
 "category": "crafting"
+"health": 600
   "hasItems": true
   "itemCapacity": 10
   "craftTime": 45
@@ -23,7 +24,7 @@
 		{
 		"item": "Cadmium"
 		"amount": 50
-		}
+		},
 		{
 		"item": "Platinum"
 		"amount": 25
