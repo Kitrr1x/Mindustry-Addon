@@ -1,6 +1,7 @@
 {
 "type": "flying"
 "health": 1200
+"armor": 10
 "flying": true
 "range": 60
 "buildSpeed": 8
@@ -42,7 +43,7 @@
   "shootSound": "missile"
   "shots": 1
   "bullet": {
-  "lifetime": 15
+  "lifetime": 40
   "splashDamageRadius": 10
   "splashDamage": 20
   "damage": 40
