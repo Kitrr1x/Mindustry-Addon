@@ -4,7 +4,7 @@
     "health": 100
     "liquidCapacity": 10
     "itemCapacity": 10
-    "hardnessDrillMultiplier": 60
+    "hardnessDrillMultiplier": 50
     "drillTime": 450
     "tier": 2
     "size": 2
