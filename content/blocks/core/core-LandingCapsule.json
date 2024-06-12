@@ -3,7 +3,7 @@
   "health": 2000,
   "itemCapacity": 2000,
   "size": 2,
-  "unitType": "LandingDrone",
+  "unitType": "landingDrone",
   "unitCapModifier": 5,
   "requirements": [
 		{
