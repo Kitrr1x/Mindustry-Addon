@@ -1,0 +1,31 @@
+{
+"type": "GenericCrafter"
+"category": "crafting"
+  "hasItems": true
+  "itemCapacity": 10
+  "craftTime": 45
+  "size": 3
+"consumes": {
+  "items": {
+    "items": [
+      "Sulfur/3",
+      "coal/1"
+             ]
+           }
+            }
+"outputItem": "Hexogen/1"
+	"requirements": [
+		{
+		"item": "Tin"
+		"amount": 100
+		},
+		{
+		"item": "Cadmium"
+		"amount": 50
+		}
+		{
+		"item": "Platinum"
+		"amount": 25
+		},
+		        ]
+}
