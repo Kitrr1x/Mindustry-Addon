@@ -24,7 +24,7 @@
   "bullet": {
   "type": "LaserBulletType"
   "pierceCap": 5
-  "lifetime": 15
+  "lifetime": 5
   "healPercent": 5
   "collidesTeam": true
   "damage": 200
