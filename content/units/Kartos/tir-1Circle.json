@@ -6,7 +6,7 @@
 "speed": 1.0
 "buildSpeed": 0.8
 "hitSize": 10
-"range": 50
+"range": 40
 "targetAir": false
 "weapons": [
 {
@@ -14,9 +14,9 @@
   "x": 0
   "y": 0
   "mirror": false  
-  "shootSound": "pew"
+  "shootSound": "bolt"
   "rotate": true
-  "rotateSpeed": 2
+  "rotateSpeed": 4
   "shootY": 1
   "reload": 45
   "recoil": 1
@@ -24,7 +24,7 @@
   "type": "LaserBoltBulletType"
   "pierceCap": 2
   "lifetime": 15
-  "healPercent": 10
+  "healPercent": 5
   "collidesTeam": true
   "speed": 10
   "damage": 50
