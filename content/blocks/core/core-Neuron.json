@@ -1,5 +1,6 @@
 {
   "type": "CoreBlock",
+  "category": "effect",
   "health": 320000,
   "itemCapacity": 320000,
   "unitType": "Proton",
@@ -30,7 +31,6 @@
 		"item": "Platinum"
 		"amount": 11000
     		}
-  ],
-  "category": "effect",
+  ]
   "research": "core-nucleus"
 }
