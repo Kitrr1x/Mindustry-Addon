@@ -1,0 +1,44 @@
+{
+    "type": "Drill"
+    "category": "production"
+    "health": 1600
+    "liquidCapacity": 50
+    "itemCapacity": 50
+    "drillTime": 10
+    "hardnessDrillMultiplier": 0
+    "tier": 6
+    "size": 5
+    "hasPower": true
+    "hasLiquids": true
+    "hasItems": true
+    "updateEffect": "pulverizeRed"
+    "drillEffect": "mineHuge"
+    "consumes": {
+    "power": 4
+          "liquid": {
+      "liquid": "water"
+      "amount": 0.2,
+      "booster": false,
+      "optional": false
+    }
+    },
+    "requirements": [
+		{
+		"item": "Tin"
+		"amount": 300
+		},
+	  	{
+		"item": "Cadmium"
+		"amount": 250
+		},
+	  	{
+		"item": "Platinum"
+		"amount": 150
+		},
+	  	{
+		"item": "Chromium"
+		"amount": 100
+		},
+		        ]
+    "rotateSpeed": 6
+}
