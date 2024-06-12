@@ -1,0 +1,36 @@
+{
+"type": "flying"
+"health": 600
+"flying": true
+"range": 40
+"buildSpeed": 5
+"mineTier": 2
+"mineSpeed": 2.0
+"drag": 0.06
+"accel": 0.06
+"itemCapacity": 40
+"speed": 4.0
+"weapons": [
+{
+  "name": "discharge-Weapon"
+"top": false 
+  "x": -6
+  "y": -2
+  "rotate": true
+  "reload": 8
+  "shots": 2
+  "alternate": true
+  "shootSound": "pew"
+  "bullet": {
+    "width": 6
+    "height": 9
+  "speed": 5
+  "damage": 10
+  "ammoMultiplier": 1
+  "lifetime": 20
+  "buildingDamageMultiplier": -0.2
+  "type": "BasicBulletType" 
+}
+}
+]
+}
