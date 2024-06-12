@@ -9,7 +9,7 @@
   "power": 4
   "liquid": {
       "liquid": "water"
-      "amount": 2.0
+      "amount": 0.5
     },
   "items": {
     "items": [
