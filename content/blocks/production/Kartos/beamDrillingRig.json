@@ -26,12 +26,20 @@
     "requirements": [
 		{
 		"item": "Tin"
-		"amount": 10
+		"amount": 300
 		},
-	  {
-		"item": "Bronze"
-		"amount": 10
-		}
+	  	{
+		"item": "Cadmium"
+		"amount": 250
+		},
+	  	{
+		"item": "Platinum"
+		"amount": 150
+		},
+	  	{
+		"item": "Chromium"
+		"amount": 100
+		},
 		        ]
     "rotateSpeed": 6
 }
