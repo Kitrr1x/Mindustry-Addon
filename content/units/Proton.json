@@ -1,0 +1,57 @@
+{
+"type": "flying"
+"health": 1200
+"flying": true
+"range": 50
+"buildSpeed": 8
+"mineTier": 4
+"mineSpeed": 5.0
+"drag": 0.06
+"accel": 0.06
+"itemCapacity": 120
+"speed": 5.0
+"weapons": [
+{
+  "name": "Proton-Weapon"
+"top": false 
+  "x": -6
+  "y": -2
+  "rotate": true
+  "reload": 7
+  "shots": 2
+  "alternate": true
+  "shootSound": "pew"
+  "bullet": {
+    "width": 6
+    "height": 9
+  "speed": 10
+  "damage": 15
+  "ammoMultiplier": 1
+  "lifetime": 15
+  "buildingDamageMultiplier": -0.5
+  "type": "BasicBulletType" 
+}
+},
+{
+  "name": "Proton-Best-Weapon"
+  "x": -2
+  "y": 5
+  "mirror": false
+  "rotate": false
+  "reload": 45
+  "shootSound": "missile"
+  "shots": 1
+  "bullet": {
+  "lifetime": 15
+  "splashDamageRadius": 20
+  "splashDamage": 20
+  "damage": 40
+  "type": "MissileBulletType"
+    "status": "blasted"
+    "statusDuration": 60
+    "drag": -0.01
+    "speed": 3
+}
+}
+]
+}
