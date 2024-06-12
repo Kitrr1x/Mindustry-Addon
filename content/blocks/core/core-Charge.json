@@ -1,11 +1,11 @@
 {
   "type": "CoreBlock",
   "category": "effect"
-  "health": 2000,
-  "itemCapacity": 2000,
-  "size": 2,
+  "health": 4000,
+  "itemCapacity": 4000,
+  "size": 3,
   "unitType": "LandingDrone",
-  "unitCapModifier": 5,
+  "unitCapModifier": 10,
   "requirements": [
 		{
 		"item": "Tin"
