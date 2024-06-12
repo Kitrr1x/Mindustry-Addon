@@ -1,0 +1,35 @@
+{
+"type": "tank"
+"template": "TankUnitType"
+"health": 1200
+"armor": 10
+"speed": 1.5
+"buildSpeed": 1.0
+"hitSize": 20
+"range": 50
+"targetAir": false
+"weapons": [
+{
+  "name": "Circle-Weapon"
+  "x": 0
+  "y": 0
+  "mirror": false  
+  "shootSound": "pew"
+  "rotate": true
+  "rotateSpeed": 10
+  "shootY": 1
+  "reload": 60
+  "recoil": 2
+  "bullet": {
+  "type": "LaserBulletType"
+  "pierceCap": 5
+  "lifetime": 15
+  "healPercent": 15
+  "collidesTeam": true
+  "damage": 200
+  }
+
+}
+]
+"research": "duo"
+}
