@@ -1,0 +1,13 @@
+{
+"type": "flying"
+"health": 400
+"flying": true
+"range": 30
+"buildSpeed": 4
+"mineTier": 2
+"mineSpeed": 3.0
+"drag": 0.06
+"accel": 0.06
+"itemCapacity": 20
+"speed": 3.5
+}
