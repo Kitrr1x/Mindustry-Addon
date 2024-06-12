@@ -6,7 +6,7 @@
 "speed": 1.5
 "buildSpeed": 1.0
 "hitSize": 20
-"range": 40
+"range": 30
 "targetAir": false
 "weapons": [
 {
@@ -24,7 +24,7 @@
   "bullet": {
   "type": "LaserBulletType"
   "pierceCap": 5
-  "lifetime": 5
+  "lifetime": 20
   "healPercent": 5
   "collidesTeam": true
   "damage": 200
