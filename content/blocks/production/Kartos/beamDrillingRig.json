@@ -4,14 +4,14 @@
     "health": 400
     "liquidCapacity": 10
     "itemCapacity": 10
-    "drillTime": 200
+    "drillTime": 180
     "hardnessDrillMultiplier": 20
     "tier": 5
     "size": 4
     "hasPower": true
     "hasLiquids": true
     "hasItems": true
-    "liquidBoostIntensity": 3
+    "liquidBoostIntensity": 2.0
     "updateEffect": "pulverizeRed"
     "drillEffect": "mineHuge"
     "consumes": {
