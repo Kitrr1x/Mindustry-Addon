@@ -6,7 +6,11 @@
   "craftTime": 60
   "size": 4
 "consumes": {
-  "power": 2
+  "power": 4
+  "liquid": {
+      "liquid": "water"
+      "amount": 2.0
+    },
   "items": {
     "items": [
       "Cobalt/3",
