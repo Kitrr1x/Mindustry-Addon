@@ -1,6 +1,7 @@
 {
 "type": "GenericCrafter"
 "category": "crafting"
+"health": 1200
   "hasItems": true
   "itemCapacity": 10
   "craftTime": 60
