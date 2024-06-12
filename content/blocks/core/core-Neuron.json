@@ -1,0 +1,32 @@
+{
+  "type": "CoreBlock",
+  "health": 10000,
+  "itemCapacity": 20000,
+  "unitType": "Proton",
+  "unitCapModifier": 50,
+  "size": 6,
+	"requirements": [
+		{
+		"item": "Tin"
+		"amount": 9000
+    },
+		{
+		"item": "Cadmium"
+		"amount": 8000
+    },
+		{
+		"item": "Chromium"
+		"amount": 7000
+    },
+		{
+		"item": "Bronze"
+		"amount": 6000
+    },
+		{
+		"item": "Platinum"
+		"amount": 5000
+    },
+  ],
+  "category": "effect",
+  "research": "core-nucleus"
+}
