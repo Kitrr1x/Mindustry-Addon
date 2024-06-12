@@ -1,7 +1,8 @@
 {
 "type": "tank"
 "template": "TankUnitType"
-"health": 400
+"health": 600
+"armor": 5
 "speed": 1.0
 "buildSpeed": 0.8
 "hitSize": 4
