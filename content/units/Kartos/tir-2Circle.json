@@ -1,11 +1,11 @@
 {
 "type": "tank"
 "template": "TankUnitType"
+"health": 400
 "speed": 1.0
 "buildSpeed": 0.8
 "hitSize": 4
-"health": 400
-"range": 25
+"range": 50
 "targetAir": false
 "weapons": [
 {
@@ -21,10 +21,10 @@
   "recoil": 1
   "bullet": {
   "type": "LaserBoltBulletType"
-  "lifetime": 25
+  "lifetime": 15
   "healPercent": 10
   "collidesTeam": true
-  "speed": 6
+  "speed": 10
   "damage": 50
   }
 
