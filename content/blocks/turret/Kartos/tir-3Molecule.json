@@ -57,6 +57,6 @@
 "type": "ConsumeLiquid"
 "liquid": "water"
 "amount": 0.2
-"coolantMultiplier": 0.7
+"coolantMultiplier": 0.8
 }
 }
