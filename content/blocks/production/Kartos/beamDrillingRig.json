@@ -1,0 +1,36 @@
+{
+    "type": "Drill"
+    "category": "production"
+    "health": 400
+    "liquidCapacity": 10
+    "itemCapacity": 10
+    "tier": 5
+    "drillTime": 100
+    "size": 4
+    "hasPower": true
+    "hasLiquids": true
+    "hasItems": true
+    "optionalBoostIntensity": 2.5
+    "updateEffect": "pulverizeRed"
+    "drillEffect": "mineHuge"
+    "consumes": {
+    "power": 2
+          "liquid": {
+      "liquid": "water"
+      "amount": 0.1,
+      "booster": true,
+      "optional": true
+    }
+    },
+    "requirements": [
+		{
+		"item": "Tin"
+		"amount": 10
+		},
+	  {
+		"item": "Bronze"
+		"amount": 10
+		}
+		        ]
+    "rotateSpeed": 6
+}
