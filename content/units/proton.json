@@ -43,7 +43,7 @@
   "shots": 1
   "bullet": {
   "lifetime": 15
-  "splashDamageRadius": 20
+  "splashDamageRadius": 10
   "splashDamage": 20
   "damage": 40
   "type": "MissileBulletType"
