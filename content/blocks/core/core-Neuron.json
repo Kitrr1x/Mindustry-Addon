@@ -4,7 +4,7 @@
   "health": 32000,
   "itemCapacity": 32000,
   "unitType": "Proton",
-  "unitCapModifier": 50,
+  "unitCapModifier": 60,
   "size": 6,
 	"requirements": [
 		{
