@@ -5,7 +5,7 @@
     "liquidCapacity": 10
     "itemCapacity": 10
     "drillTime": 200
-    "hardnessDrillMultiplier": 200
+    "hardnessDrillMultiplier": 20
     "tier": 5
     "size": 4
     "hasPower": true
