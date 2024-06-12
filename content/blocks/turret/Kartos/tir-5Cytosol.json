@@ -1,36 +1,50 @@
 {
 "type": "itemTurret"
 "category": "turret"
-"research": "Tir-2Cage"
+"research": "tir-4Centriole"
 "targetAir": true
 "targetGround": true
-"health": 700
-"size": 2
+"health": 4800
+"size": 4
 "update": true
 "shootCone": 40
 "shootShake": 2
-"range": 125
-"reload": 30
+"range": 175
+"reload": 10
 "shootSound": "pew"
 "shots": 1
 "ammoTypes": {
 	"Bronze": {
 "type": "BasicBulletType"
-"lifetime": 145
-"speed": 25
+"lifetime": 10
+"speed": 23
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
-"damage": 55
+"damage": 70
 "width": 9
 "height": 15
 },
-	"Platinum": {
+	"Cobalt": {
 "type": "BasicBulletType"
-"lifetime": 125
+"lifetime": 10
+"speed": 23
+"shootEffect": "shootSmall"
+"smokeEffect": "shootSmallSmoke"
+"pierceCap": 5
+"damage": 100
+"width": 9
+"height": 15
+},
+	"Chromium": {
+"type": "BasicBulletType"
+"lifetime": 7
 "speed": 20
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
-"damage": 65
+"homingPower": 0.2
+"reloadMultiplier": 1.5
+"ammoMultiplier": 3
+"damage": 80
 "width": 9
 "height": 15
 }
@@ -56,7 +70,7 @@
 "coolant": {
 "type": "ConsumeLiquid"
 "liquid": "water"
-"amount": 0.2
-"coolantMultiplier": 0.5
+"amount": 0.3
+"coolantMultiplier": 1.0
 }
 }
