@@ -3,8 +3,8 @@
     "category": "production"
     "health": 100
     "liquidCapacity": 10
-    "tier": 2
     "itemCapacity": 10
+    "tier": 2
     "drillTime": 400
     "size": 2
     "hasPower": false
