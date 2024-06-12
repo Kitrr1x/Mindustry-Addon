@@ -3,7 +3,7 @@
   "category": "effect",
   "health": 32000,
   "itemCapacity": 32000,
-  "unitType": "Proton",
+  "unitType": "proton",
   "unitCapModifier": 60,
   "size": 6,
 	"requirements": [
