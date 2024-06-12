@@ -37,7 +37,7 @@
 },
 	"Chromium": {
 "type": "BasicBulletType"
-"lifetime": 8
+"lifetime": 9
 "speed": 20
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
