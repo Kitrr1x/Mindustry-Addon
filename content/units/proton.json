@@ -2,13 +2,13 @@
 "type": "flying"
 "health": 1200
 "flying": true
-"range": 50
+"range": 60
 "buildSpeed": 8
-"mineTier": 4
+"mineTier": 3
 "mineSpeed": 5.0
 "drag": 0.06
 "accel": 0.06
-"itemCapacity": 120
+"itemCapacity": 100
 "speed": 5.0
 "weapons": [
 {
@@ -28,7 +28,7 @@
   "damage": 15
   "ammoMultiplier": 1
   "lifetime": 15
-  "buildingDamageMultiplier": -0.5
+  "buildingDamageMultiplier": -0.2
   "type": "BasicBulletType" 
 }
 },
