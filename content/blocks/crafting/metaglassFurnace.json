@@ -1,0 +1,32 @@
+{
+"type": "GenericCrafter"
+"category": "crafting"
+  "hasItems": true
+  "itemCapacity": 10
+  "craftTime": 45
+  "size": 3
+"consumes": {
+  "power": 1
+  "items": {
+    "items": [
+      "sand/3",
+      "Cadmium/1"
+             ]
+           }
+            }
+"outputItem": "metaglass/1"
+	"requirements": [
+		{
+		"item": "Tin"
+		"amount": 60
+		},
+		{
+		"item": "Cadmium"
+		"amount": 30
+		},
+		{
+		"item": "Bronze"
+		"amount": 15
+		}
+		        ]
+}
