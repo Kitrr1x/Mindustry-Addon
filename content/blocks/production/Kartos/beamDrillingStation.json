@@ -5,7 +5,7 @@
     "liquidCapacity": 50
     "itemCapacity": 50
     "drillTime": 30
-    "hardnessDrillMultiplier": 0
+    "hardnessDrillMultiplier": 0.1
     "liquidBoostIntensity": 0
     "tier": 6
     "size": 5
