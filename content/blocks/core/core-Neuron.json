@@ -9,19 +9,19 @@
 		{
 		"item": "Tin"
 		"amount": 9000
-    },
+   		},
 		{
 		"item": "Cadmium"
 		"amount": 8000
-    },
+   		},
 		{
 		"item": "Chromium"
 		"amount": 7000
-    },
+   		},
 		{
 		"item": "Bronze"
 		"amount": 6000
-    },
+    		},
 		{
 		"item": "Platinum"
 		"amount": 5000
