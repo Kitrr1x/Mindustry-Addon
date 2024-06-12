@@ -30,6 +30,7 @@
 "speed": 23
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
+"pierceCap": 5
 "damage": 100
 "width": 9
 "height": 15
