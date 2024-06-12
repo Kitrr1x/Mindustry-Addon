@@ -11,7 +11,7 @@
     "hasPower": true
     "hasLiquids": true
     "hasItems": true
-    "liquidBoostIntensity": 1.5
+    "liquidBoostIntensity": 3
     "updateEffect": "pulverizeRed"
     "drillEffect": "mineHuge"
     "consumes": {
