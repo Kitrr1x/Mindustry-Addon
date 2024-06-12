@@ -1,0 +1,29 @@
+{
+"type": "GenericCrafter"
+"category": "crafting"
+  "hasPower": true
+  "hasItems": true
+  "itemCapacity": 10
+  "craftTime": 60
+  "size": 3
+"consumes": {
+  "power": 1
+  "items": {
+    "items": [
+      "Tin/1",
+      "Cadmium/1"
+             ]
+           }
+            }
+"outputItem": "Bronze/1"
+	"requirements": [
+		{
+		"item": "Tin"
+		"amount": 50
+		},
+		{
+		"item": "Cadmium"
+		"amount": 25
+		}
+		        ]
+}
