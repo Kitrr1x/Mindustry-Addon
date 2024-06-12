@@ -14,7 +14,7 @@
   "x": 0
   "y": 0
   "mirror": false  
-  "shootSound": "lasershoot"
+  "shootSound": "laser"
   "shootEffect": "lancerLaserShoot"
   "rotate": true
   "rotateSpeed": 10
