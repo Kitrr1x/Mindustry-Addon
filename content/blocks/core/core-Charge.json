@@ -1,0 +1,23 @@
+{
+  "type": "CoreBlock",
+  "category": "effect"
+  "health": 2000,
+  "itemCapacity": 2000,
+  "size": 2,
+  "unitType": "LandingDrone",
+  "unitCapModifier": 5,
+  "requirements": [
+		{
+		"item": "Tin"
+		"amount": 1500
+    },
+		{
+		"item": "Cadmium"
+		"amount": 1250
+    },
+		{
+		"item": "Bronze"
+		"amount": 1000
+    },
+  ],
+}
