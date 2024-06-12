@@ -25,15 +25,24 @@
 	"requirements": [
 		{
 		"item": "Tin"
-		"amount": 100
+		"amount": 250
 		},
 		{
 		"item": "Cadmium"
-		"amount": 50
+		"amount": 150
 		},
 		{
 		"item": "Platinum"
-		"amount": 25
+		"amount": 130
 		},
+		{
+		"item": "Chromium"
+		"amount": 120
+		},
+		{
+		"item": "Cobalt"
+		"amount": 80
+		},
+
 		        ]
 }
