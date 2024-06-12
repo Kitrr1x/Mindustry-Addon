@@ -1,13 +1,11 @@
 {
 "type": "GenericCrafter"
 "category": "crafting"
-  "hasPower": true
   "hasItems": true
   "itemCapacity": 10
-  "craftTime": 60
+  "craftTime": 45
   "size": 3
 "consumes": {
-  "power": 1
   "items": {
     "items": [
       "Tin/1",
