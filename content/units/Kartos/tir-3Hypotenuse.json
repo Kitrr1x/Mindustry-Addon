@@ -32,8 +32,8 @@
   "shake": 1
   "damage": 70
   "lifetime": 100
-  "length": 160
-  "drawSize": 300
+  "length": 150
+  "drawSize": 250
   "healPercent": 5
   "collidesTeam": true
   "hitEffect": "hitMeltHeal"
