@@ -18,9 +18,9 @@
   "rotate": true
   "continuous": true
   "rotateSpeed": 10
-  "cooldownTime": 200
-  "firstShotDelay": 30
-  "reload": 160
+  "cooldownTime": 180
+  "firstShotDelay": 20
+  "reload": 150
   "recoil": 0
   "shootY": 5
   "bullet": {
@@ -29,11 +29,10 @@
   "incendAmount": 1
   "type": "ContinuousLaserBulletType"
   "shake": 1
-  "damage": 40
-  "pierceCap": 5
-  "lifetime": 160
-  "length": 180
-  "drawSize": 420
+  "damage": 50
+  "lifetime": 100
+  "length": 160
+  "drawSize": 400
   "healPercent": 5
   "collidesTeam": true
   "hitEffect": "hitMeltHeal"
