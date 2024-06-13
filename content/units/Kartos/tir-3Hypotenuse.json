@@ -22,7 +22,7 @@
   "rotateSpeed": 10
   "cooldownTime": 200
   "firstShotDelay": 30
-  "reload" = 160
+  "reload": 160
   "recoil": 0
   "shootY": 5
   "bullet": {
