@@ -7,7 +7,7 @@
 "buildSpeed": 1.5
 "hitSize": 30
 "range": 50
-"targetAir": false
+"targetAir": true
 "weapons": [
 {
   "name": "Hypotenuse-Weapon"
@@ -25,6 +25,9 @@
   "recoil": 0
   "shootY": 5
   "bullet": {
+  "incendChance": 0.15
+  "incendSpread": 5
+  "incendAmount": 1
   "type": "ContinuousLaserBulletType"
   "shake": 1
   "damage": 40
