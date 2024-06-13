@@ -2,12 +2,12 @@
 "type": "ConsumeGenerator"
 "category": "power"
 "health": 600
-"size": 4
+"size": 2
 "powerProduction": 5
   "consumes": {
   "liquid": {
    "liquid": "oil"
-    "amount": 1.0
+    "amount": 0.5
   	    }
 	    } 
   	"requirements": [
