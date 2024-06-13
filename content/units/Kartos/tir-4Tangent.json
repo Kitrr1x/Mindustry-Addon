@@ -1,0 +1,47 @@
+{
+"type": "tank"
+"template": "TankUnitType"
+"health": 8000
+"armor": 20
+"speed": 1.5
+"rotateSpeed": 15
+"buildSpeed": 2.0
+"hitSize": 50
+"targetAir": true
+"weapons": [
+{
+  "name": "Tangent-Weapon"
+  "x": 0
+  "y": 0
+  "mirror": false  
+  "shootSound": "railgun"
+  "rotate": true
+  "continuous": true
+  "rotateSpeed": 5
+  "cooldownTime": 80
+  "reload": 150
+  "recoil": 7
+  "shootY": 5
+  "bullet": {
+  "incendChance": 0.15
+  "incendSpread": 5
+  "incendAmount": 1
+  "type": "RailBulletType"
+  "shake": 1
+  "damage": 600
+  "lifetime": 100
+  "length": 400
+  "drawSize": 250
+  "healPercent": 5
+  "pierceDamageFactor": 0.7
+  "collidesTeam": true
+  "shootEffect": "railShoot"
+  "pierceEffect": "railHit"
+  "pointEffect": "railTrail"
+  "hitEffect": "massiveExplosion"
+  "smokeEffect": "shootBig2"
+  }
+}
+]
+"research": "duo"
+}
