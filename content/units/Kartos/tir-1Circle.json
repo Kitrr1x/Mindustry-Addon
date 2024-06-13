@@ -24,11 +24,12 @@
   "bullet": {
   "type": "LaserBoltBulletType"
   "pierceCap": 2
-  "lifetime": 15
+  "lifetime": 14
   "healPercent": 5
   "collidesTeam": true
   "speed": 10
   "damage": 50
+  "length": 140
   }
 
 }
