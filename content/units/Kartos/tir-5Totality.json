@@ -4,9 +4,9 @@
 "health": 16000
 "armor": 30
 "speed": 1.0
-"rotateSpeed": 10
+"rotateSpeed": 8
 "buildSpeed": 3.0
-"hitSize": 55
+"hitSize": 40
 "targetAir": true
 "drownTimeMultiplier": 5
 "weapons": [
