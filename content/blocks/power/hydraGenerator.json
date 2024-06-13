@@ -1,0 +1,23 @@
+{
+"type": "ConsumeGenerator"
+"category": "power"
+"health": 600
+"size": 2
+"powerProduction": 3
+  "consumes": {
+  "liquid": {
+   "liquid": "water"
+    "amount": 0.5
+  	    }
+	    } 
+  	"requirements": [
+		{
+		"item": "Tin"
+		"amount": 150
+		},
+		{
+		"item": "Cadmium"
+		"amount": 100
+		}
+			]
+		}
