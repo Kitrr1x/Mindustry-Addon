@@ -23,7 +23,9 @@
   "continuous": true
   "rotateSpeed": 3
   "cooldownTime": 250
-  "reload": 100
+  "shootStatusDuration": 100
+  "shootStatus": "unmoving"
+  "reload": 250
   "recoil": 0
   "shootY": 5
   "bullet": {
