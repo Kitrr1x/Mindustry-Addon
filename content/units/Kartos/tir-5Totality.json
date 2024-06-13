@@ -1,0 +1,51 @@
+{
+"type": "tank"
+"template": "TankUnitType"
+"health": 16000
+"armor": 30
+"speed": 1.0
+"rotateSpeed": 10
+"buildSpeed": 3.0
+"hitSize": 55
+"targetAir": true
+"drownTimeMultiplier": 5
+"weapons": [
+{
+  "name": "Totality-Weapon"
+  "x": 0
+  "y": 0
+  "shake": 10
+  "mirror": false  
+  "shootSound": "laserblast"
+  "chargeSound": "lasercharge"
+  "soundPitchMin": 1
+  "rotate": true
+  "continuous": true
+  "rotateSpeed": 3
+  "cooldownTime": 250
+  "reload": 100
+  "recoil": 0
+  "shootY": 5
+  "bullet": {
+  "type": "LaserBulletType"
+
+  "damage": 1400
+  "lifetime": 70
+  "length": 500
+  "width": 70
+  "lightningSpacing": 35
+  "lightningLength": 5
+  "lightningDelay": 1.1
+  "lightningLengthRand": 15
+  "lightningDamage": 50
+  "lightningAngleRand": 40
+  "largeHit": true
+  "chargeEffect": "greenLaserCharge"
+  "healPercent": 25
+  "collidesTeam": true
+
+  }
+}
+]
+"research": "duo"
+}
