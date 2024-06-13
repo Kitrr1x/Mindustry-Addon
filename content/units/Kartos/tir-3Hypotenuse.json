@@ -30,10 +30,10 @@
   "incendAmount": 1
   "type": "ContinuousLaserBulletType"
   "shake": 1
-  "damage": 50
+  "damage": 70
   "lifetime": 100
   "length": 160
-  "drawSize": 400
+  "drawSize": 300
   "healPercent": 5
   "collidesTeam": true
   "hitEffect": "hitMeltHeal"
