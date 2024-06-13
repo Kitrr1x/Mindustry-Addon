@@ -4,7 +4,7 @@
   "health": 4000,
   "itemCapacity": 4000,
   "size": 3,
-  "unitType": "landingDrone",
+  "unitType": "discharge",
   "unitCapModifier": 10,
   "requirements": [
 		{
