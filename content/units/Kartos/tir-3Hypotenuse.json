@@ -4,9 +4,9 @@
 "health": 1200
 "armor": 10
 "speed": 1.5
-"buildSpeed": 1.0
+"buildSpeed": 1.5
 "hitSize": 30
-"range": 30
+"range": 50
 "targetAir": false
 "weapons": [
 {
@@ -16,7 +16,7 @@
   "mirror": false  
   "shootSound": "laserbeam"
   "shootEffect": "greenLaserChargeSmall"
-  "chargeSound": "lasercharge2"
+  "chargeSound": "laserbig"
   "rotate": true
   "continuous": true
   "rotateSpeed": 10
@@ -26,13 +26,16 @@
   "shootY": 5
   "bullet": {
   "type": "ContinuousLaserBulletType"
+  "shake": 1
+  "damage": 40
   "pierceCap": 5
   "lifetime": 160
+  "length" = 180
+  "drawSize": 420
   "healPercent": 5
   "collidesTeam": true
-  "damage": 200
+  "hitEffect": "hitMeltHeal"
   }
-
 }
 ]
 "research": "duo"
