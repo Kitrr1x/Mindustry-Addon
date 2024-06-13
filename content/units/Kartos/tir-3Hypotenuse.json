@@ -18,7 +18,7 @@
   "chargeSound": "lasercharge2"
   "rotate": true
   "continuous": true
-  "rotateSpeed": 5
+  "rotateSpeed": 4
   "cooldownTime": 180
   "firstShotDelay": 20
   "reload": 150
