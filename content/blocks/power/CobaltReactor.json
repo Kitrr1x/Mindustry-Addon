@@ -20,12 +20,13 @@
 "items": {
 "items": [
 "Cobalt-60/1"
-]}
+	 ]
+	 }
   "liquid": {
    "liquid": "water"
     "amount": 0.5
-  }
-} 
+  	    }
+	    } 
 	"requirements": [
 		{
 		"item": "Tin"
