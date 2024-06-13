@@ -5,7 +5,7 @@
 "armor": 10
 "speed": 1.5
 "buildSpeed": 1.0
-"hitSize": 20
+"hitSize": 30
 "range": 30
 "targetAir": false
 "weapons": [
@@ -14,18 +14,20 @@
   "x": 0
   "y": 0
   "mirror": false  
-  "shootSound": "laser"
-  "shootEffect": "lancerLaserShoot"
-  "firstShotDelay": 30
+  "shootSound": "laserbeam"
+  "shootEffect": "greenLaserChargeSmall"
+  "chargeSound": "lasercharge2"
   "rotate": true
+  "continuous": true
   "rotateSpeed": 10
+  "cooldownTime": 200
+  "firstShotDelay": 39
+  "recoil": 0
   "shootY": 5
-  "reload": 80
-  "recoil": 2
   "bullet": {
-  "type": "PowerAmmoType"
+  "type": "ContinuousLaserBulletType"
   "pierceCap": 5
-  "lifetime": 20
+  "lifetime": 160
   "healPercent": 5
   "collidesTeam": true
   "damage": 200
