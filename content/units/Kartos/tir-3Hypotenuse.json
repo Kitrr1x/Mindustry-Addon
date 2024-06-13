@@ -5,8 +5,7 @@
 "armor": 15
 "speed": 1.5
 "buildSpeed": 1.5
-"hitSize": 30
-"range": 50
+"hitSize": 40
 "targetAir": true
 "weapons": [
 {
@@ -15,7 +14,6 @@
   "y": 0
   "mirror": false  
   "shootSound": "laserbig"
-  "shootEffect": "greenLaserChargeSmall"
   "chargeSound": "lasercharge2"
   "rotate": true
   "continuous": true
@@ -39,6 +37,8 @@
   "healPercent": 5
   "collidesTeam": true
   "hitEffect": "hitMeltHeal"
+  "despawnEffect": "smokeCloud"
+  "chargeEffect": "greenLaserChargeSmall"
   }
 }
 ]
