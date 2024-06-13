@@ -4,6 +4,7 @@
 "health": 3000
 "armor": 15
 "speed": 1.5
+"rotateSpeed": 15
 "buildSpeed": 1.5
 "hitSize": 40
 "targetAir": true
@@ -17,7 +18,7 @@
   "chargeSound": "lasercharge2"
   "rotate": true
   "continuous": true
-  "rotateSpeed": 10
+  "rotateSpeed": 5
   "cooldownTime": 180
   "firstShotDelay": 20
   "reload": 150
