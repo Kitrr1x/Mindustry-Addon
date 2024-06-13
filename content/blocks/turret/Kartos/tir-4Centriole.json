@@ -46,6 +46,18 @@
 "damage": 70
 "width": 9
 "height": 15
+},
+	"Hexogen": {
+"type": "BasicBulletType"
+"lifetime": 10
+"speed": 15
+"shootEffect": "shootSmall"
+"smokeEffect": "shootSmallSmoke"
+"splashDamageRadius": 40
+"splashDamage": 30
+"damage": 80
+"width": 6
+"height": 15
 }
 }
 	"requirements": [
