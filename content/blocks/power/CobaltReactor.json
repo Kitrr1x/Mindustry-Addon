@@ -1,3 +1,4 @@
+{
 "type": "NuclearReactor"
 "category": "power"
 "health": 5000
@@ -43,5 +44,4 @@
     "amount": 300
     }
 		        ]
-]
-
+}
