@@ -1,8 +1,8 @@
 {
 "type": "tank"
 "template": "TankUnitType"
-"health": 1200
-"armor": 10
+"health": 3000
+"armor": 15
 "speed": 1.5
 "buildSpeed": 1.5
 "hitSize": 30
@@ -14,14 +14,15 @@
   "x": 0
   "y": 0
   "mirror": false  
-  "shootSound": "laserbeam"
+  "shootSound": "laserbig"
   "shootEffect": "greenLaserChargeSmall"
-  "chargeSound": "laserbig"
+  "chargeSound": "lasercharge2"
   "rotate": true
   "continuous": true
   "rotateSpeed": 10
   "cooldownTime": 200
-  "firstShotDelay": 39
+  "firstShotDelay": 30
+  "reload" = 160
   "recoil": 0
   "shootY": 5
   "bullet": {
