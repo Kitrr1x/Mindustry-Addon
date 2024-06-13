@@ -4,6 +4,7 @@
 "health": 600
 "armor": 5
 "speed": 1.0
+"rotateSpeed": 10
 "buildSpeed": 0.8
 "hitSize": 10
 "range": 30
