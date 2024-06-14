@@ -1,0 +1,12 @@
+{
+"type": "Wall"
+"category": "defense"
+"health": 4400
+"size": 2
+  "requirements": [
+	{
+	"item": "Cobalt"
+	"amount": 24
+	}
+                  ]
+}
