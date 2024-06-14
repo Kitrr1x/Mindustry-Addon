@@ -3,7 +3,7 @@
 "category": "defense"
 "absorbLasers": true
 "insulated": true
-"health": 700
+"health": 600
 "size": 1
   "requirements": [
 	{
