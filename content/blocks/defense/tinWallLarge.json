@@ -1,0 +1,12 @@
+{
+"type": "Wall"
+"category": "defense"
+"health": 2000
+"size": 4
+  "requirements": [
+	{
+	"item": "Tin"
+	"amount": 24
+	}
+                  ]
+}
