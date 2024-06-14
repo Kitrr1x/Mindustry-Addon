@@ -2,7 +2,7 @@
 "type": "Wall"
 "category": "defense"
 "health": 2000
-"size": 4
+"size": 2
   "requirements": [
 	{
 	"item": "Tin"
