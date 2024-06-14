@@ -1,0 +1,14 @@
+{
+"type": "Wall"
+"category": "defense"
+"absorbLasers": true
+"insulated": true
+"health": 2800
+"size": 2
+  "requirements": [
+	{
+	"item": "Cadmium"
+	"amount": 24
+	}
+                  ]
+}
