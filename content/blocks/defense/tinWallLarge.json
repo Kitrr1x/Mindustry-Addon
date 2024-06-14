@@ -1,7 +1,7 @@
 {
 "type": "Wall"
 "category": "defense"
-"health": 2000
+"health": 2400
 "size": 2
   "requirements": [
 	{
