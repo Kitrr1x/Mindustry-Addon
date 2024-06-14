@@ -1,0 +1,12 @@
+{
+"type": "Wall"
+"category": "defense"
+"health": 700
+"size": 1
+  "requirements": [
+	{
+	"item": "Platinum"
+	"amount": 6
+	}
+                  ]
+}
