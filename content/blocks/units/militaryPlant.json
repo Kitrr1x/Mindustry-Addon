@@ -30,12 +30,13 @@
 	"item": "Tin"
 	"amount": 150
 	},
-  {
+  	{
 	"item": "Bronze"
 	"amount": 100
 	},
-  {
+  	{
 	"item": "Cadmium"
 	"amount": 70
 	}
+    		    ]
 }
