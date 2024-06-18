@@ -1,6 +1,7 @@
 {
 "type": "Wall"
 "category": "defense"
+"chanceDeflect": 10
 "health": 3600
 "size": 1
   "requirements": [
