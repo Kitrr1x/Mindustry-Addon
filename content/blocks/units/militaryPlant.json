@@ -1,0 +1,41 @@
+{
+"type": "UnitFactory"
+"category": "units"
+"size": 3
+"consumes": {
+  "power": 3
+}
+"plans": [
+    {
+    "unit": "tir-1Circle"
+    "time": 900
+    "requirements": [
+	{
+	"item": "Tin"
+	"amount": 30
+	},
+  {
+	"item": "Bronze"
+	"amount": 15
+	},
+  {
+	"item": "Cadmium"
+	"amount": 10
+	}
+                  ]
+    }
+]
+    "requirements": [
+	{
+	"item": "Tin"
+	"amount": 150
+	},
+  {
+	"item": "Bronze"
+	"amount": 100
+	},
+  {
+	"item": "Cadmium"
+	"amount": 70
+	}
+}
