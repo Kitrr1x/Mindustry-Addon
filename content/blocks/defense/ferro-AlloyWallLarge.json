@@ -1,0 +1,12 @@
+{
+"type": "Wall"
+"category": "defense"
+"health": 5200
+"size": 2
+  "requirements": [
+	{
+	"item": "Ferro-Alloy"
+	"amount": 24
+	}
+                  ]
+}
