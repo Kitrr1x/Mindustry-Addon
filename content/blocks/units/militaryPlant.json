@@ -8,7 +8,7 @@
 "plans": [
     {
     "unit": "tir-1Circle"
-    "time": 900
+    "time": 700
     "requirements": [
 	{
 	"item": "Tin"
