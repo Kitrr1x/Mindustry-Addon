@@ -1,6 +1,7 @@
 {
 "type": "Wall"
 "category": "defense"
+"lightningChance": 0.1
 "health": 1100
 "size": 1
   "requirements": [
