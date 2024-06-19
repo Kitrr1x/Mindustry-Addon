@@ -1,0 +1,52 @@
+{
+"type": "UnitAssembler"
+"category": "units"
+"size": 3
+"consumes": {
+  "power": 3
+}
+"plans": [
+    {
+    "unit": "tir-2Sphere"
+    "time": 1400
+      "PayloadStack": [
+        {
+        "UnitTypes": "tir-1Circle"
+        "amount": 4
+        }
+                      ] 
+    "requirements": [
+	{
+	"item": "Tin"
+	"amount": 70
+	},
+  {
+	"item": "Platinum"
+	"amount": 35
+	},
+  {
+	"item": "Cadmium"
+	"amount": 20
+	}
+                    ]
+    }
+        ]
+    "requirements": [
+	{
+	"item": "Tin"
+	"amount": 300
+	},
+  	{
+	"item": "Bronze"
+	"amount": 200
+	},
+  {
+	"item": "Cadmium"
+	"amount": 140
+	},
+  {
+	"item": "Platinum"
+	"amount": 100
+	}
+    		    ]
+}
