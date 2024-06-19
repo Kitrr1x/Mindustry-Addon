@@ -3,11 +3,10 @@
 "template": "TankUnitType"
 "health": 600
 "armor": 5
-"speed": 1.0
+"speed": 2.0
 "rotateSpeed": 4
 "buildSpeed": 0.8
 "hitSize": 10
-"range": 30
 "targetAir": false
 "weapons": [
 {
@@ -24,12 +23,11 @@
   "bullet": {
   "type": "LaserBoltBulletType"
   "pierceCap": 4
-  "lifetime": 14
+  "lifetime": 12
   "healPercent": 5
   "collidesTeam": true
   "speed": 15
-  "damage": 70
-  "length": 140
+  "damage": 50
   }
 
 }
