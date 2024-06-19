@@ -4,7 +4,7 @@
 "health": 600
 "armor": 5
 "speed": 1.0
-"rotateSpeed": 8
+"rotateSpeed": 4
 "buildSpeed": 0.8
 "hitSize": 10
 "range": 30
@@ -23,12 +23,12 @@
   "recoil": 1
   "bullet": {
   "type": "LaserBoltBulletType"
-  "pierceCap": 2
+  "pierceCap": 4
   "lifetime": 14
   "healPercent": 5
   "collidesTeam": true
-  "speed": 10
-  "damage": 50
+  "speed": 15
+  "damage": 70
   "length": 140
   }
 
