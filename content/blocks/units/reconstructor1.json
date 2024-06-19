@@ -4,8 +4,8 @@
 "size": 3
 "consumes": {
   "power": 3
-    items: {
-    items: [
+    "items": {
+    "items": [
 	{
 	"item": "Tin"
 	"amount": 70
@@ -42,7 +42,7 @@
     		    ]
 "upgrades": [
   [
-    "tir-1Circle", goldenMace
+    "tir-1Circle", "tir-2Sphere"
   ]
 ]
 }
