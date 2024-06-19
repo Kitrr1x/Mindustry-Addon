@@ -1,7 +1,8 @@
 name: "Mindustry-Addon+"
 displayName: "Mindustry Addon+"
 author: "Kitrr1x"
-description: "The mod adds to the game mainly buildings on the Serpulo, but also 2 new ores: Iron and Cobalt, which can only be synthesized On the Serpulo, they can not be found. That's it, I hope you like the mod).."
-version: "2.0 alpha b19"
+description: "Working"
+version: "pre-alpha 0.1"
 minGameVersion: 145
+hidden: true
 
