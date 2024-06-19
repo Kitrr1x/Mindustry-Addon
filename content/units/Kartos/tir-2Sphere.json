@@ -4,7 +4,7 @@
 "health": 1200
 "armor": 10
 "speed": 1.5
-"rotateSpeed": 8
+"rotateSpeed": 4
 "buildSpeed": 1.0
 "hitSize": 20
 "targetAir": false
@@ -18,13 +18,13 @@
   "shootEffect": "lancerLaserShoot"
   "firstShotDelay": 30
   "rotate": true
-  "rotateSpeed": 8
+  "rotateSpeed": 4
   "shootY": 5
   "reload": 80
   "recoil": 2
   "bullet": {
   "type": "LaserBulletType"
-  "pierceCap": 5
+  "pierceCap": 6
   "lifetime": 30
   "healPercent": 5
   "collidesTeam": true
