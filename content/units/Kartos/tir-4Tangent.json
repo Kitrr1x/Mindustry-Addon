@@ -4,7 +4,7 @@
 "health": 8000
 "armor": 20
 "speed": 1.0
-"rotateSpeed": 8
+"rotateSpeed": 4
 "buildSpeed": 2.0
 "hitSize": 30
 "targetAir": true
