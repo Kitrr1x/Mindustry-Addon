@@ -2,7 +2,7 @@
 "type": "itemTurret"
 "targetAir": true
 "targetGround": true
-"health": 2000
+"health": 4000
 "size": 3
 "update": true
 "shootCone": 40
