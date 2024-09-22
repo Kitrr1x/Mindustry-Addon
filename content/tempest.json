@@ -10,10 +10,10 @@
 "cooldown": 0.03
 "range": 200
 "reload": 7
-"shootSound": "missile"
+"shootSound": "pew"
 "shots": 1
         "shoot": {
-        "type": "ShootAlternate"
+        "type": "BasicBulletType"
         "barrels": 3
         "spread": 10
         "shots": 1
@@ -21,7 +21,7 @@
          }
 "ammoTypes": {
 "silicon": {
-        "type": "MissileBulletType"
+        "type": "BasicBulletType"
         "lifetime": 20
         "speed": 8
         "ammoMultiplier": 4
@@ -32,7 +32,7 @@
         "height": 12
            }
   "pyratite": {
-        "type": "MissileBulletType"
+        "type": "BasicBulletType"
         "lifetime": 20
         "speed": 7
         "ammoMultiplier": 4
@@ -45,7 +45,7 @@
         "height": 12
               }
 "plastanium": {
-        "type": "MissileBulletType"
+        "type": "BasicBulletType"
         "lifetime": 20
         "speed": 7
         "ammoMultiplier": 4
@@ -73,7 +73,7 @@
                 }
 
                     {
-                      "item": "plastanium"
+                      "item":"plastanium"
                       "amount": 200
                     }
                         ]
