@@ -1,3 +1,4 @@
+{
 type: itemTurret
 targetAir: true
 targetGround: true
@@ -68,3 +69,4 @@ amount: 0.1
 coolantMultiplier: 0.2
 }
 category: turret
+}
