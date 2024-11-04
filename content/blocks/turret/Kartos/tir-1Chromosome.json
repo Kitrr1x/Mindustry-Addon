@@ -11,7 +11,7 @@
 "shootShake": 2
 "range": 120
 "reload": 30
-"shootSound": "pew"
+"shootSound": "artillery"
 "shots": 1
 "ammoTypes": {
 	"Tin": {
