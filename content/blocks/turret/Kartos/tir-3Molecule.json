@@ -4,13 +4,13 @@
 "research": "tir-2Cage"
 "targetAir": true
 "targetGround": true
-"health": 1200
+"health": 1500
 "size": 2
 "update": true
-"shootCone": 40
+"shootCone": 20
 "shootShake": 2
-"range": 125
-"reload": 20
+"range": 170
+"reload": 15
 "shootSound": "pew"
 "shots": 1
 "ammoTypes": {
@@ -21,30 +21,30 @@
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
 "damage": 50
-"width": 6
-"height": 9
+"width": 9
+"height": 18
 },
 	"Platinum": {
 "type": "BasicBulletType"
-"lifetime": 14
+"lifetime": 15
 "speed": 10
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
 "damage": 60
-"width": 6
-"height": 9
+"width": 9
+"height": 18
 }
 	"Hexogen": {
 "type": "BasicBulletType"
-"lifetime": 14
+"lifetime": 15
 "speed": 10
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
-"splashDamageRadius": 30
-"splashDamage": 20
+"splashDamageRadius": 15
+"splashDamage": 10
 "damage": 70
-"width": 6
-"height": 9
+"width": 8
+"height": 18
 }
 }
 	"requirements": [
