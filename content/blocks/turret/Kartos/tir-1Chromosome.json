@@ -18,8 +18,21 @@
 "type": "ArtilleryBulletType"
 "lifetime": 20
 "speed": 5
-"shootEffect": "shootSmall"
-"smokeEffect": "shootSmallSmoke"
+"shootEffect": {
+        "type": "ParticleEffect",
+        "particles": 8,
+        "length": 40,
+        "lifetime": 46,
+        "interp": "pow3Out",
+        "sizeInterp": "pow5In",
+        "cone": 20,
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF",
+        "sizeFrom": 5,
+        "sizeTo": 0
+               },
+"splashDamageRadius": 20
+"splashDamage": 10
 "damage": 20
 "width": 9
 "height": 20
@@ -28,8 +41,21 @@
 "type": "BasicBulletType"
 "lifetime": 20
 "speed": 5
-"shootEffect": "shootSmall"
-"smokeEffect": "shootSmallSmoke"
+"shootEffect": {
+        "type": "ParticleEffect",
+        "particles": 8,
+        "length": 40,
+        "lifetime": 46,
+        "interp": "pow3Out",
+        "sizeInterp": "pow5In",
+        "cone": 20,
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF",
+        "sizeFrom": 5,
+        "sizeTo": 0
+               },
+"splashDamageRadius": 20
+"splashDamage": 10
 "damage": 30
 "width": 9
 "height": 20
@@ -38,14 +64,25 @@
 "type": "BasicBulletType"
 "lifetime": 20
 "speed": 5
-"shootEffect": "shootSmall"
-"smokeEffect": "shootSmallSmoke"
+"shootEffect": {
+        "type": "ParticleEffect",
+        "particles": 8,
+        "length": 40,
+        "lifetime": 46,
+        "interp": "pow3Out",
+        "sizeInterp": "pow5In",
+        "cone": 20,
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF",
+        "sizeFrom": 5,
+        "sizeTo": 0
+               },
 "splashDamageRadius": 20
 "splashDamage": 20
 "damage": 50
 "width": 9
 "height": 20
-}
+             }
 }
 	"requirements": [
 		{
@@ -56,7 +93,7 @@
 		"item": "Bronze"
 		"amount": 15
 		}
-		        ]
+		              ]
 "coolant": {
 "type": "ConsumeLiquid"
 "liquid": "water"
