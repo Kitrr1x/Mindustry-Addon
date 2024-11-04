@@ -20,8 +20,6 @@
 "type": "BasicBulletType"
 "lifetime": 10
 "speed": 28
-"shootEffect": "shootBig‎"
-"smokeEffect": "shootSmallSmoke"
 "damage": 70
 "width": 12
 "height": 18
@@ -31,8 +29,6 @@
 "lifetime": 10
 "hitSize": 5
 "speed": 28
-"shootEffect": "shootBig‎"
-"smokeEffect": "shootSmallSmoke"
 "pierceCap": 5
 "damage": 100
 "knockback": 0.5
@@ -44,8 +40,6 @@
 "lifetime": 10
 "hitSize": 5
 "speed": 25
-"shootEffect": "shootBig‎"
-"smokeEffect": "shootSmallSmoke"
 "pierceCap": 2
 "homingPower": 0.2
 "reloadMultiplier": 1.5
@@ -60,8 +54,6 @@
 "lifetime": 10
 "hitSize": 5
 "speed": 25
-"shootEffect": "shootBig‎"
-"smokeEffect": "shootSmallSmoke"
 "pierceCap": 3
 "splashDamageRadius": 25
 "splashDamage": 30
