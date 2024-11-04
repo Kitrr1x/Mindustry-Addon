@@ -15,7 +15,7 @@
 "shots": 1
 "ammoTypes": {
 	"Tin": {
-"type": "BasicBulletType"
+"type": "ArtilleryBulletType"
 "lifetime": 20
 "speed": 5
 "shootEffect": "shootSmall"
