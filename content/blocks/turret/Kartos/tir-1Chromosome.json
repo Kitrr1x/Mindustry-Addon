@@ -19,16 +19,17 @@
 "lifetime": 20
 "speed": 5
 "shootEffect": {
-        "type": "ParticleEffect",
-        "particles": 8,
-        "length": 40,
-        "lifetime": 46,
-        "interp": "pow3Out",
-        "sizeInterp": "pow5In",
-        "cone": 20,
-        "colorFrom": "A9D8FFFF",
-        "colorTo": "66B1FFFF",
-        "sizeFrom": 5,
+        "type": "ParticleEffect"
+        "particles": 5
+        "length": 10
+        "width": 3
+        "lifetime": 20
+        "interp": "pow3Out"
+        "sizeInterp": "pow5In"
+        "cone": 20
+        "colorFrom": "FFFF00"
+        "colorTo": "FF8000"
+        "sizeFrom": 5
         "sizeTo": 0
                },
 "splashDamageRadius": 20
@@ -42,16 +43,17 @@
 "lifetime": 20
 "speed": 5
 "shootEffect": {
-        "type": "ParticleEffect",
-        "particles": 8,
-        "length": 40,
-        "lifetime": 46,
-        "interp": "pow3Out",
-        "sizeInterp": "pow5In",
-        "cone": 20,
-        "colorFrom": "A9D8FFFF",
-        "colorTo": "66B1FFFF",
-        "sizeFrom": 5,
+        "type": "ParticleEffect"
+        "particles": 5
+        "length": 10
+        "width": 3
+        "lifetime": 20
+        "interp": "pow3Out"
+        "sizeInterp": "pow5In"
+        "cone": 20
+        "colorFrom": "FFFF00"
+        "colorTo": "FF8000"
+        "sizeFrom": 5
         "sizeTo": 0
                },
 "splashDamageRadius": 20
@@ -65,16 +67,17 @@
 "lifetime": 20
 "speed": 5
 "shootEffect": {
-        "type": "ParticleEffect",
-        "particles": 8,
-        "length": 40,
-        "lifetime": 46,
-        "interp": "pow3Out",
-        "sizeInterp": "pow5In",
-        "cone": 20,
-        "colorFrom": "A9D8FFFF",
-        "colorTo": "66B1FFFF",
-        "sizeFrom": 5,
+        "type": "ParticleEffect"
+        "particles": 5
+        "length": 10
+        "width": 3
+        "lifetime": 20
+        "interp": "pow3Out"
+        "sizeInterp": "pow5In"
+        "cone": 20
+        "colorFrom": "FFFF00"
+        "colorTo": "FF8000"
+        "sizeFrom": 5
         "sizeTo": 0
                },
 "splashDamageRadius": 20
