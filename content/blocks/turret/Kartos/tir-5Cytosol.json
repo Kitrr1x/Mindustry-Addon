@@ -13,12 +13,12 @@
 "reload": 7
 "recoil": 2
 "inaccuracy": 3
-"shootSound": "shootBig‎"
+"shootSound": "pew"
 "shots": 1
 "ammoTypes": {
 	"Bronze": {
 "type": "BasicBulletType"
-"lifetime": 10
+"lifetime": 11
 "speed": 28
 "damage": 70
 "width": 12
