@@ -19,7 +19,7 @@
 	"Bronze": {
 "type": "BasicBulletType"
 "lifetime": 10
-"speed": 23
+"speed": 28
 "shootEffect": "shootBig‎"
 "smokeEffect": "shootSmallSmoke"
 "damage": 70
@@ -28,9 +28,9 @@
 },
 	"Cobalt": {
 "type": "BasicBulletType"
-"lifetime": 9
+"lifetime": 10
 "hitSize": 5
-"speed": 23
+"speed": 28
 "shootEffect": "shootBig‎"
 "smokeEffect": "shootSmallSmoke"
 "pierceCap": 5
@@ -41,9 +41,9 @@
 },
 	"Chromium": {
 "type": "BasicBulletType"
-"lifetime": 9
+"lifetime": 10
 "hitSize": 5
-"speed": 20
+"speed": 25
 "shootEffect": "shootBig‎"
 "smokeEffect": "shootSmallSmoke"
 "pierceCap": 2
@@ -57,9 +57,9 @@
 },
 	"Hexogen": {
 "type": "BasicBulletType"
-"lifetime": 9
+"lifetime": 10
 "hitSize": 5
-"speed": 20
+"speed": 25
 "shootEffect": "shootBig‎"
 "smokeEffect": "shootSmallSmoke"
 "pierceCap": 3
