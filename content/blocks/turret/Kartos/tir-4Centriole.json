@@ -26,7 +26,7 @@
 "speed": 23
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
-"damage": 60
+"damage": 40
 "width": 6
 "height": 12
 },
@@ -36,7 +36,7 @@
 "speed": 20
 "shootEffect": "shootSmall"
 "smokeEffect": "shootSmallSmoke"
-"damage": 70
+"damage": 50
 "width": 6
 "height": 12
 },
@@ -49,7 +49,7 @@
 "homingPower": 0.2
 "reloadMultiplier": 1.5
 "ammoMultiplier": 3
-"damage": 70
+"damage": 50
 "width": 6
 "height": 12
 },
@@ -61,7 +61,7 @@
 "smokeEffect": "shootSmallSmoke"
 "splashDamageRadius": 10
 "splashDamage": 15
-"damage": 80
+"damage": 60
 "width": 6
 "height": 12
 }
