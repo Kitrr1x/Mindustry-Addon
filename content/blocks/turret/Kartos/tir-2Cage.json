@@ -18,7 +18,7 @@
 "type": "ArtilleryBulletType"
 "lifetime": 25
 "speed": 10
-"shootEffect": {
+//"shootEffect": {
         "type": "ParticleEffect"
         "particles": 5
         "length": 5
@@ -30,7 +30,7 @@
         "colorTo": "FF8000"
         "sizeFrom": 5
         "sizeTo": 0
-               },
+               }//
 "splashDamageRadius": 20
 "splashDamage": 10
 "damage": 50
@@ -53,7 +53,7 @@
         "colorTo": "FF8000"
         "sizeFrom": 5
         "sizeTo": 0
-               },
+               }
 "splashDamageRadius": 20
 "splashDamage": 10
 "damage": 70
@@ -76,7 +76,7 @@
         "colorTo": "FF8000"
         "sizeFrom": 5
         "sizeTo": 0
-               },
+               }
 "splashDamageRadius": 40
 "splashDamage": 30
 "damage": 80
