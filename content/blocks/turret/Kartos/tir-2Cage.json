@@ -2,7 +2,7 @@
 "type": "itemTurret"
 "category": "turret"
 "research": "duo"
-"targetAir": folse
+"targetAir": false
 "targetGround": true
 "health": 1000
 "size": 1
