@@ -2,7 +2,7 @@
 "type": "itemTurret"
 "category": "turret"
 "research": "duo"
-"targetAir": true
+"targetAir": folse
 "targetGround": true
 "health": 1000
 "size": 1
@@ -10,7 +10,7 @@
 "shootCone": 40
 "shootShake": 2
 "range": 170
-"reload": 30
+"reload": 50
 "shootSound": "artillery"
 "shots": 1
 "ammoTypes": {
