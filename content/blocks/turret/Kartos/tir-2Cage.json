@@ -87,11 +87,11 @@
 	"requirements": [
 		{
 		"item": "Tin"
-		"amount": 30
+		"amount": 100
 		},
 		{
 		"item": "Bronze"
-		"amount": 15
+		"amount": 40
 		}
 		              ]
 "coolant": {
