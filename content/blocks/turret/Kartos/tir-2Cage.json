@@ -1,66 +1,100 @@
 {
 "type": "itemTurret"
 "category": "turret"
-"research": "tir-1Chromosome"
+"research": "duo"
 "targetAir": true
 "targetGround": true
-"health": 600
-"size": 2
+"health": 1000
+"size": 1
 "update": true
 "shootCone": 40
 "shootShake": 2
-"range": 100
-"reload": 25
-"shootSound": "pew"
+"range": 170
+"reload": 30
+"shootSound": "artillery"
 "shots": 1
 "ammoTypes": {
 	"Tin": {
-"type": "BasicBulletType"
-"lifetime": 15
-"speed": 7
-"shootEffect": "shootSmall"
-"smokeEffect": "shootSmallSmoke"
-"damage": 25
-"width": 6
-"height": 9
-},
-	"Bronze": {
-"type": "BasicBulletType"
-"lifetime": 17
+"type": "ArtilleryBulletType"
+"lifetime": 25
 "speed": 10
-"shootEffect": "shootSmall"
-"smokeEffect": "shootSmallSmoke"
-"damage": 35
-"width": 6
-"height": 9
+"shootEffect": {
+        "type": "ParticleEffect"
+        "particles": 5
+        "length": 5
+        "lifetime": 20
+        "interp": "pow3Out"
+        "sizeInterp": "pow5In"
+        "cone": 20
+        "colorFrom": "FFFF00"
+        "colorTo": "FF8000"
+        "sizeFrom": 5
+        "sizeTo": 0
+               },
+"splashDamageRadius": 20
+"splashDamage": 10
+"damage": 50
+"width": 9
+"height": 20
+},
+	"Platinum": {
+"type": "ArtilleryBulletType"
+"lifetime": 25
+"speed": 10
+"shootEffect": {
+        "type": "ParticleEffect"
+        "particles": 5
+        "length": 5
+        "lifetime": 20
+        "interp": "pow3Out"
+        "sizeInterp": "pow5In"
+        "cone": 20
+        "colorFrom": "FFFF00"
+        "colorTo": "FF8000"
+        "sizeFrom": 5
+        "sizeTo": 0
+               },
+"splashDamageRadius": 20
+"splashDamage": 10
+"damage": 70
+"width": 9
+"height": 20
 },
 	"Hexogen": {
-"type": "BasicBulletType"
-"lifetime": 15
-"speed": 7
-"shootEffect": "shootSmall"
-"smokeEffect": "shootSmallSmoke"
-"splashDamageRadius": 30
-"splashDamage": 10
-"damage": 40
-"width": 6
-"height": 9
-}
+"type": "ArtilleryBulletType"
+"lifetime": 25
+"speed": 10
+"shootEffect": {
+        "type": "ParticleEffect"
+        "particles": 5
+        "length": 5
+        "lifetime": 20
+        "interp": "pow3Out"
+        "sizeInterp": "pow5In"
+        "cone": 20
+        "colorFrom": "FFFF00"
+        "colorTo": "FF8000"
+        "sizeFrom": 5
+        "sizeTo": 0
+               },
+"splashDamageRadius": 40
+"splashDamage": 30
+"damage": 80
+"width": 9
+"height": 20
+             }
 }
 	"requirements": [
 		{
 		"item": "Tin"
-		"amount": 80
-		},
-		{
-		"item": "Cadmium"
-		"amount": 40
+		"amount": 30
 		},
 		{
 		"item": "Bronze"
-		"amount": 20
+		"amount": 15
 		}
-		        ]
+		              ]
+      },
 "coolant": {
 "type": "ConsumeLiquid"
 "liquid": "water"
