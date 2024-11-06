@@ -94,7 +94,6 @@
 		"amount": 15
 		}
 		              ]
-      },
 "coolant": {
 "type": "ConsumeLiquid"
 "liquid": "water"
