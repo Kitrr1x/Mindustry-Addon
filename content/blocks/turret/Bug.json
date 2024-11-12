@@ -1,0 +1,103 @@
+{
+"type": "itemTurret"
+"category": "turret"
+"research": "duo"
+"targetAir": false
+"targetGround": true
+"health": 1000
+"size": 2
+"update": true
+"shootCone": 40
+"shootShake": 2
+"range": 170
+"reload": 50
+"shootSound": "artillery"
+"shots": 1
+"ammoTypes": {
+        "Tin": {
+"type": "ArtilleryBulletType"
+"lifetime": 30
+"speed": 10
+"damage": 50
+"shootEffect": {
+        "type": "ParticleEffect"
+        "particles": 5
+        "length": 5
+        "lifetime": 20
+        "interp": "pow3Out"
+        "sizeInterp": "pow5In"
+        "cone": 20
+        "colorFrom": "FFFF00"
+        "colorTo": "FF8000"
+        "sizeFrom": 5
+        "sizeTo": 0
+               }
+"splashDamageRadius": 20
+"splashDamage": 10
+"width": 9
+"height": 20
+},
+        "Platinum": {
+"type": "ArtilleryBulletType"
+"lifetime": 30
+"speed": 10
+"damage": 70
+"shootEffect": {
+        "type": "ParticleEffect"
+        "particles": 5
+        "length": 5
+        "lifetime": 20
+        "interp": "pow3Out"
+        "sizeInterp": "pow5In"
+        "cone": 20
+        "colorFrom": "FFFF00"
+        "colorTo": "FF8000"
+        "sizeFrom": 5
+        "sizeTo": 0
+               }
+"splashDamageRadius": 20
+"splashDamage": 10
+"width": 9
+"height": 20
+},
+        "Hexogen": {
+"type": "ArtilleryBulletType"
+"lifetime": 30
+"speed": 10
+"damage": 80
+"shootEffect": {
+        "type": "ParticleEffect"
+        "particles": 5
+        "length": 5
+        "lifetime": 20
+        "interp": "pow3Out"
+        "sizeInterp": "pow5In"
+        "cone": 20
+        "colorFrom": "FFFF00"
+        "colorTo": "FF8000"
+        "sizeFrom": 5
+        "sizeTo": 0
+               }
+"splashDamageRadius": 40
+"splashDamage": 30
+"width": 9
+"height": 20
+             }
+}
+        "requirements": [
+                {
+                "item": "Tin"
+                "amount": 100
+                },
+                {
+                "item": "Bronze"
+                "amount": 40
+                }
+                              ]
+"coolant": {
+"type": "ConsumeLiquid"
+"liquid": "water"
+"amount": 0.2
+"coolantMultiplier": 0.7
+}
+}
