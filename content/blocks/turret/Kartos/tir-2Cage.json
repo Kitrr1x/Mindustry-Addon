@@ -16,7 +16,7 @@
 "ammoTypes": {
 	"Tin": {
 "type": "ArtilleryBulletType"
-"lifetime": 25
+"lifetime": 30
 "speed": 10
 "shootEffect": {
         "type": "ParticleEffect"
@@ -39,7 +39,7 @@
 },
 	"Platinum": {
 "type": "ArtilleryBulletType"
-"lifetime": 25
+"lifetime": 30
 "speed": 10
 "shootEffect": {
         "type": "ParticleEffect"
@@ -62,7 +62,7 @@
 },
 	"Hexogen": {
 "type": "ArtilleryBulletType"
-"lifetime": 25
+"lifetime": 30
 "speed": 10
 "shootEffect": {
         "type": "ParticleEffect"
