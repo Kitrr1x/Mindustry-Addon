@@ -1,0 +1,28 @@
+{
+"type": "itemTurret"
+"category": "turret"
+"research": "tir-1Chromosome"
+"targetAir": false
+"targetGround": true
+"health": 1000
+"side": 2
+"update": true
+"shootCone": 40
+"shootShake": 2
+"range": 170
+"reload": 50
+"shootSound": "artillery"
+"shots": 1
+"ammoTypes": {
+     "Bronze": {
+     "type": "ArtilleryBulletType"
+     "lifeTime": 30
+     "speed": 10
+     "damage": 50
+     "splashDamageRadius": 20
+     "splashDamage": 10
+     "width": 9
+     "heigth": 20
+}
+}
+}
