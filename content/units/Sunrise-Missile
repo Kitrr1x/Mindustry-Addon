@@ -1,38 +1,41 @@
+t-5-rocket-bullet.json
+
 {
-"type": "missile"
-"controller": "MissileAI"
-"template": "MissileUnitType"
-"loopSoundVolume": 0.1
-"lowAltitude": true
-"physics": false
-"health": 500
-"flying": true
-"range": 5
-"drag": 0.06
-"accel": 0.06
-"speed": 5.5
-"maxRange": 6
-"lifetime": 200
-  
-    "trailLength": 44
-    "engineLayer": 10
- 
-"weapons": [
-{
-  "name": "die"
-  "top": false 
-  "mirror":false
-  "rotate": true
-  "shootCone": 360
-  "shootOnDeath": true
-  "alternate": true
-  "hitSound": "largeExplosion"
-  "bullet": {
-  "splashDamageRadius": 100
-  "splashDamage": 1400
-  "type": "ExplosionBulletType"
-  "killShooter": true
-  "instantDisappear": true
+  "type": "missile",
+  "name": "t-5-rocket-bullet",
+  "description": "Ракета T-5, запускаемая РСЗО. Наносит большой урон по области.",
+  "controller": "MissileAI",
+  "template": "MissileUnitType",
+  "loopSoundVolume": 0.1,
+    "lowAltitude": true,
+    "physics": false,
+  "health": 150,
+  "flying": true,
+  "range": 5,
+    "drag": 0.06,
+    "accel": 0.06,
+  "speed": 3.5,
+    "maxRange": 6,
+    "lifetime": 100,
+   "trailLength": 10,
+  "engineLayer": 10,
+  "weapons": [
+    {
+      "name": "die",
+        "top": false,
+      "mirror": false,
+      "rotate": true,
+      "shootCone": 360,
+      "shootOnDeath": true,
+      "hitSound": "largeExplosion",
+      "bullet": {
+        "splashDamageRadius": 40,
+        "splashDamage": 600,
+        "damage": 500,
+          "type": "ExplosionBulletType",
+           "killShooter": true,
+            "instantDisappear": true
+      }
+    }
+  ]
 }
-}]
-  }
