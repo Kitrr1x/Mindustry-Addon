@@ -1,7 +1,7 @@
 {
   "type": "tank",
   "name": "t-5-rocket",
-  "description": "Реактивная система залпового огня T-5. Наносит массированный урон залпами ракет.",
+  "description": "Реактивная система залпового огня. Наносит массированный урон залпами ракет.",
   "template": "TankUnitType",
   "health": 10000,
   "armor": 20,
@@ -27,13 +27,13 @@
       "cooldownTime": 10,
       "shootStatus": "unmoving",
       "shootStatusDuration": 120,
-      "shots": 18,
-      "reload": 180,
+       "reload": 180,
       "recoil": 0,
       "spread": 5,
-      "shootY": 5,
-      "spacing": 5,
-      "delay": 1,
+        "shootY": 5,
+       "spacing": 5,
+      "burst": 18,
+      "burstSpacing": 30,
       "spawnUnit": "t-5-rocket-bullet"
     }
   ],
