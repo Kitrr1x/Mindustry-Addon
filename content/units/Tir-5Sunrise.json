@@ -1,6 +1,5 @@
 {
   "type": "tank",
-  "template": "TankUnitType",
   "name": "Obliterator",
   "description": "A massive siege tank designed to crush anything in its path. It deploys a powerful shield and can unleash devastating shockwaves.",
   "health": 22000,
@@ -26,12 +25,12 @@
       "continuous": false,
       "rotateSpeed": 2,
       "cooldownTime": 180,
-        "shootStatus": "unmoving",
-        "shootStatusDuration": 120,
+      "shootStatus": "unmoving",
+      "shootStatusDuration": 120,
       "reload": 300,
       "recoil": 1,
-        "shootY": 5,
-      "bullet": {
+      "shootY": 5,
+     "bullet": {
           "type": "ArtilleryBulletType",
         "damage": 2000,
         "lifetime": 120,
@@ -51,33 +50,32 @@
       }
     },
       {
-        "name": "Obliterator-Shockwave",
-      "x": 0,
-      "y": 0,
-      "shake": 15,
-        "mirror": false,
-      "shootSound": "explosionbig",
-        "chargeSound": "lasercharge",
-        "soundPitchMin": 0.8,
-      "rotate": false,
-      "continuous": false,
+          "name": "Obliterator-Shockwave",
+          "x": 0,
+          "y": 0,
+          "shake": 15,
+          "mirror": false,
+          "shootSound": "explosionbig",
+          "chargeSound": "lasercharge",
+          "soundPitchMin": 0.8,
+          "rotate": false,
+          "continuous": false,
           "shootStatus": "unmoving",
           "shootStatusDuration": 100,
           "cooldownTime": 480,
-      "reload": 300,
-      "recoil": 1,
+          "reload": 300,
+          "recoil": 1,
           "shootY": 0,
-        "bullet": {
-          "type": "PointBulletType",
+          "bullet": {
+              "type": "PointBulletType",
               "damage": 400,
-          "collidesTeam": true,
-          "range": 100,
+              "collidesTeam": true,
+               "range": 100,
           "hitEffect": "shockwave",
-            "status": "stunned",
-            "statusDuration": 150,
+            "status": "slow",
             "statusRadius": 150
-        }
-    }
+          }
+      }
   ],
   "abilities": [
     {
