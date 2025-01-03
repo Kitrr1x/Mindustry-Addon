@@ -30,7 +30,7 @@
       "reload": 100,
       "recoil": 5,
       "shootY": 5,
-      "delayBeforeShoot": 200,
+      "delayBeforeShoot": 1000,
       "chargeEffect": "greenLaserCharge",
       "chargeTime": 200,
       "bullet": {
