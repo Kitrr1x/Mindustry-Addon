@@ -22,14 +22,17 @@
       "chargeSound": "lasercharge",
       "soundPitchMin": 1,
       "rotate": true,
-      "continuous": true,
+      "continuous": false,
       "rotateSpeed": 3,
       "cooldownTime": 2,
-      "shootStatusDuration": 80,
       "shootStatus": "unmoving",
+      "shootStatusDuration": 80,
       "reload": 100,
       "recoil": 5,
       "shootY": 5,
+      "delayBeforeShoot": 200,
+      "chargeEffect": "greenLaserCharge",
+      "chargeTime": 200,
       "bullet": {
         "type": "LaserBulletType",
         "damage": 1400,
@@ -43,11 +46,10 @@
         "lightningDamage": 50,
         "lightningAngleRand": 40,
         "largeHit": true,
-        "chargeEffect": "greenLaserCharge",
         "healPercent": 0,
         "collidesTeam": true
       }
     }
   ],
-  "research": "corvus"
+  "research": "corvus"тариев. 
 }
